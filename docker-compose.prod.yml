@@ -1,0 +1,123 @@
+# Movie Narration Web — Production Docker Compose
+#
+# Usage:
+#   1. cp .env.example .env  (edit with real values)
+#   2. docker compose -f docker-compose.prod.yml up -d
+#   3. Visit http://localhost
+
+version: '3.8'
+
+services:
+  # ===== PostgreSQL with pgvector =====
+  postgres:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-mnuser}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-mnpass}
+      POSTGRES_DB: ${DB_NAME:-movie_narration}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${DB_USER:-mnuser} -d ${DB_NAME:-movie_narration}']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - mnw-network
+
+  # ===== Redis =====
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - mnw-network
+
+  # ===== Backend API =====
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${DB_USER:-mnuser}:${DB_PASSWORD:-mnpass}@postgres:5432/${DB_NAME:-movie_narration}
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production-please}
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
+      - LLM_API_KEY=${DEEPSEEK_API_KEY:-}
+      - DEBUG=false
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - mnw-network
+
+  # ===== Celery Worker =====
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    command: celery -A app.tasks.celery_app worker --loglevel=info --concurrency=4
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${DB_USER:-mnuser}:${DB_PASSWORD:-mnpass}@postgres:5432/${DB_NAME:-movie_narration}
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production-please}
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
+      - LLM_API_KEY=${DEEPSEEK_API_KEY:-}
+      - DEBUG=false
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - mnw-network
+
+  # ===== Frontend =====
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    networks:
+      - mnw-network
+
+  # ===== Nginx Reverse Proxy =====
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - mnw-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  mnw-network:
+    driver: bridge

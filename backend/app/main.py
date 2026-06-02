@@ -58,8 +58,9 @@ async def health_check():
 
 
 # 注册路由
-from app.api.routes import projects, generation, movies, styles
+from app.api.routes import projects, generation, movies, styles, auth
 
+app.include_router(auth.router, prefix=f'{settings.api_prefix}/auth', tags=['auth'])
 app.include_router(movies.router, prefix=f'{settings.api_prefix}/movies', tags=['movies'])
 app.include_router(styles.router, prefix=f'{settings.api_prefix}/styles', tags=['styles'])
 app.include_router(projects.router, prefix=f'{settings.api_prefix}/projects', tags=['projects'])
