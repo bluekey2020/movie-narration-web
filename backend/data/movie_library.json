@@ -1,0 +1,88 @@
+{
+  "movies": [
+    {
+      "movie_id": "shawshank_redemption",
+      "title": "肖申克的救赎",
+      "year": 1994,
+      "genre": ["剧情", "犯罪"],
+      "rating": 9.7,
+      "duration_min": 142,
+      "director": "弗兰克·德拉邦特",
+      "cast": ["蒂姆·罗宾斯", "摩根·弗里曼"],
+      "plot_summary": "银行家安迪被冤枉谋杀妻子及其情人，被判终身监禁关进肖申克监狱。他用20年时间，凭借智慧和毅力完成了惊天越狱。",
+      "narration_hotspots": ["越狱片段", "希望主题", "体制化讨论", "屋顶喝啤酒", "雨中拥抱自由"],
+      "poster_url": "/posters/shawshank.jpg",
+      "douban_id": "1292052",
+      "key_scenes": [
+        {
+          "name": "入狱",
+          "timestamp": "00:05:30",
+          "duration_sec": 45.0,
+          "tags": ["压抑", "绝望", "黑暗"],
+          "description": "安迪第一次走进肖申克监狱，高墙铁门缓缓关闭",
+          "characters": ["安迪"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "屋顶喝啤酒",
+          "timestamp": "00:41:30",
+          "duration_sec": 120.0,
+          "tags": ["自由", "希望", "温暖"],
+          "description": "安迪为狱友争取到在屋顶喝冰啤酒的机会，夕阳下众人享受片刻自由",
+          "characters": ["安迪", "瑞德", "狱友"],
+          "dialogue_highlights": ["阳光洒肩头，仿佛自由人"]
+        },
+        {
+          "name": "越狱",
+          "timestamp": "02:10:00",
+          "duration_sec": 180.0,
+          "tags": ["高潮", "释放", "自由"],
+          "description": "安迪爬过污水管道掉入河中，在雨中张开双臂拥抱自由",
+          "characters": ["安迪"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "重聚",
+          "timestamp": "02:20:00",
+          "duration_sec": 60.0,
+          "tags": ["希望", "友谊", "感动"],
+          "description": "瑞德出狱后按照约定找到安迪，两人在墨西哥海滩重逢",
+          "characters": ["安迪", "瑞德"],
+          "dialogue_highlights": ["希望是好事，也许是人间至善"]
+        }
+      ]
+    },
+    {
+      "movie_id": "farewell_my_concubine",
+      "title": "霸王别姬",
+      "year": 1993,
+      "genre": ["剧情", "历史"],
+      "rating": 9.6,
+      "duration_min": 171,
+      "director": "陈凯歌",
+      "cast": ["张国荣", "张丰毅", "巩俐"],
+      "plot_summary": "两个京剧伶人半个世纪的悲欢离合，折射出中国社会的巨大变迁。",
+      "narration_hotspots": ["不疯魔不成活", "程蝶衣自刎", "时代变迁"],
+      "poster_url": "/posters/farewell_my_concubine.jpg",
+      "douban_id": "1291546",
+      "key_scenes": [
+        {
+          "name": "小豆子剁手指",
+          "timestamp": "00:15:00",
+          "duration_sec": 30.0,
+          "tags": ["压抑", "残酷", "成长"],
+          "description": "小豆子被母亲剁掉多余手指送入戏班",
+          "characters": ["小豆子", "母亲"]
+        },
+        {
+          "name": "蝶衣自刎",
+          "timestamp": "02:40:00",
+          "duration_sec": 60.0,
+          "tags": ["高潮", "悲剧", "宿命"],
+          "description": "多年后蝶衣与段小楼再唱《霸王别姬》，蝶衣拔剑自刎",
+          "characters": ["程蝶衣", "段小楼"]
+        }
+      ]
+    }
+  ]
+}

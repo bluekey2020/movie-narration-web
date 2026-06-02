@@ -1,0 +1,56 @@
+# Movie Narration Web — Backend Dependencies
+# Python 3.12+
+
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.0
+pydantic-settings==2.6.0
+
+# Database
+sqlalchemy==2.0.35
+asyncpg==0.30.0
+pgvector==0.3.0
+alembic==1.14.0
+
+# Cache & Queue
+redis==5.2.0
+celery==5.4.0
+
+# AI/ML
+openai==1.55.0
+anthropic==0.42.0
+httpx==0.28.0
+sse-starlette==2.2.0
+numpy==2.1.0
+
+# Video Processing
+ffmpeg-python==0.2.0
+opencv-python-headless==4.10.0
+Pillow==11.0.0
+
+# CLIP (optional — for scene matching)
+# git+https://github.com/openai/CLIP.git
+
+# Utilities
+python-multipart==0.0.17
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+tenacity==9.0.0
+structlog==24.4.0
+
+# File Storage
+boto3==1.35.0
+minio==7.2.0
+
+# Testing
+pytest==8.3.0
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+httpx==0.28.0
+factory-boy==3.3.0
+respx==0.21.0
+
+# Dev
+ruff==0.7.0
+mypy==1.12.0

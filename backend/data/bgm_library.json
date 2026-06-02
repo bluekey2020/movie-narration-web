@@ -1,0 +1,100 @@
+{
+  "tracks": [
+    {
+      "track_id": "bgm_001",
+      "title": "悬疑铺垫",
+      "duration_sec": 120.0,
+      "emotions": ["suspense", "dark", "mysterious"],
+      "bpm": 85,
+      "key": "C minor",
+      "energy": 0.3,
+      "instruments": ["piano", "strings"],
+      "sections": [
+        {"start": 0, "end": 15, "type": "intro"},
+        {"start": 15, "end": 90, "type": "main"},
+        {"start": 90, "end": 120, "type": "outro"}
+      ],
+      "natural_cut_points": [15.0, 30.0, 45.0, 60.0, 75.0, 90.0, 105.0, 120.0],
+      "usage_tags": ["buildup", "hook", "transition"],
+      "license_type": "cc0",
+      "file_path": "/bgm/suspense_buildup.mp3"
+    },
+    {
+      "track_id": "bgm_002",
+      "title": "紧张追逐",
+      "duration_sec": 90.0,
+      "emotions": ["tense", "intense", "urgent"],
+      "bpm": 140,
+      "key": "D minor",
+      "energy": 0.8,
+      "instruments": ["electronic", "drums", "strings"],
+      "sections": [
+        {"start": 0, "end": 10, "type": "intro"},
+        {"start": 10, "end": 70, "type": "main"},
+        {"start": 70, "end": 90, "type": "climax"}
+      ],
+      "natural_cut_points": [10.0, 25.0, 40.0, 55.0, 70.0, 90.0],
+      "usage_tags": ["climax", "action"],
+      "license_type": "cc0",
+      "file_path": "/bgm/tense_chase.mp3"
+    },
+    {
+      "track_id": "bgm_003",
+      "title": "史诗高潮",
+      "duration_sec": 180.0,
+      "emotions": ["epic", "triumphant", "heroic"],
+      "bpm": 100,
+      "key": "C major",
+      "energy": 0.9,
+      "instruments": ["orchestra", "choir", "brass", "drums"],
+      "sections": [
+        {"start": 0, "end": 20, "type": "intro"},
+        {"start": 20, "end": 120, "type": "main"},
+        {"start": 120, "end": 160, "type": "climax"},
+        {"start": 160, "end": 180, "type": "outro"}
+      ],
+      "natural_cut_points": [20.0, 40.0, 60.0, 80.0, 100.0, 120.0, 140.0, 160.0, 180.0],
+      "usage_tags": ["climax", "ending"],
+      "license_type": "licensed",
+      "file_path": "/bgm/epic_climax.mp3"
+    },
+    {
+      "track_id": "bgm_004",
+      "title": "温暖回忆",
+      "duration_sec": 150.0,
+      "emotions": ["warm", "nostalgic", "hopeful"],
+      "bpm": 75,
+      "key": "G major",
+      "energy": 0.4,
+      "instruments": ["piano", "guitar", "strings"],
+      "sections": [
+        {"start": 0, "end": 20, "type": "intro"},
+        {"start": 20, "end": 130, "type": "main"},
+        {"start": 130, "end": 150, "type": "outro"}
+      ],
+      "natural_cut_points": [20.0, 50.0, 80.0, 110.0, 130.0, 150.0],
+      "usage_tags": ["reflection", "ending", "transition"],
+      "license_type": "cc0",
+      "file_path": "/bgm/warm_memories.mp3"
+    },
+    {
+      "track_id": "bgm_005",
+      "title": "暗黑氛围",
+      "duration_sec": 100.0,
+      "emotions": ["dark", "tense", "mysterious", "horror"],
+      "bpm": 60,
+      "key": "F minor",
+      "energy": 0.5,
+      "instruments": ["electronic", "piano", "ambient"],
+      "sections": [
+        {"start": 0, "end": 15, "type": "intro"},
+        {"start": 15, "end": 80, "type": "main"},
+        {"start": 80, "end": 100, "type": "outro"}
+      ],
+      "natural_cut_points": [15.0, 30.0, 50.0, 65.0, 80.0, 100.0],
+      "usage_tags": ["buildup", "hook"],
+      "license_type": "cc0",
+      "file_path": "/bgm/dark_atmosphere.mp3"
+    }
+  ]
+}
