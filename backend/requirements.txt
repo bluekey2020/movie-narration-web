@@ -2,10 +2,10 @@
 # Python 3.12+
 
 # Web Framework
-fastapi==0.115.0
-uvicorn[standard]==0.32.0
-pydantic==2.9.0
-pydantic-settings==2.6.0
+fastapi>=0.115.5
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
 
 # Database
 sqlalchemy==2.0.35
@@ -26,7 +26,7 @@ numpy==2.1.0
 
 # Video Processing
 ffmpeg-python==0.2.0
-opencv-python-headless==4.10.0
+opencv-python-headless==4.10.0.84
 Pillow==11.0.0
 
 # CLIP (optional — for scene matching)

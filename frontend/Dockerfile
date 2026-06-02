@@ -3,6 +3,9 @@
 
 FROM node:22-alpine
 
+# 使用国内 npm 镜像
+RUN npm config set registry https://registry.npmmirror.com
+
 WORKDIR /app
 
 # 先复制 package 文件 (利用 Docker 层缓存)
