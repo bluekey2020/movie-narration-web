@@ -150,7 +150,7 @@ export interface GenerationRequest {
 
 // ===== API Client =====
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080'
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:9876'
 const API_PREFIX = '/api/v1'
 
 async function request<T>(
