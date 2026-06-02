@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Any, Optional
@@ -58,6 +59,66 @@ class VDLCompiler:
     def __init__(self):
         self.ffmpeg_path = settings.ffmpeg_path
         self.threads = settings.ffmpeg_threads
+
+    def to_args(self, cmd: FFmpegCommand) -> list[str]:
+        """将 FFmpegCommand 转为 ffmpeg 命令行参数列表。"""
+        args = [self.ffmpeg_path, '-y']
+
+        # 输入文件
+        for inp in cmd.inputs:
+            args.extend(['-i', inp])
+
+        # 滤镜图
+        args.extend(['-filter_complex', cmd.filter_complex])
+
+        # 输出映射
+        args.extend(['-map', '[out_v]', '-map', '[out_a]'])
+
+        # 输出选项
+        for key, value in cmd.output_options.items():
+            args.extend([f'-{key}', str(value)])
+
+        args.append(cmd.output_path)
+        return args
+
+    def execute(self, cmd: FFmpegCommand, timeout: int = 300) -> tuple[bool, str]:
+        """执行 FFmpeg 命令并返回 (success, stderr_output)。
+
+        Args:
+            cmd: 编译好的 FFmpeg 命令
+            timeout: 超时秒数
+
+        Returns:
+            (success, stderr_output)
+        """
+        import subprocess
+
+        args = self.to_args(cmd)
+        logger.info('ffmpeg_execute', args=' '.join(args[:20]) + '...')
+
+        try:
+            result = subprocess.run(
+                args,
+                capture_output=True,
+                text=True,
+                timeout=timeout,
+            )
+            success = result.returncode == 0
+            if not success:
+                logger.error('ffmpeg_failed', stderr=result.stderr[-500:])
+            else:
+                file_size = os.path.getsize(cmd.output_path) if os.path.exists(cmd.output_path) else 0
+                logger.info('ffmpeg_done', path=cmd.output_path, size_mb=round(file_size / 1024 / 1024, 2))
+            return success, result.stderr
+        except subprocess.TimeoutExpired:
+            logger.error('ffmpeg_timeout', timeout=timeout)
+            return False, f'FFmpeg timed out after {timeout}s'
+        except FileNotFoundError:
+            logger.error('ffmpeg_not_found')
+            return False, 'FFmpeg not found. Please install FFmpeg.'
+        except Exception as e:
+            logger.error('ffmpeg_exception', error=str(e))
+            return False, str(e)
 
     def compile(self, vdl: VDLDocument) -> FFmpegCommand:
         """编译 VDL 文档为 FFmpeg 执行命令"""
