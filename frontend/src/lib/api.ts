@@ -228,6 +228,28 @@ export const projectsApi = {
     request<void>(`/projects/${id}`, { method: 'DELETE' }),
 }
 
+// ===== Multi-platform export types =====
+
+export interface ExportAllRequest {
+  project_id: string
+  platforms: Platform[]
+  movie_id?: string
+  style?: string
+  voice_id?: string
+  mode?: 'auto' | 'manual_review'
+}
+
+export interface ExportTaskInfo {
+  task_id: string
+  celery_task_id: string
+}
+
+export interface ExportAllResponse {
+  success: boolean
+  tasks: Record<Platform, ExportTaskInfo>
+  message?: string
+}
+
 // ===== Generation API =====
 
 export const generationApi = {
@@ -238,6 +260,11 @@ export const generationApi = {
     }),
   status: (taskId: string) =>
     request<TaskProgress>(`/generation/task/${taskId}/status`),
+  exportAll: (data: ExportAllRequest) =>
+    request<ExportAllResponse>('/generation/export-all', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    }),
 }
 
 // ===== Auth API =====

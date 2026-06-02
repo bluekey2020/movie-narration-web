@@ -305,46 +305,146 @@ def run_full_pipeline(self, params: dict) -> dict:
 
     This is the main entry point called by the API. It chains all stages:
     script → scene matching → voice + BGM (parallel) → video composition
+
+    Supports a `platforms` list parameter for multi-platform export.
+    When provided, the base script is generated once, then adapted and
+    rendered for each platform via PlatformAdapter.
     """
-    self.update_state(state='PROGRESS', meta={'stage': 'script_generation', 'progress': 0, 'message': 'Starting pipeline...'})
+    platforms: list[str] = params.get('platforms', [])
+    single_platform = params.get('platform', 'douyin')
 
-    # Stage 1: Generate script
-    script_result = generate_script(params)
+    # Normalize: if platforms is not provided, use the legacy single platform
+    if not platforms:
+        platforms = [single_platform]
+        params['platform'] = single_platform
 
-    # Stage 2: Match scenes
-    match_result = match_scenes({
-        'movie_id': params['movie_id'],
-        'script_segments': script_result['script_segments'],
+    self.update_state(state='PROGRESS', meta={
+        'stage': 'script_generation', 'progress': 0,
+        'message': f'Starting pipeline for {len(platforms)} platform(s)...'
     })
 
-    # Stage 3+4: Voice and BGM in parallel
-    voice_result = generate_voice({
-        'script_segments': script_result['script_segments'],
-        'voice_id': params.get('voice_id', 'narrator-male-youth-01'),
-    })
+    # Stage 1: Generate script once (use the first platform for prompt styling)
+    first_platform = platforms[0]
+    script_params = {**params, 'platform': first_platform}
+    script_result = generate_script(script_params)
+    base_segments = script_result['script_segments']
 
-    bgm_result = plan_bgm({
-        'script_segments': script_result['script_segments'],
-    })
+    total_platforms = len(platforms)
+    platform_results: dict[str, dict] = {}
 
-    # Stage 5: Compose video
-    compose_result = compose_video({
-        'movie_id': params['movie_id'],
-        'movie_title': params.get('movie_title', ''),
-        'style': params['style'],
-        'platform': params.get('platform', 'douyin'),
-        'voice_id': params.get('voice_id', 'narrator-male-youth-01'),
-        'script_segments': script_result['script_segments'],
-        'match_plan': match_result['match_plan'],
-        'voice_results': voice_result,
-        'mix_plan': bgm_result.get('mix_plan', []),
+    for idx, platform_name in enumerate(platforms):
+        platform_progress_base = int((idx / total_platforms) * 100)
+        self.update_state(state='PROGRESS', meta={
+            'stage': 'script_generation',
+            'progress': platform_progress_base,
+            'message': f'Adapting script for {platform_name} ({idx + 1}/{total_platforms})...'
+        })
+
+        # Adapt script for this platform (skip if it matches the base)
+        if platform_name != first_platform:
+            adapted_segments = _adapt_script_for_platform(
+                base_segments, platform_name, params
+            )
+        else:
+            adapted_segments = base_segments
+
+        # Stage 2: Match scenes
+        match_result = match_scenes({
+            'movie_id': params['movie_id'],
+            'script_segments': adapted_segments,
+        })
+
+        # Stage 3+4: Voice and BGM
+        voice_result = generate_voice({
+            'script_segments': adapted_segments,
+            'voice_id': params.get('voice_id', 'narrator-male-youth-01'),
+        })
+
+        bgm_result = plan_bgm({
+            'script_segments': adapted_segments,
+        })
+
+        # Stage 5: Compose video for this platform
+        compose_result = compose_video({
+            'movie_id': params['movie_id'],
+            'movie_title': params.get('movie_title', ''),
+            'style': params['style'],
+            'platform': platform_name,
+            'voice_id': params.get('voice_id', 'narrator-male-youth-01'),
+            'script_segments': adapted_segments,
+            'match_plan': match_result['match_plan'],
+            'voice_results': voice_result,
+            'mix_plan': bgm_result.get('mix_plan', []),
+        })
+
+        platform_results[platform_name] = {
+            'script': adapted_segments,
+            'match_plan': match_result['match_plan'],
+            'voice': voice_result,
+            'bgm': bgm_result,
+            'video': compose_result,
+        }
+
+    self.update_state(state='PROGRESS', meta={
+        'stage': 'done', 'progress': 100,
+        'message': f'Pipeline complete for {total_platforms} platform(s)'
     })
 
     return {
-        'script': script_result['script_segments'],
         'quality_report': script_result.get('quality_report', {}),
-        'match_plan': match_result['match_plan'],
-        'voice': voice_result,
-        'bgm': bgm_result,
-        'video': compose_result,
+        'platforms': platform_results,
     }
+
+
+def _adapt_script_for_platform(
+    base_segments: list[dict],
+    target_platform: str,
+    params: dict,
+) -> list[dict]:
+    """Adapt base script segments for a target platform using PlatformAdapter.
+
+    Uses async LLM calls to rewrite the script in the platform's native
+    discourse style, then adjusts duration estimates and other metadata.
+    Falls back to the original segments if adaptation fails.
+    """
+    import asyncio
+
+    from app.engines.platform_adapter import PlatformAdapter
+    from app.config import Platform
+
+    adapter = PlatformAdapter()
+
+    base_script = {
+        'text': '\n\n'.join(s.get('text', '') for s in base_segments),
+        'segments': base_segments,
+    }
+
+    try:
+        adapted = asyncio.get_event_loop().run_until_complete(
+            adapter.adapt(base_script, Platform(target_platform))
+        )
+        adapted_segments = adapted.segments
+    except Exception as exc:
+        logger.warning(
+            'Platform adaptation failed for %s: %s; falling back to base segments',
+            target_platform, exc,
+        )
+        adapted_segments = base_segments
+
+    if not adapted_segments:
+        return base_segments
+
+    # Merge adapted text back into the original segment structure,
+    # preserving metadata like visual_requirement and emotion
+    result = []
+    for i, base_seg in enumerate(base_segments):
+        seg = dict(base_seg)
+        if i < len(adapted_segments):
+            adapted_seg = adapted_segments[i]
+            if isinstance(adapted_seg, dict):
+                seg['text'] = adapted_seg.get('text', base_seg.get('text', ''))
+                if 'estimated_duration_sec' in adapted_seg:
+                    seg['estimated_duration_sec'] = adapted_seg['estimated_duration_sec']
+        result.append(seg)
+
+    return result

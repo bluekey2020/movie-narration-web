@@ -26,7 +26,6 @@ import {
   FileText,
   Mic,
   Download,
-  Video,
   AlertCircle,
   Clock,
   Type,
@@ -38,6 +37,8 @@ import { cn } from '@/lib/utils'
 import type { ScriptSegment, Platform } from '@/lib/api'
 import { SegmentEditor } from '@/components/script/segment-editor'
 import { EMOTION_COLORS } from '@/components/script/emotion-selector'
+import { TimelineEditor } from '@/components/timeline/timeline-editor'
+import { PlatformExportPanel } from '@/components/export/platform-export-panel'
 import { type AiAction } from '@/components/script/ai-toolbar'
 import { estimateDuration } from '@/components/script/pause-marker'
 
@@ -338,6 +339,10 @@ export default function ProjectPage() {
               <Mic className="h-4 w-4" />
               Voice
             </TabsTrigger>
+            <TabsTrigger value="timeline" className="gap-2">
+              <Clock className="h-4 w-4" />
+              Timeline
+            </TabsTrigger>
             <TabsTrigger value="export" className="gap-2">
               <Download className="h-4 w-4" />
               Export
@@ -570,42 +575,34 @@ export default function ProjectPage() {
             </Card>
           </TabsContent>
 
+          {/* ===== Timeline Tab ===== */}
+          <TabsContent value="timeline" className="mt-4">
+            {!hasScript ? (
+              <div className="flex flex-col items-center justify-center py-16 gap-3 text-zinc-500">
+                <Clock className="h-10 w-10" />
+                <p className="text-sm">
+                  {activeTask
+                    ? 'Timeline will be available once the script is generated...'
+                    : 'Generate a script first to see the timeline'}
+                </p>
+              </div>
+            ) : (
+              <TimelineEditor
+                segments={currentProject.script_segments}
+              />
+            )}
+          </TabsContent>
+
           {/* ===== Export Tab ===== */}
           <TabsContent value="export" className="mt-4">
-            <Card className="border-zinc-800 bg-zinc-900">
-              <CardContent className="p-6 text-center">
-                {currentProject.output_url ? (
-                  <div className="space-y-4">
-                    <Video className="h-10 w-10 text-green-400 mx-auto" />
-                    <p className="text-sm text-zinc-300">
-                      Your video is ready!
-                    </p>
-                    <a
-                      href={currentProject.output_url}
-                      download
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button>
-                        <Download className="h-4 w-4 mr-2" />
-                        Download Video
-                      </Button>
-                    </a>
-                  </div>
-                ) : (
-                  <>
-                    <Video className="h-10 w-10 text-zinc-500 mx-auto mb-3" />
-                    <p className="text-sm text-zinc-400">
-                      Video export will be available here
-                    </p>
-                    <p className="text-xs text-zinc-600 mt-1">
-                      The video is being composed. You can preview and download
-                      it once ready.
-                    </p>
-                  </>
-                )}
-              </CardContent>
-            </Card>
+            <PlatformExportPanel
+              projectId={currentProject.project_id}
+              movieId={currentProject.movie_id}
+              style={currentProject.style_id}
+              voiceId={currentProject.voice_id}
+              hasVideo={!!currentProject.output_url}
+              videoUrl={currentProject.output_url}
+            />
           </TabsContent>
         </Tabs>
       </div>
