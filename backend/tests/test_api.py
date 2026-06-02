@@ -116,7 +116,7 @@ class TestGenerationAPI:
         })
         assert response.status_code == 404
 
-    def test_task_status(self):
-        response = client.get('/api/v1/generation/task/test-123/status')
-        assert response.status_code == 200
-        assert response.json()['status'] == 'completed'
+    def test_task_status_not_found(self):
+        """Task status returns 404 for unknown task IDs (Celery async tasks)."""
+        response = client.get('/api/v1/generation/task/nonexistent-id/status')
+        assert response.status_code == 404
