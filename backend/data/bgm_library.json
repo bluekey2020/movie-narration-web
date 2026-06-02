@@ -4,18 +4,50 @@
       "track_id": "bgm_001",
       "title": "悬疑铺垫",
       "duration_sec": 120.0,
-      "emotions": ["suspense", "dark", "mysterious"],
+      "emotions": [
+        "suspense",
+        "dark",
+        "mysterious"
+      ],
       "bpm": 85,
       "key": "C minor",
       "energy": 0.3,
-      "instruments": ["piano", "strings"],
-      "sections": [
-        {"start": 0, "end": 15, "type": "intro"},
-        {"start": 15, "end": 90, "type": "main"},
-        {"start": 90, "end": 120, "type": "outro"}
+      "instruments": [
+        "piano",
+        "strings"
       ],
-      "natural_cut_points": [15.0, 30.0, 45.0, 60.0, 75.0, 90.0, 105.0, 120.0],
-      "usage_tags": ["buildup", "hook", "transition"],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 90,
+          "type": "main"
+        },
+        {
+          "start": 90,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "transition"
+      ],
       "license_type": "cc0",
       "file_path": "/bgm/suspense_buildup.mp3"
     },
@@ -23,18 +55,48 @@
       "track_id": "bgm_002",
       "title": "紧张追逐",
       "duration_sec": 90.0,
-      "emotions": ["tense", "intense", "urgent"],
+      "emotions": [
+        "tense",
+        "intense",
+        "urgent"
+      ],
       "bpm": 140,
       "key": "D minor",
       "energy": 0.8,
-      "instruments": ["electronic", "drums", "strings"],
-      "sections": [
-        {"start": 0, "end": 10, "type": "intro"},
-        {"start": 10, "end": 70, "type": "main"},
-        {"start": 70, "end": 90, "type": "climax"}
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings"
       ],
-      "natural_cut_points": [10.0, 25.0, 40.0, 55.0, 70.0, 90.0],
-      "usage_tags": ["climax", "action"],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 70,
+          "type": "main"
+        },
+        {
+          "start": 70,
+          "end": 90,
+          "type": "climax"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        25.0,
+        40.0,
+        55.0,
+        70.0,
+        90.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
       "license_type": "cc0",
       "file_path": "/bgm/tense_chase.mp3"
     },
@@ -42,19 +104,57 @@
       "track_id": "bgm_003",
       "title": "史诗高潮",
       "duration_sec": 180.0,
-      "emotions": ["epic", "triumphant", "heroic"],
+      "emotions": [
+        "epic",
+        "triumphant",
+        "heroic"
+      ],
       "bpm": 100,
       "key": "C major",
       "energy": 0.9,
-      "instruments": ["orchestra", "choir", "brass", "drums"],
-      "sections": [
-        {"start": 0, "end": 20, "type": "intro"},
-        {"start": 20, "end": 120, "type": "main"},
-        {"start": 120, "end": 160, "type": "climax"},
-        {"start": 160, "end": 180, "type": "outro"}
+      "instruments": [
+        "orchestra",
+        "choir",
+        "brass",
+        "drums"
       ],
-      "natural_cut_points": [20.0, 40.0, 60.0, 80.0, 100.0, 120.0, 140.0, 160.0, 180.0],
-      "usage_tags": ["climax", "ending"],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 120,
+          "type": "main"
+        },
+        {
+          "start": 120,
+          "end": 160,
+          "type": "climax"
+        },
+        {
+          "start": 160,
+          "end": 180,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        100.0,
+        120.0,
+        140.0,
+        160.0,
+        180.0
+      ],
+      "usage_tags": [
+        "climax",
+        "ending"
+      ],
       "license_type": "licensed",
       "file_path": "/bgm/epic_climax.mp3"
     },
@@ -62,18 +162,49 @@
       "track_id": "bgm_004",
       "title": "温暖回忆",
       "duration_sec": 150.0,
-      "emotions": ["warm", "nostalgic", "hopeful"],
+      "emotions": [
+        "warm",
+        "nostalgic",
+        "hopeful"
+      ],
       "bpm": 75,
       "key": "G major",
       "energy": 0.4,
-      "instruments": ["piano", "guitar", "strings"],
-      "sections": [
-        {"start": 0, "end": 20, "type": "intro"},
-        {"start": 20, "end": 130, "type": "main"},
-        {"start": 130, "end": 150, "type": "outro"}
+      "instruments": [
+        "piano",
+        "guitar",
+        "strings"
       ],
-      "natural_cut_points": [20.0, 50.0, 80.0, 110.0, 130.0, 150.0],
-      "usage_tags": ["reflection", "ending", "transition"],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 130,
+          "type": "main"
+        },
+        {
+          "start": 130,
+          "end": 150,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        50.0,
+        80.0,
+        110.0,
+        130.0,
+        150.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "transition"
+      ],
       "license_type": "cc0",
       "file_path": "/bgm/warm_memories.mp3"
     },
@@ -81,20 +212,7913 @@
       "track_id": "bgm_005",
       "title": "暗黑氛围",
       "duration_sec": 100.0,
-      "emotions": ["dark", "tense", "mysterious", "horror"],
+      "emotions": [
+        "dark",
+        "tense",
+        "mysterious",
+        "horror"
+      ],
       "bpm": 60,
       "key": "F minor",
       "energy": 0.5,
-      "instruments": ["electronic", "piano", "ambient"],
-      "sections": [
-        {"start": 0, "end": 15, "type": "intro"},
-        {"start": 15, "end": 80, "type": "main"},
-        {"start": 80, "end": 100, "type": "outro"}
+      "instruments": [
+        "electronic",
+        "piano",
+        "ambient"
       ],
-      "natural_cut_points": [15.0, 30.0, 50.0, 65.0, 80.0, 100.0],
-      "usage_tags": ["buildup", "hook"],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 80,
+          "type": "main"
+        },
+        {
+          "start": 80,
+          "end": 100,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        30.0,
+        50.0,
+        65.0,
+        80.0,
+        100.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook"
+      ],
       "license_type": "cc0",
       "file_path": "/bgm/dark_atmosphere.mp3"
+    },
+    {
+      "track_id": "bgm_006",
+      "title": "暗夜追踪",
+      "duration_sec": 210.0,
+      "emotions": [
+        "suspense",
+        "mysterious",
+        "dark"
+      ],
+      "bpm": 70,
+      "key": "D minor",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 31,
+          "type": "intro"
+        },
+        {
+          "start": 31,
+          "end": 179,
+          "type": "main"
+        },
+        {
+          "start": 179,
+          "end": 210,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        26.2,
+        31.0,
+        52.5,
+        78.8,
+        105.0,
+        131.2,
+        157.5,
+        179.0,
+        183.8,
+        210.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_006.mp3"
+    },
+    {
+      "track_id": "bgm_007",
+      "title": "迷雾重重",
+      "duration_sec": 195.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "tense"
+      ],
+      "bpm": 68,
+      "key": "G minor",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "electronic",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 26,
+          "type": "intro"
+        },
+        {
+          "start": 26,
+          "end": 171,
+          "type": "main"
+        },
+        {
+          "start": 171,
+          "end": 195,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        26.0,
+        32.5,
+        65.0,
+        97.5,
+        130.0,
+        162.5,
+        171.0,
+        195.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_007.mp3"
+    },
+    {
+      "track_id": "bgm_008",
+      "title": "阴影逼近",
+      "duration_sec": 175.0,
+      "emotions": [
+        "dark",
+        "suspense",
+        "tense"
+      ],
+      "bpm": 99,
+      "key": "E minor",
+      "energy": 0.4,
+      "instruments": [
+        "strings",
+        "piano",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 124,
+          "type": "main"
+        },
+        {
+          "start": 124,
+          "end": 153,
+          "type": "climax"
+        },
+        {
+          "start": 153,
+          "end": 175,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        21.9,
+        43.8,
+        65.6,
+        87.5,
+        109.4,
+        124.0,
+        131.2,
+        153.0,
+        153.1,
+        175.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_008.mp3"
+    },
+    {
+      "track_id": "bgm_009",
+      "title": "潜伏危机",
+      "duration_sec": 85.0,
+      "emotions": [
+        "suspense",
+        "dark",
+        "mysterious"
+      ],
+      "bpm": 79,
+      "key": "F minor",
+      "energy": 0.2,
+      "instruments": [
+        "electronic",
+        "piano",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "intro"
+        },
+        {
+          "start": 12,
+          "end": 71,
+          "type": "main"
+        },
+        {
+          "start": 71,
+          "end": 85,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.6,
+        12.0,
+        21.2,
+        31.9,
+        42.5,
+        53.1,
+        63.8,
+        71.0,
+        74.4,
+        85.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_009.mp3"
+    },
+    {
+      "track_id": "bgm_010",
+      "title": "深夜独白",
+      "duration_sec": 100.0,
+      "emotions": [
+        "mysterious",
+        "dark",
+        "tense"
+      ],
+      "bpm": 55,
+      "key": "A minor",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "strings",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "intro"
+        },
+        {
+          "start": 12,
+          "end": 88,
+          "type": "main"
+        },
+        {
+          "start": 88,
+          "end": 100,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        12.0,
+        12.5,
+        25.0,
+        37.5,
+        50.0,
+        62.5,
+        75.0,
+        87.5,
+        88.0,
+        100.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_010.mp3"
+    },
+    {
+      "track_id": "bgm_011",
+      "title": "暗流涌动",
+      "duration_sec": 90.0,
+      "emotions": [
+        "suspense",
+        "tense",
+        "dark"
+      ],
+      "bpm": 87,
+      "key": "C minor",
+      "energy": 0.4,
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 65,
+          "type": "main"
+        },
+        {
+          "start": 65,
+          "end": 80,
+          "type": "climax"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        65.0,
+        75.0,
+        80.0,
+        90.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_011.mp3"
+    },
+    {
+      "track_id": "bgm_012",
+      "title": "心灵迷宫",
+      "duration_sec": 205.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "dark"
+      ],
+      "bpm": 72,
+      "key": "Eb minor",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "electronic",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 30,
+          "type": "intro"
+        },
+        {
+          "start": 30,
+          "end": 166,
+          "type": "main"
+        },
+        {
+          "start": 166,
+          "end": 205,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        29.3,
+        30.0,
+        58.6,
+        87.9,
+        117.1,
+        146.4,
+        166.0,
+        175.7,
+        205.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_012.mp3"
+    },
+    {
+      "track_id": "bgm_013",
+      "title": "无形威胁",
+      "duration_sec": 90.0,
+      "emotions": [
+        "dark",
+        "tense",
+        "suspense"
+      ],
+      "bpm": 73,
+      "key": "Eb minor",
+      "energy": 0.5,
+      "instruments": [
+        "strings",
+        "brass",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 11,
+          "type": "intro"
+        },
+        {
+          "start": 11,
+          "end": 81,
+          "type": "main"
+        },
+        {
+          "start": 81,
+          "end": 90,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.0,
+        18.0,
+        36.0,
+        54.0,
+        72.0,
+        81.0,
+        90.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_013.mp3"
+    },
+    {
+      "track_id": "bgm_014",
+      "title": "午夜谜题",
+      "duration_sec": 170.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "dark"
+      ],
+      "bpm": 84,
+      "key": "B minor",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "electronic",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 25,
+          "type": "intro"
+        },
+        {
+          "start": 25,
+          "end": 152,
+          "type": "main"
+        },
+        {
+          "start": 152,
+          "end": 170,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        25.0,
+        34.0,
+        68.0,
+        102.0,
+        136.0,
+        152.0,
+        170.0
+      ],
+      "usage_tags": [
+        "intro",
+        "buildup",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_014.mp3"
+    },
+    {
+      "track_id": "bgm_015",
+      "title": "暗黑心跳",
+      "duration_sec": 225.0,
+      "emotions": [
+        "suspense",
+        "dark",
+        "intense"
+      ],
+      "bpm": 92,
+      "key": "D minor",
+      "energy": 0.4,
+      "instruments": [
+        "electronic",
+        "drums",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 24,
+          "type": "intro"
+        },
+        {
+          "start": 24,
+          "end": 150,
+          "type": "main"
+        },
+        {
+          "start": 150,
+          "end": 200,
+          "type": "climax"
+        },
+        {
+          "start": 200,
+          "end": 225,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        24.0,
+        45.0,
+        90.0,
+        135.0,
+        150.0,
+        180.0,
+        200.0,
+        225.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_015.mp3"
+    },
+    {
+      "track_id": "bgm_016",
+      "title": "窥探",
+      "duration_sec": 210.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "tense"
+      ],
+      "bpm": 62,
+      "key": "C minor",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "strings",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 25,
+          "type": "intro"
+        },
+        {
+          "start": 25,
+          "end": 180,
+          "type": "main"
+        },
+        {
+          "start": 180,
+          "end": 210,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        25.0,
+        52.5,
+        105.0,
+        157.5,
+        180.0,
+        210.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_016.mp3"
+    },
+    {
+      "track_id": "bgm_017",
+      "title": "蛛丝马迹",
+      "duration_sec": 70.0,
+      "emotions": [
+        "suspense",
+        "mysterious",
+        "dark"
+      ],
+      "bpm": 78,
+      "key": "C# minor",
+      "energy": 0.3,
+      "instruments": [
+        "strings",
+        "piano",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 56,
+          "type": "main"
+        },
+        {
+          "start": 56,
+          "end": 70,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        14.0,
+        28.0,
+        42.0,
+        56.0,
+        70.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_017.mp3"
+    },
+    {
+      "track_id": "bgm_018",
+      "title": "嫌疑人",
+      "duration_sec": 95.0,
+      "emotions": [
+        "dark",
+        "suspense",
+        "mysterious",
+        "tense"
+      ],
+      "bpm": 80,
+      "key": "F minor",
+      "energy": 0.4,
+      "instruments": [
+        "electronic",
+        "piano",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "intro"
+        },
+        {
+          "start": 12,
+          "end": 84,
+          "type": "main"
+        },
+        {
+          "start": 84,
+          "end": 95,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.9,
+        12.0,
+        23.8,
+        35.6,
+        47.5,
+        59.4,
+        71.2,
+        83.1,
+        84.0,
+        95.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_018.mp3"
+    },
+    {
+      "track_id": "bgm_019",
+      "title": "密室逃脱",
+      "duration_sec": 165.0,
+      "emotions": [
+        "suspense",
+        "intense",
+        "dark"
+      ],
+      "bpm": 98,
+      "key": "C# minor",
+      "energy": 0.6,
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 110,
+          "type": "main"
+        },
+        {
+          "start": 110,
+          "end": 134,
+          "type": "climax"
+        },
+        {
+          "start": 134,
+          "end": 165,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        23.6,
+        47.1,
+        70.7,
+        94.3,
+        110.0,
+        117.9,
+        134.0,
+        141.4,
+        165.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_019.mp3"
+    },
+    {
+      "track_id": "bgm_020",
+      "title": "真相边缘",
+      "duration_sec": 75.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "tense"
+      ],
+      "bpm": 71,
+      "key": "B minor",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "strings",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 67,
+          "type": "main"
+        },
+        {
+          "start": 67,
+          "end": 75,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        18.8,
+        37.5,
+        56.2,
+        67.0,
+        75.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_020.mp3"
+    },
+    {
+      "track_id": "bgm_021",
+      "title": "暗夜行者",
+      "duration_sec": 85.0,
+      "emotions": [
+        "dark",
+        "mysterious",
+        "suspense"
+      ],
+      "bpm": 64,
+      "key": "B minor",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "ambient",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 8,
+          "type": "intro"
+        },
+        {
+          "start": 8,
+          "end": 70,
+          "type": "main"
+        },
+        {
+          "start": 70,
+          "end": 85,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        8.0,
+        12.1,
+        24.3,
+        36.4,
+        48.6,
+        60.7,
+        70.0,
+        72.9,
+        85.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_021.mp3"
+    },
+    {
+      "track_id": "bgm_022",
+      "title": "不可告人",
+      "duration_sec": 180.0,
+      "emotions": [
+        "suspense",
+        "dark",
+        "mysterious",
+        "tense"
+      ],
+      "bpm": 78,
+      "key": "C minor",
+      "energy": 0.5,
+      "instruments": [
+        "strings",
+        "piano",
+        "drums",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 120,
+          "type": "main"
+        },
+        {
+          "start": 120,
+          "end": 161,
+          "type": "climax"
+        },
+        {
+          "start": 161,
+          "end": 180,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        18.0,
+        22.5,
+        45.0,
+        67.5,
+        90.0,
+        112.5,
+        120.0,
+        135.0,
+        157.5,
+        161.0,
+        180.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_022.mp3"
+    },
+    {
+      "track_id": "bgm_023",
+      "title": "秘密基地",
+      "duration_sec": 200.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "dark"
+      ],
+      "bpm": 70,
+      "key": "B minor",
+      "energy": 0.3,
+      "instruments": [
+        "electronic",
+        "piano",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 28,
+          "type": "intro"
+        },
+        {
+          "start": 28,
+          "end": 179,
+          "type": "main"
+        },
+        {
+          "start": 179,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        28.0,
+        40.0,
+        80.0,
+        120.0,
+        160.0,
+        179.0,
+        200.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_023.mp3"
+    },
+    {
+      "track_id": "bgm_024",
+      "title": "渐近脚步",
+      "duration_sec": 115.0,
+      "emotions": [
+        "suspense",
+        "tense",
+        "dark"
+      ],
+      "bpm": 92,
+      "key": "G minor",
+      "energy": 0.6,
+      "instruments": [
+        "drums",
+        "strings",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 16,
+          "type": "intro"
+        },
+        {
+          "start": 16,
+          "end": 72,
+          "type": "main"
+        },
+        {
+          "start": 72,
+          "end": 102,
+          "type": "climax"
+        },
+        {
+          "start": 102,
+          "end": 115,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        16.0,
+        28.8,
+        57.5,
+        72.0,
+        86.2,
+        102.0,
+        115.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_024.mp3"
+    },
+    {
+      "track_id": "bgm_025",
+      "title": "谜底揭晓",
+      "duration_sec": 175.0,
+      "emotions": [
+        "mysterious",
+        "suspense",
+        "dark",
+        "dramatic"
+      ],
+      "bpm": 85,
+      "key": "E minor",
+      "energy": 0.3,
+      "instruments": [
+        "orchestra",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 124,
+          "type": "main"
+        },
+        {
+          "start": 124,
+          "end": 152,
+          "type": "climax"
+        },
+        {
+          "start": 152,
+          "end": 175,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        21.9,
+        43.8,
+        65.6,
+        87.5,
+        109.4,
+        124.0,
+        131.2,
+        152.0,
+        153.1,
+        175.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_025.mp3"
+    },
+    {
+      "track_id": "bgm_026",
+      "title": "雷霆万钧",
+      "duration_sec": 115.0,
+      "emotions": [
+        "epic",
+        "heroic",
+        "triumphant"
+      ],
+      "bpm": 93,
+      "key": "C major",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "brass",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 78,
+          "type": "main"
+        },
+        {
+          "start": 78,
+          "end": 99,
+          "type": "climax"
+        },
+        {
+          "start": 99,
+          "end": 115,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        19.2,
+        38.3,
+        57.5,
+        76.7,
+        78.0,
+        95.8,
+        99.0,
+        115.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_026.mp3"
+    },
+    {
+      "track_id": "bgm_027",
+      "title": "决战时刻",
+      "duration_sec": 190.0,
+      "emotions": [
+        "epic",
+        "intense",
+        "heroic"
+      ],
+      "bpm": 105,
+      "key": "E minor",
+      "energy": 0.8,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "intro"
+        },
+        {
+          "start": 27,
+          "end": 116,
+          "type": "main"
+        },
+        {
+          "start": 116,
+          "end": 162,
+          "type": "climax"
+        },
+        {
+          "start": 162,
+          "end": 190,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        23.8,
+        27.0,
+        47.5,
+        71.2,
+        95.0,
+        116.0,
+        118.8,
+        142.5,
+        162.0,
+        166.2,
+        190.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_027.mp3"
+    },
+    {
+      "track_id": "bgm_028",
+      "title": "冲锋陷阵",
+      "duration_sec": 75.0,
+      "emotions": [
+        "heroic",
+        "epic",
+        "action"
+      ],
+      "bpm": 125,
+      "key": "C major",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 46,
+          "type": "main"
+        },
+        {
+          "start": 46,
+          "end": 62,
+          "type": "climax"
+        },
+        {
+          "start": 62,
+          "end": 75,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.4,
+        10.0,
+        18.8,
+        28.1,
+        37.5,
+        46.0,
+        46.9,
+        56.2,
+        62.0,
+        65.6,
+        75.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_028.mp3"
+    },
+    {
+      "track_id": "bgm_029",
+      "title": "王者归来",
+      "duration_sec": 165.0,
+      "emotions": [
+        "triumphant",
+        "epic",
+        "heroic"
+      ],
+      "bpm": 91,
+      "key": "A minor",
+      "energy": 0.8,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 21,
+          "type": "intro"
+        },
+        {
+          "start": 21,
+          "end": 107,
+          "type": "main"
+        },
+        {
+          "start": 107,
+          "end": 141,
+          "type": "climax"
+        },
+        {
+          "start": 141,
+          "end": 165,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        21.0,
+        27.5,
+        55.0,
+        82.5,
+        107.0,
+        110.0,
+        137.5,
+        141.0,
+        165.0
+      ],
+      "usage_tags": [
+        "ending",
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_029.mp3"
+    },
+    {
+      "track_id": "bgm_030",
+      "title": "钢铁洪流",
+      "duration_sec": 160.0,
+      "emotions": [
+        "epic",
+        "intense",
+        "action"
+      ],
+      "bpm": 100,
+      "key": "Eb major",
+      "energy": 0.9,
+      "instruments": [
+        "electronic",
+        "drums",
+        "orchestra",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 107,
+          "type": "main"
+        },
+        {
+          "start": 107,
+          "end": 138,
+          "type": "climax"
+        },
+        {
+          "start": 138,
+          "end": 160,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        40.0,
+        80.0,
+        107.0,
+        120.0,
+        138.0,
+        160.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_030.mp3"
+    },
+    {
+      "track_id": "bgm_031",
+      "title": "不屈战魂",
+      "duration_sec": 205.0,
+      "emotions": [
+        "heroic",
+        "epic",
+        "dramatic"
+      ],
+      "bpm": 94,
+      "key": "A minor",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 31,
+          "type": "intro"
+        },
+        {
+          "start": 31,
+          "end": 130,
+          "type": "main"
+        },
+        {
+          "start": 130,
+          "end": 166,
+          "type": "climax"
+        },
+        {
+          "start": 166,
+          "end": 205,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        31.0,
+        34.2,
+        68.3,
+        102.5,
+        130.0,
+        136.7,
+        166.0,
+        170.8,
+        205.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_031.mp3"
+    },
+    {
+      "track_id": "bgm_032",
+      "title": "破晓之战",
+      "duration_sec": 120.0,
+      "emotions": [
+        "epic",
+        "heroic",
+        "intense"
+      ],
+      "bpm": 128,
+      "key": "C major",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 87,
+          "type": "main"
+        },
+        {
+          "start": 87,
+          "end": 98,
+          "type": "climax"
+        },
+        {
+          "start": 98,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        87.0,
+        98.0,
+        100.0,
+        120.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_032.mp3"
+    },
+    {
+      "track_id": "bgm_033",
+      "title": "胜利序曲",
+      "duration_sec": 200.0,
+      "emotions": [
+        "triumphant",
+        "epic",
+        "grand"
+      ],
+      "bpm": 88,
+      "key": "D major",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "brass",
+        "choir",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 148,
+          "type": "main"
+        },
+        {
+          "start": 148,
+          "end": 173,
+          "type": "climax"
+        },
+        {
+          "start": 173,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        40.0,
+        80.0,
+        120.0,
+        148.0,
+        160.0,
+        173.0,
+        200.0
+      ],
+      "usage_tags": [
+        "ending",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_033.mp3"
+    },
+    {
+      "track_id": "bgm_034",
+      "title": "烈火燎原",
+      "duration_sec": 200.0,
+      "emotions": [
+        "intense",
+        "epic",
+        "action"
+      ],
+      "bpm": 123,
+      "key": "G minor",
+      "energy": 0.9,
+      "instruments": [
+        "electronic",
+        "drums",
+        "orchestra",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 126,
+          "type": "main"
+        },
+        {
+          "start": 126,
+          "end": 166,
+          "type": "climax"
+        },
+        {
+          "start": 166,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        18.0,
+        33.3,
+        66.7,
+        100.0,
+        126.0,
+        133.3,
+        166.0,
+        166.7,
+        200.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_034.mp3"
+    },
+    {
+      "track_id": "bgm_035",
+      "title": "帝国崛起",
+      "duration_sec": 125.0,
+      "emotions": [
+        "epic",
+        "grand",
+        "heroic"
+      ],
+      "bpm": 106,
+      "key": "G minor",
+      "energy": 0.6,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "brass",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 77,
+          "type": "main"
+        },
+        {
+          "start": 77,
+          "end": 111,
+          "type": "climax"
+        },
+        {
+          "start": 111,
+          "end": 125,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.9,
+        18.0,
+        35.7,
+        53.6,
+        71.4,
+        77.0,
+        89.3,
+        107.1,
+        111.0,
+        125.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "climax",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_035.mp3"
+    },
+    {
+      "track_id": "bgm_036",
+      "title": "荒野追逐",
+      "duration_sec": 145.0,
+      "emotions": [
+        "action",
+        "intense",
+        "epic"
+      ],
+      "bpm": 155,
+      "key": "B minor",
+      "energy": 0.9,
+      "instruments": [
+        "electronic",
+        "drums",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 19,
+          "type": "intro"
+        },
+        {
+          "start": 19,
+          "end": 93,
+          "type": "main"
+        },
+        {
+          "start": 93,
+          "end": 125,
+          "type": "climax"
+        },
+        {
+          "start": 125,
+          "end": 145,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        19.0,
+        20.7,
+        41.4,
+        62.1,
+        82.9,
+        93.0,
+        103.6,
+        124.3,
+        125.0,
+        145.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_036.mp3"
+    },
+    {
+      "track_id": "bgm_037",
+      "title": "无尽征程",
+      "duration_sec": 90.0,
+      "emotions": [
+        "epic",
+        "heroic",
+        "hopeful"
+      ],
+      "bpm": 86,
+      "key": "A minor",
+      "energy": 0.7,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "strings",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 8,
+          "type": "intro"
+        },
+        {
+          "start": 8,
+          "end": 66,
+          "type": "main"
+        },
+        {
+          "start": 66,
+          "end": 80,
+          "type": "climax"
+        },
+        {
+          "start": 80,
+          "end": 90,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        8.0,
+        11.2,
+        22.5,
+        33.8,
+        45.0,
+        56.2,
+        66.0,
+        67.5,
+        78.8,
+        80.0,
+        90.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_037.mp3"
+    },
+    {
+      "track_id": "bgm_038",
+      "title": "暴风骤雨",
+      "duration_sec": 95.0,
+      "emotions": [
+        "intense",
+        "epic",
+        "dramatic"
+      ],
+      "bpm": 127,
+      "key": "F minor",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 62,
+          "type": "main"
+        },
+        {
+          "start": 62,
+          "end": 76,
+          "type": "climax"
+        },
+        {
+          "start": 76,
+          "end": 95,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        23.8,
+        47.5,
+        62.0,
+        71.2,
+        76.0,
+        95.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_038.mp3"
+    },
+    {
+      "track_id": "bgm_039",
+      "title": "英雄悲歌",
+      "duration_sec": 230.0,
+      "emotions": [
+        "heroic",
+        "epic",
+        "dramatic",
+        "emotional"
+      ],
+      "bpm": 94,
+      "key": "E minor",
+      "energy": 0.8,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 169,
+          "type": "main"
+        },
+        {
+          "start": 169,
+          "end": 202,
+          "type": "climax"
+        },
+        {
+          "start": 202,
+          "end": 230,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        32.9,
+        65.7,
+        98.6,
+        131.4,
+        164.3,
+        169.0,
+        197.1,
+        202.0,
+        230.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "climax",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_039.mp3"
+    },
+    {
+      "track_id": "bgm_040",
+      "title": "战鼓雷鸣",
+      "duration_sec": 120.0,
+      "emotions": [
+        "intense",
+        "epic",
+        "heroic"
+      ],
+      "bpm": 101,
+      "key": "E minor",
+      "energy": 0.9,
+      "instruments": [
+        "drums",
+        "orchestra",
+        "brass",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 87,
+          "type": "main"
+        },
+        {
+          "start": 87,
+          "end": 108,
+          "type": "climax"
+        },
+        {
+          "start": 108,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        17.1,
+        34.3,
+        51.4,
+        68.6,
+        85.7,
+        87.0,
+        102.9,
+        108.0,
+        120.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_040.mp3"
+    },
+    {
+      "track_id": "bgm_041",
+      "title": "巅峰对决",
+      "duration_sec": 145.0,
+      "emotions": [
+        "epic",
+        "intense",
+        "action",
+        "heroic"
+      ],
+      "bpm": 122,
+      "key": "E minor",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "electronic",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 102,
+          "type": "main"
+        },
+        {
+          "start": 102,
+          "end": 122,
+          "type": "climax"
+        },
+        {
+          "start": 122,
+          "end": 145,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        29.0,
+        58.0,
+        87.0,
+        102.0,
+        116.0,
+        122.0,
+        145.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_041.mp3"
+    },
+    {
+      "track_id": "bgm_042",
+      "title": "黎明之光",
+      "duration_sec": 85.0,
+      "emotions": [
+        "heroic",
+        "triumphant",
+        "hopeful",
+        "grand"
+      ],
+      "bpm": 106,
+      "key": "Eb major",
+      "energy": 0.7,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "strings",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 9,
+          "type": "intro"
+        },
+        {
+          "start": 9,
+          "end": 57,
+          "type": "main"
+        },
+        {
+          "start": 57,
+          "end": 68,
+          "type": "climax"
+        },
+        {
+          "start": 68,
+          "end": 85,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.0,
+        17.0,
+        34.0,
+        51.0,
+        57.0,
+        68.0,
+        85.0
+      ],
+      "usage_tags": [
+        "ending",
+        "climax",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_042.mp3"
+    },
+    {
+      "track_id": "bgm_043",
+      "title": "暗夜骑士",
+      "duration_sec": 120.0,
+      "emotions": [
+        "epic",
+        "dark",
+        "heroic"
+      ],
+      "bpm": 117,
+      "key": "D major",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "electronic",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 11,
+          "type": "intro"
+        },
+        {
+          "start": 11,
+          "end": 79,
+          "type": "main"
+        },
+        {
+          "start": 79,
+          "end": 104,
+          "type": "climax"
+        },
+        {
+          "start": 104,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.0,
+        20.0,
+        40.0,
+        60.0,
+        79.0,
+        80.0,
+        100.0,
+        104.0,
+        120.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "buildup"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_043.mp3"
+    },
+    {
+      "track_id": "bgm_044",
+      "title": "铁血军魂",
+      "duration_sec": 130.0,
+      "emotions": [
+        "epic",
+        "heroic",
+        "intense",
+        "grand"
+      ],
+      "bpm": 116,
+      "key": "C major",
+      "energy": 0.7,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 91,
+          "type": "main"
+        },
+        {
+          "start": 91,
+          "end": 111,
+          "type": "climax"
+        },
+        {
+          "start": 111,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        16.2,
+        32.5,
+        48.8,
+        65.0,
+        81.2,
+        91.0,
+        97.5,
+        111.0,
+        113.8,
+        130.0
+      ],
+      "usage_tags": [
+        "climax",
+        "ending",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_044.mp3"
+    },
+    {
+      "track_id": "bgm_045",
+      "title": "征程万里",
+      "duration_sec": 125.0,
+      "emotions": [
+        "epic",
+        "heroic",
+        "action"
+      ],
+      "bpm": 109,
+      "key": "B minor",
+      "energy": 0.7,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "strings",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "intro"
+        },
+        {
+          "start": 12,
+          "end": 80,
+          "type": "main"
+        },
+        {
+          "start": 80,
+          "end": 112,
+          "type": "climax"
+        },
+        {
+          "start": 112,
+          "end": 125,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        12.0,
+        31.2,
+        62.5,
+        80.0,
+        93.8,
+        112.0,
+        125.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_045.mp3"
+    },
+    {
+      "track_id": "bgm_046",
+      "title": "命运之轮",
+      "duration_sec": 140.0,
+      "emotions": [
+        "epic",
+        "dramatic",
+        "intense"
+      ],
+      "bpm": 91,
+      "key": "G minor",
+      "energy": 0.6,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 86,
+          "type": "main"
+        },
+        {
+          "start": 86,
+          "end": 126,
+          "type": "climax"
+        },
+        {
+          "start": 126,
+          "end": 140,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        17.5,
+        35.0,
+        52.5,
+        70.0,
+        86.0,
+        87.5,
+        105.0,
+        122.5,
+        126.0,
+        140.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "climax",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_046.mp3"
+    },
+    {
+      "track_id": "bgm_047",
+      "title": "终极之战",
+      "duration_sec": 170.0,
+      "emotions": [
+        "epic",
+        "intense",
+        "triumphant"
+      ],
+      "bpm": 133,
+      "key": "B minor",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass",
+        "choir",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 116,
+          "type": "main"
+        },
+        {
+          "start": 116,
+          "end": 152,
+          "type": "climax"
+        },
+        {
+          "start": 152,
+          "end": 170,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        34.0,
+        68.0,
+        102.0,
+        116.0,
+        136.0,
+        152.0,
+        170.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_047.mp3"
+    },
+    {
+      "track_id": "bgm_048",
+      "title": "荣耀时刻",
+      "duration_sec": 230.0,
+      "emotions": [
+        "triumphant",
+        "epic",
+        "grand",
+        "heroic"
+      ],
+      "bpm": 98,
+      "key": "G minor",
+      "energy": 0.7,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "brass",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 33,
+          "type": "intro"
+        },
+        {
+          "start": 33,
+          "end": 161,
+          "type": "main"
+        },
+        {
+          "start": 161,
+          "end": 198,
+          "type": "climax"
+        },
+        {
+          "start": 198,
+          "end": 230,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        33.0,
+        57.5,
+        115.0,
+        161.0,
+        172.5,
+        198.0,
+        230.0
+      ],
+      "usage_tags": [
+        "ending",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_048.mp3"
+    },
+    {
+      "track_id": "bgm_049",
+      "title": "不灭传奇",
+      "duration_sec": 230.0,
+      "emotions": [
+        "epic",
+        "heroic",
+        "grand",
+        "triumphant"
+      ],
+      "bpm": 97,
+      "key": "B minor",
+      "energy": 0.8,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "drums",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 25,
+          "type": "intro"
+        },
+        {
+          "start": 25,
+          "end": 148,
+          "type": "main"
+        },
+        {
+          "start": 148,
+          "end": 193,
+          "type": "climax"
+        },
+        {
+          "start": 193,
+          "end": 230,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        25.0,
+        46.0,
+        92.0,
+        138.0,
+        148.0,
+        184.0,
+        193.0,
+        230.0
+      ],
+      "usage_tags": [
+        "ending",
+        "climax"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_049.mp3"
+    },
+    {
+      "track_id": "bgm_050",
+      "title": "阳光洒落",
+      "duration_sec": 155.0,
+      "emotions": [
+        "warm",
+        "hopeful",
+        "peaceful"
+      ],
+      "bpm": 78,
+      "key": "A major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "guitar",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 138,
+          "type": "main"
+        },
+        {
+          "start": 138,
+          "end": 155,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        19.4,
+        20.0,
+        38.8,
+        58.1,
+        77.5,
+        96.9,
+        116.2,
+        135.6,
+        138.0,
+        155.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "transition",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_050.mp3"
+    },
+    {
+      "track_id": "bgm_051",
+      "title": "家的温暖",
+      "duration_sec": 60.0,
+      "emotions": [
+        "warm",
+        "nostalgic",
+        "emotional"
+      ],
+      "bpm": 74,
+      "key": "E major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 6,
+          "type": "intro"
+        },
+        {
+          "start": 6,
+          "end": 49,
+          "type": "main"
+        },
+        {
+          "start": 49,
+          "end": 60,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        6.0,
+        7.5,
+        15.0,
+        22.5,
+        30.0,
+        37.5,
+        45.0,
+        49.0,
+        52.5,
+        60.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_051.mp3"
+    },
+    {
+      "track_id": "bgm_052",
+      "title": "金色时光",
+      "duration_sec": 175.0,
+      "emotions": [
+        "nostalgic",
+        "warm",
+        "hopeful"
+      ],
+      "bpm": 62,
+      "key": "A major",
+      "energy": 0.3,
+      "instruments": [
+        "guitar",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 22,
+          "type": "intro"
+        },
+        {
+          "start": 22,
+          "end": 149,
+          "type": "main"
+        },
+        {
+          "start": 149,
+          "end": 175,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        22.0,
+        35.0,
+        70.0,
+        105.0,
+        140.0,
+        149.0,
+        175.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "intro",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_052.mp3"
+    },
+    {
+      "track_id": "bgm_053",
+      "title": "微风轻拂",
+      "duration_sec": 220.0,
+      "emotions": [
+        "peaceful",
+        "warm",
+        "calm"
+      ],
+      "bpm": 59,
+      "key": "F major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "intro"
+        },
+        {
+          "start": 27,
+          "end": 178,
+          "type": "main"
+        },
+        {
+          "start": 178,
+          "end": 220,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        27.0,
+        44.0,
+        88.0,
+        132.0,
+        176.0,
+        178.0,
+        220.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_053.mp3"
+    },
+    {
+      "track_id": "bgm_054",
+      "title": "童年记忆",
+      "duration_sec": 95.0,
+      "emotions": [
+        "nostalgic",
+        "warm",
+        "happy"
+      ],
+      "bpm": 84,
+      "key": "G major",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "guitar",
+        "strings",
+        "flute"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 8,
+          "type": "intro"
+        },
+        {
+          "start": 8,
+          "end": 78,
+          "type": "main"
+        },
+        {
+          "start": 78,
+          "end": 95,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        8.0,
+        13.6,
+        27.1,
+        40.7,
+        54.3,
+        67.9,
+        78.0,
+        81.4,
+        95.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "transition",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_054.mp3"
+    },
+    {
+      "track_id": "bgm_055",
+      "title": "雨后彩虹",
+      "duration_sec": 220.0,
+      "emotions": [
+        "hopeful",
+        "warm",
+        "peaceful"
+      ],
+      "bpm": 70,
+      "key": "Bb major",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 26,
+          "type": "intro"
+        },
+        {
+          "start": 26,
+          "end": 192,
+          "type": "main"
+        },
+        {
+          "start": 192,
+          "end": 220,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        26.0,
+        31.4,
+        62.9,
+        94.3,
+        125.7,
+        157.1,
+        188.6,
+        192.0,
+        220.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_055.mp3"
+    },
+    {
+      "track_id": "bgm_056",
+      "title": "星月夜话",
+      "duration_sec": 225.0,
+      "emotions": [
+        "warm",
+        "nostalgic",
+        "calm"
+      ],
+      "bpm": 58,
+      "key": "F major",
+      "energy": 0.1,
+      "instruments": [
+        "piano",
+        "guitar",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 29,
+          "type": "intro"
+        },
+        {
+          "start": 29,
+          "end": 200,
+          "type": "main"
+        },
+        {
+          "start": 200,
+          "end": 225,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        29.0,
+        56.2,
+        112.5,
+        168.8,
+        200.0,
+        225.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_056.mp3"
+    },
+    {
+      "track_id": "bgm_057",
+      "title": "春日漫步",
+      "duration_sec": 240.0,
+      "emotions": [
+        "happy",
+        "warm",
+        "hopeful"
+      ],
+      "bpm": 73,
+      "key": "E minor",
+      "energy": 0.3,
+      "instruments": [
+        "guitar",
+        "piano",
+        "strings",
+        "flute"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 28,
+          "type": "intro"
+        },
+        {
+          "start": 28,
+          "end": 193,
+          "type": "main"
+        },
+        {
+          "start": 193,
+          "end": 240,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        28.0,
+        48.0,
+        96.0,
+        144.0,
+        192.0,
+        193.0,
+        240.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_057.mp3"
+    },
+    {
+      "track_id": "bgm_058",
+      "title": "烛光晚餐",
+      "duration_sec": 180.0,
+      "emotions": [
+        "warm",
+        "romantic",
+        "peaceful"
+      ],
+      "bpm": 65,
+      "key": "E minor",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 23,
+          "type": "intro"
+        },
+        {
+          "start": 23,
+          "end": 162,
+          "type": "main"
+        },
+        {
+          "start": 162,
+          "end": 180,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        22.5,
+        23.0,
+        45.0,
+        67.5,
+        90.0,
+        112.5,
+        135.0,
+        157.5,
+        162.0,
+        180.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_058.mp3"
+    },
+    {
+      "track_id": "bgm_059",
+      "title": "盛夏果实",
+      "duration_sec": 190.0,
+      "emotions": [
+        "hopeful",
+        "warm",
+        "nostalgic"
+      ],
+      "bpm": 65,
+      "key": "E minor",
+      "energy": 0.3,
+      "instruments": [
+        "guitar",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 21,
+          "type": "intro"
+        },
+        {
+          "start": 21,
+          "end": 169,
+          "type": "main"
+        },
+        {
+          "start": 169,
+          "end": 190,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        21.0,
+        27.1,
+        54.3,
+        81.4,
+        108.6,
+        135.7,
+        162.9,
+        169.0,
+        190.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_059.mp3"
+    },
+    {
+      "track_id": "bgm_060",
+      "title": "秋水长天",
+      "duration_sec": 125.0,
+      "emotions": [
+        "warm",
+        "emotional",
+        "peaceful"
+      ],
+      "bpm": 65,
+      "key": "F major",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 103,
+          "type": "main"
+        },
+        {
+          "start": 103,
+          "end": 125,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.6,
+        17.0,
+        31.2,
+        46.9,
+        62.5,
+        78.1,
+        93.8,
+        103.0,
+        109.4,
+        125.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_060.mp3"
+    },
+    {
+      "track_id": "bgm_061",
+      "title": "友谊之歌",
+      "duration_sec": 80.0,
+      "emotions": [
+        "warm",
+        "hopeful",
+        "happy"
+      ],
+      "bpm": 75,
+      "key": "A minor",
+      "energy": 0.3,
+      "instruments": [
+        "guitar",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 66,
+          "type": "main"
+        },
+        {
+          "start": 66,
+          "end": 80,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        13.3,
+        26.7,
+        40.0,
+        53.3,
+        66.0,
+        66.7,
+        80.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "transition",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_061.mp3"
+    },
+    {
+      "track_id": "bgm_062",
+      "title": "晨光熹微",
+      "duration_sec": 100.0,
+      "emotions": [
+        "peaceful",
+        "hopeful",
+        "warm"
+      ],
+      "bpm": 52,
+      "key": "Bb major",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "strings",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 87,
+          "type": "main"
+        },
+        {
+          "start": 87,
+          "end": 100,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        20.0,
+        40.0,
+        60.0,
+        80.0,
+        87.0,
+        100.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_062.mp3"
+    },
+    {
+      "track_id": "bgm_063",
+      "title": "暮色归途",
+      "duration_sec": 200.0,
+      "emotions": [
+        "nostalgic",
+        "warm",
+        "peaceful"
+      ],
+      "bpm": 67,
+      "key": "C major",
+      "energy": 0.3,
+      "instruments": [
+        "guitar",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 23,
+          "type": "intro"
+        },
+        {
+          "start": 23,
+          "end": 161,
+          "type": "main"
+        },
+        {
+          "start": 161,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        23.0,
+        28.6,
+        57.1,
+        85.7,
+        114.3,
+        142.9,
+        161.0,
+        171.4,
+        200.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_063.mp3"
+    },
+    {
+      "track_id": "bgm_064",
+      "title": "心中的光",
+      "duration_sec": 205.0,
+      "emotions": [
+        "hopeful",
+        "warm",
+        "emotional"
+      ],
+      "bpm": 73,
+      "key": "A minor",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "strings",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 22,
+          "type": "intro"
+        },
+        {
+          "start": 22,
+          "end": 134,
+          "type": "main"
+        },
+        {
+          "start": 134,
+          "end": 164,
+          "type": "climax"
+        },
+        {
+          "start": 164,
+          "end": 205,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        22.0,
+        29.3,
+        58.6,
+        87.9,
+        117.1,
+        134.0,
+        146.4,
+        164.0,
+        175.7,
+        205.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_064.mp3"
+    },
+    {
+      "track_id": "bgm_065",
+      "title": "远方来信",
+      "duration_sec": 200.0,
+      "emotions": [
+        "nostalgic",
+        "warm",
+        "hopeful"
+      ],
+      "bpm": 62,
+      "key": "A major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "guitar",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "intro"
+        },
+        {
+          "start": 27,
+          "end": 178,
+          "type": "main"
+        },
+        {
+          "start": 178,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        27.0,
+        28.6,
+        57.1,
+        85.7,
+        114.3,
+        142.9,
+        171.4,
+        178.0,
+        200.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "intro",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_065.mp3"
+    },
+    {
+      "track_id": "bgm_066",
+      "title": "温暖拥抱",
+      "duration_sec": 65.0,
+      "emotions": [
+        "warm",
+        "emotional",
+        "peaceful"
+      ],
+      "bpm": 55,
+      "key": "E minor",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 7,
+          "type": "intro"
+        },
+        {
+          "start": 7,
+          "end": 56,
+          "type": "main"
+        },
+        {
+          "start": 56,
+          "end": 65,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        7.0,
+        9.3,
+        18.6,
+        27.9,
+        37.1,
+        46.4,
+        55.7,
+        56.0,
+        65.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_066.mp3"
+    },
+    {
+      "track_id": "bgm_067",
+      "title": "希望之翼",
+      "duration_sec": 220.0,
+      "emotions": [
+        "hopeful",
+        "warm",
+        "emotional",
+        "grand"
+      ],
+      "bpm": 67,
+      "key": "Bb major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 26,
+          "type": "intro"
+        },
+        {
+          "start": 26,
+          "end": 152,
+          "type": "main"
+        },
+        {
+          "start": 152,
+          "end": 196,
+          "type": "climax"
+        },
+        {
+          "start": 196,
+          "end": 220,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        26.0,
+        55.0,
+        110.0,
+        152.0,
+        165.0,
+        196.0,
+        220.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_067.mp3"
+    },
+    {
+      "track_id": "bgm_068",
+      "title": "岁月静好",
+      "duration_sec": 180.0,
+      "emotions": [
+        "peaceful",
+        "warm",
+        "nostalgic"
+      ],
+      "bpm": 51,
+      "key": "E minor",
+      "energy": 0.1,
+      "instruments": [
+        "piano",
+        "guitar",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 149,
+          "type": "main"
+        },
+        {
+          "start": 149,
+          "end": 180,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        30.0,
+        60.0,
+        90.0,
+        120.0,
+        149.0,
+        150.0,
+        180.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_068.mp3"
+    },
+    {
+      "track_id": "bgm_069",
+      "title": "梦想起航",
+      "duration_sec": 155.0,
+      "emotions": [
+        "hopeful",
+        "warm",
+        "energetic"
+      ],
+      "bpm": 78,
+      "key": "G major",
+      "energy": 0.4,
+      "instruments": [
+        "guitar",
+        "piano",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 139,
+          "type": "main"
+        },
+        {
+          "start": 139,
+          "end": 155,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        22.1,
+        44.3,
+        66.4,
+        88.6,
+        110.7,
+        132.9,
+        139.0,
+        155.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition",
+        "reflection"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_069.mp3"
+    },
+    {
+      "track_id": "bgm_070",
+      "title": "山涧清泉",
+      "duration_sec": 200.0,
+      "emotions": [
+        "peaceful",
+        "warm",
+        "calm"
+      ],
+      "bpm": 65,
+      "key": "G major",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "guitar",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 179,
+          "type": "main"
+        },
+        {
+          "start": 179,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        40.0,
+        80.0,
+        120.0,
+        160.0,
+        179.0,
+        200.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_070.mp3"
+    },
+    {
+      "track_id": "bgm_071",
+      "title": "落日余晖",
+      "duration_sec": 225.0,
+      "emotions": [
+        "nostalgic",
+        "warm",
+        "emotional",
+        "sad"
+      ],
+      "bpm": 56,
+      "key": "C major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 19,
+          "type": "intro"
+        },
+        {
+          "start": 19,
+          "end": 181,
+          "type": "main"
+        },
+        {
+          "start": 181,
+          "end": 225,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        19.0,
+        45.0,
+        90.0,
+        135.0,
+        180.0,
+        181.0,
+        225.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_071.mp3"
+    },
+    {
+      "track_id": "bgm_072",
+      "title": "安魂曲",
+      "duration_sec": 120.0,
+      "emotions": [
+        "peaceful",
+        "emotional",
+        "sad",
+        "warm"
+      ],
+      "bpm": 46,
+      "key": "E minor",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "strings",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 11,
+          "type": "intro"
+        },
+        {
+          "start": 11,
+          "end": 104,
+          "type": "main"
+        },
+        {
+          "start": 104,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        104.0,
+        105.0,
+        120.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_072.mp3"
+    },
+    {
+      "track_id": "bgm_073",
+      "title": "生命礼赞",
+      "duration_sec": 155.0,
+      "emotions": [
+        "hopeful",
+        "warm",
+        "emotional",
+        "grand"
+      ],
+      "bpm": 65,
+      "key": "A major",
+      "energy": 0.3,
+      "instruments": [
+        "orchestra",
+        "piano",
+        "strings",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 110,
+          "type": "main"
+        },
+        {
+          "start": 110,
+          "end": 133,
+          "type": "climax"
+        },
+        {
+          "start": 133,
+          "end": 155,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        38.8,
+        77.5,
+        110.0,
+        116.2,
+        133.0,
+        155.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_073.mp3"
+    },
+    {
+      "track_id": "bgm_074",
+      "title": "深渊凝视",
+      "duration_sec": 65.0,
+      "emotions": [
+        "horror",
+        "dark",
+        "scary"
+      ],
+      "bpm": 52,
+      "key": "F# minor",
+      "energy": 0.3,
+      "instruments": [
+        "electronic",
+        "ambient",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 9,
+          "type": "intro"
+        },
+        {
+          "start": 9,
+          "end": 56,
+          "type": "main"
+        },
+        {
+          "start": 56,
+          "end": 65,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.0,
+        9.3,
+        18.6,
+        27.9,
+        37.1,
+        46.4,
+        55.7,
+        56.0,
+        65.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_074.mp3"
+    },
+    {
+      "track_id": "bgm_075",
+      "title": "鬼影幢幢",
+      "duration_sec": 210.0,
+      "emotions": [
+        "scary",
+        "dark",
+        "horror",
+        "tense"
+      ],
+      "bpm": 69,
+      "key": "B minor",
+      "energy": 0.3,
+      "instruments": [
+        "electronic",
+        "strings",
+        "ambient",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "intro"
+        },
+        {
+          "start": 27,
+          "end": 129,
+          "type": "main"
+        },
+        {
+          "start": 129,
+          "end": 181,
+          "type": "climax"
+        },
+        {
+          "start": 181,
+          "end": 210,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        27.0,
+        35.0,
+        70.0,
+        105.0,
+        129.0,
+        140.0,
+        175.0,
+        181.0,
+        210.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_075.mp3"
+    },
+    {
+      "track_id": "bgm_076",
+      "title": "地下室",
+      "duration_sec": 205.0,
+      "emotions": [
+        "horror",
+        "dark",
+        "mysterious",
+        "suspense"
+      ],
+      "bpm": 51,
+      "key": "C minor",
+      "energy": 0.3,
+      "instruments": [
+        "ambient",
+        "electronic",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 28,
+          "type": "intro"
+        },
+        {
+          "start": 28,
+          "end": 171,
+          "type": "main"
+        },
+        {
+          "start": 171,
+          "end": 205,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        28.0,
+        29.3,
+        58.6,
+        87.9,
+        117.1,
+        146.4,
+        171.0,
+        175.7,
+        205.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_076.mp3"
+    },
+    {
+      "track_id": "bgm_077",
+      "title": "无声尖叫",
+      "duration_sec": 145.0,
+      "emotions": [
+        "scary",
+        "horror",
+        "tense",
+        "intense"
+      ],
+      "bpm": 66,
+      "key": "F# minor",
+      "energy": 0.6,
+      "instruments": [
+        "electronic",
+        "strings",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "intro"
+        },
+        {
+          "start": 12,
+          "end": 98,
+          "type": "main"
+        },
+        {
+          "start": 98,
+          "end": 122,
+          "type": "climax"
+        },
+        {
+          "start": 122,
+          "end": 145,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        12.0,
+        20.7,
+        41.4,
+        62.1,
+        82.9,
+        98.0,
+        103.6,
+        122.0,
+        124.3,
+        145.0
+      ],
+      "usage_tags": [
+        "climax",
+        "hook",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_077.mp3"
+    },
+    {
+      "track_id": "bgm_078",
+      "title": "阴森走廊",
+      "duration_sec": 175.0,
+      "emotions": [
+        "dark",
+        "horror",
+        "suspense",
+        "mysterious"
+      ],
+      "bpm": 43,
+      "key": "F minor",
+      "energy": 0.3,
+      "instruments": [
+        "ambient",
+        "piano",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 23,
+          "type": "intro"
+        },
+        {
+          "start": 23,
+          "end": 148,
+          "type": "main"
+        },
+        {
+          "start": 148,
+          "end": 175,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        21.9,
+        23.0,
+        43.8,
+        65.6,
+        87.5,
+        109.4,
+        131.2,
+        148.0,
+        153.1,
+        175.0
+      ],
+      "usage_tags": [
+        "intro",
+        "hook",
+        "buildup"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_078.mp3"
+    },
+    {
+      "track_id": "bgm_079",
+      "title": "午夜凶铃",
+      "duration_sec": 195.0,
+      "emotions": [
+        "horror",
+        "scary",
+        "tense",
+        "dark"
+      ],
+      "bpm": 53,
+      "key": "D minor",
+      "energy": 0.5,
+      "instruments": [
+        "electronic",
+        "piano",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 26,
+          "type": "intro"
+        },
+        {
+          "start": 26,
+          "end": 165,
+          "type": "main"
+        },
+        {
+          "start": 165,
+          "end": 195,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        24.4,
+        26.0,
+        48.8,
+        73.1,
+        97.5,
+        121.9,
+        146.2,
+        165.0,
+        170.6,
+        195.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_079.mp3"
+    },
+    {
+      "track_id": "bgm_080",
+      "title": "恶魔低语",
+      "duration_sec": 80.0,
+      "emotions": [
+        "dark",
+        "horror",
+        "scary",
+        "mysterious"
+      ],
+      "bpm": 52,
+      "key": "D minor",
+      "energy": 0.2,
+      "instruments": [
+        "ambient",
+        "electronic",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 8,
+          "type": "intro"
+        },
+        {
+          "start": 8,
+          "end": 68,
+          "type": "main"
+        },
+        {
+          "start": 68,
+          "end": 80,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        8.0,
+        11.4,
+        22.9,
+        34.3,
+        45.7,
+        57.1,
+        68.0,
+        68.6,
+        80.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "intro"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_080.mp3"
+    },
+    {
+      "track_id": "bgm_081",
+      "title": "血色月光",
+      "duration_sec": 145.0,
+      "emotions": [
+        "horror",
+        "dark",
+        "scary",
+        "tense"
+      ],
+      "bpm": 58,
+      "key": "F minor",
+      "energy": 0.5,
+      "instruments": [
+        "electronic",
+        "strings",
+        "drums",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 104,
+          "type": "main"
+        },
+        {
+          "start": 104,
+          "end": 119,
+          "type": "climax"
+        },
+        {
+          "start": 119,
+          "end": 145,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        24.2,
+        48.3,
+        72.5,
+        96.7,
+        104.0,
+        119.0,
+        120.8,
+        145.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_081.mp3"
+    },
+    {
+      "track_id": "bgm_082",
+      "title": "恐惧降临",
+      "duration_sec": 130.0,
+      "emotions": [
+        "scary",
+        "horror",
+        "tense",
+        "intense"
+      ],
+      "bpm": 78,
+      "key": "Eb minor",
+      "energy": 0.5,
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 82,
+          "type": "main"
+        },
+        {
+          "start": 82,
+          "end": 111,
+          "type": "climax"
+        },
+        {
+          "start": 111,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        26.0,
+        52.0,
+        78.0,
+        82.0,
+        104.0,
+        111.0,
+        130.0
+      ],
+      "usage_tags": [
+        "climax",
+        "buildup",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_082.mp3"
+    },
+    {
+      "track_id": "bgm_083",
+      "title": "空旷病房",
+      "duration_sec": 120.0,
+      "emotions": [
+        "dark",
+        "horror",
+        "scary",
+        "mysterious"
+      ],
+      "bpm": 44,
+      "key": "B minor",
+      "energy": 0.1,
+      "instruments": [
+        "ambient",
+        "piano",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 104,
+          "type": "main"
+        },
+        {
+          "start": 104,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        17.1,
+        34.3,
+        51.4,
+        68.6,
+        85.7,
+        102.9,
+        104.0,
+        120.0
+      ],
+      "usage_tags": [
+        "intro",
+        "hook",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_083.mp3"
+    },
+    {
+      "track_id": "bgm_084",
+      "title": "荒废古宅",
+      "duration_sec": 135.0,
+      "emotions": [
+        "horror",
+        "dark",
+        "mysterious",
+        "suspense"
+      ],
+      "bpm": 58,
+      "key": "D minor",
+      "energy": 0.3,
+      "instruments": [
+        "ambient",
+        "electronic",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 117,
+          "type": "main"
+        },
+        {
+          "start": 117,
+          "end": 135,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        22.5,
+        45.0,
+        67.5,
+        90.0,
+        112.5,
+        117.0,
+        135.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_084.mp3"
+    },
+    {
+      "track_id": "bgm_085",
+      "title": "亡灵序曲",
+      "duration_sec": 195.0,
+      "emotions": [
+        "dark",
+        "scary",
+        "horror",
+        "dramatic"
+      ],
+      "bpm": 59,
+      "key": "D minor",
+      "energy": 0.3,
+      "instruments": [
+        "choir",
+        "orchestra",
+        "electronic",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 133,
+          "type": "main"
+        },
+        {
+          "start": 133,
+          "end": 175,
+          "type": "climax"
+        },
+        {
+          "start": 175,
+          "end": 195,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        32.5,
+        65.0,
+        97.5,
+        130.0,
+        133.0,
+        162.5,
+        175.0,
+        195.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_085.mp3"
+    },
+    {
+      "track_id": "bgm_086",
+      "title": "镜中人",
+      "duration_sec": 120.0,
+      "emotions": [
+        "horror",
+        "scary",
+        "dark",
+        "mysterious"
+      ],
+      "bpm": 52,
+      "key": "B minor",
+      "energy": 0.3,
+      "instruments": [
+        "electronic",
+        "ambient",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 11,
+          "type": "intro"
+        },
+        {
+          "start": 11,
+          "end": 98,
+          "type": "main"
+        },
+        {
+          "start": 98,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.0,
+        30.0,
+        60.0,
+        90.0,
+        98.0,
+        120.0
+      ],
+      "usage_tags": [
+        "hook",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_086.mp3"
+    },
+    {
+      "track_id": "bgm_087",
+      "title": "末路狂奔",
+      "duration_sec": 110.0,
+      "emotions": [
+        "tense",
+        "horror",
+        "scary",
+        "intense"
+      ],
+      "bpm": 79,
+      "key": "D minor",
+      "energy": 0.7,
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 78,
+          "type": "main"
+        },
+        {
+          "start": 78,
+          "end": 93,
+          "type": "climax"
+        },
+        {
+          "start": 93,
+          "end": 110,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        13.8,
+        27.5,
+        41.2,
+        55.0,
+        68.8,
+        78.0,
+        82.5,
+        93.0,
+        96.2,
+        110.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_087.mp3"
+    },
+    {
+      "track_id": "bgm_088",
+      "title": "欢乐日常",
+      "duration_sec": 110.0,
+      "emotions": [
+        "happy",
+        "light",
+        "funky"
+      ],
+      "bpm": 90,
+      "key": "D major",
+      "energy": 0.4,
+      "instruments": [
+        "jazz",
+        "piano",
+        "drums",
+        "bass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 11,
+          "type": "intro"
+        },
+        {
+          "start": 11,
+          "end": 92,
+          "type": "main"
+        },
+        {
+          "start": 92,
+          "end": 110,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.0,
+        18.3,
+        36.7,
+        55.0,
+        73.3,
+        91.7,
+        92.0,
+        110.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_088.mp3"
+    },
+    {
+      "track_id": "bgm_089",
+      "title": "滑稽时刻",
+      "duration_sec": 75.0,
+      "emotions": [
+        "quirky",
+        "playful",
+        "light"
+      ],
+      "bpm": 116,
+      "key": "G major",
+      "energy": 0.6,
+      "instruments": [
+        "jazz",
+        "piano",
+        "brass",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 9,
+          "type": "intro"
+        },
+        {
+          "start": 9,
+          "end": 65,
+          "type": "main"
+        },
+        {
+          "start": 65,
+          "end": 75,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        65.0,
+        75.0
+      ],
+      "usage_tags": [
+        "hook",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_089.mp3"
+    },
+    {
+      "track_id": "bgm_090",
+      "title": "小熊跳舞",
+      "duration_sec": 205.0,
+      "emotions": [
+        "playful",
+        "happy",
+        "light"
+      ],
+      "bpm": 111,
+      "key": "C major",
+      "energy": 0.5,
+      "instruments": [
+        "jazz",
+        "piano",
+        "flute",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 20,
+          "type": "intro"
+        },
+        {
+          "start": 20,
+          "end": 174,
+          "type": "main"
+        },
+        {
+          "start": 174,
+          "end": 205,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        20.0,
+        34.2,
+        68.3,
+        102.5,
+        136.7,
+        170.8,
+        174.0,
+        205.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_090.mp3"
+    },
+    {
+      "track_id": "bgm_091",
+      "title": "阳光爵士",
+      "duration_sec": 180.0,
+      "emotions": [
+        "jazzy",
+        "light",
+        "happy"
+      ],
+      "bpm": 99,
+      "key": "C major",
+      "energy": 0.4,
+      "instruments": [
+        "jazz",
+        "saxophone",
+        "piano",
+        "bass",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 16,
+          "type": "intro"
+        },
+        {
+          "start": 16,
+          "end": 145,
+          "type": "main"
+        },
+        {
+          "start": 145,
+          "end": 180,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        16.0,
+        25.7,
+        51.4,
+        77.1,
+        102.9,
+        128.6,
+        145.0,
+        154.3,
+        180.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_091.mp3"
+    },
+    {
+      "track_id": "bgm_092",
+      "title": "轻松漫步",
+      "duration_sec": 205.0,
+      "emotions": [
+        "light",
+        "happy",
+        "peaceful"
+      ],
+      "bpm": 83,
+      "key": "E major",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "guitar",
+        "flute"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 30,
+          "type": "intro"
+        },
+        {
+          "start": 30,
+          "end": 166,
+          "type": "main"
+        },
+        {
+          "start": 166,
+          "end": 205,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        30.0,
+        41.0,
+        82.0,
+        123.0,
+        164.0,
+        166.0,
+        205.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition",
+        "reflection"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_092.mp3"
+    },
+    {
+      "track_id": "bgm_093",
+      "title": "马戏团",
+      "duration_sec": 220.0,
+      "emotions": [
+        "quirky",
+        "playful",
+        "funky",
+        "happy"
+      ],
+      "bpm": 128,
+      "key": "A major",
+      "energy": 0.7,
+      "instruments": [
+        "brass",
+        "drums",
+        "jazz",
+        "accordion"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 21,
+          "type": "intro"
+        },
+        {
+          "start": 21,
+          "end": 187,
+          "type": "main"
+        },
+        {
+          "start": 187,
+          "end": 220,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        21.0,
+        31.4,
+        62.9,
+        94.3,
+        125.7,
+        157.1,
+        187.0,
+        188.6,
+        220.0
+      ],
+      "usage_tags": [
+        "hook",
+        "action",
+        "intro"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_093.mp3"
+    },
+    {
+      "track_id": "bgm_094",
+      "title": "快乐节拍",
+      "duration_sec": 170.0,
+      "emotions": [
+        "funky",
+        "happy",
+        "energetic"
+      ],
+      "bpm": 111,
+      "key": "F major",
+      "energy": 0.6,
+      "instruments": [
+        "jazz",
+        "bass",
+        "drums",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 147,
+          "type": "main"
+        },
+        {
+          "start": 147,
+          "end": 170,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        21.2,
+        42.5,
+        63.8,
+        85.0,
+        106.2,
+        127.5,
+        147.0,
+        148.8,
+        170.0
+      ],
+      "usage_tags": [
+        "transition",
+        "action",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_094.mp3"
+    },
+    {
+      "track_id": "bgm_095",
+      "title": "搞怪进行曲",
+      "duration_sec": 125.0,
+      "emotions": [
+        "quirky",
+        "playful",
+        "light"
+      ],
+      "bpm": 125,
+      "key": "G major",
+      "energy": 0.3,
+      "instruments": [
+        "brass",
+        "drums",
+        "piano",
+        "jazz"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 16,
+          "type": "intro"
+        },
+        {
+          "start": 16,
+          "end": 102,
+          "type": "main"
+        },
+        {
+          "start": 102,
+          "end": 125,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        16.0,
+        25.0,
+        50.0,
+        75.0,
+        100.0,
+        102.0,
+        125.0
+      ],
+      "usage_tags": [
+        "intro",
+        "hook",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_095.mp3"
+    },
+    {
+      "track_id": "bgm_096",
+      "title": "甜美时光",
+      "duration_sec": 165.0,
+      "emotions": [
+        "light",
+        "happy",
+        "playful"
+      ],
+      "bpm": 86,
+      "key": "F major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "flute",
+        "guitar",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 142,
+          "type": "main"
+        },
+        {
+          "start": 142,
+          "end": 165,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        18.0,
+        27.5,
+        55.0,
+        82.5,
+        110.0,
+        137.5,
+        142.0,
+        165.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_096.mp3"
+    },
+    {
+      "track_id": "bgm_097",
+      "title": "街头艺人",
+      "duration_sec": 130.0,
+      "emotions": [
+        "funky",
+        "jazzy",
+        "happy",
+        "energetic"
+      ],
+      "bpm": 111,
+      "key": "F major",
+      "energy": 0.5,
+      "instruments": [
+        "jazz",
+        "guitar",
+        "bass",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 110,
+          "type": "main"
+        },
+        {
+          "start": 110,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        26.0,
+        52.0,
+        78.0,
+        104.0,
+        110.0,
+        130.0
+      ],
+      "usage_tags": [
+        "intro",
+        "hook",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_097.mp3"
+    },
+    {
+      "track_id": "bgm_098",
+      "title": "开心农场",
+      "duration_sec": 200.0,
+      "emotions": [
+        "happy",
+        "playful",
+        "light"
+      ],
+      "bpm": 116,
+      "key": "D major",
+      "energy": 0.3,
+      "instruments": [
+        "guitar",
+        "banjo",
+        "piano",
+        "flute"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 19,
+          "type": "intro"
+        },
+        {
+          "start": 19,
+          "end": 163,
+          "type": "main"
+        },
+        {
+          "start": 163,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        19.0,
+        33.3,
+        66.7,
+        100.0,
+        133.3,
+        163.0,
+        166.7,
+        200.0
+      ],
+      "usage_tags": [
+        "intro",
+        "transition",
+        "reflection"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_098.mp3"
+    },
+    {
+      "track_id": "bgm_099",
+      "title": "周末派对",
+      "duration_sec": 100.0,
+      "emotions": [
+        "funky",
+        "happy",
+        "energetic",
+        "jazzy"
+      ],
+      "bpm": 118,
+      "key": "A minor",
+      "energy": 0.5,
+      "instruments": [
+        "jazz",
+        "bass",
+        "drums",
+        "brass",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 86,
+          "type": "main"
+        },
+        {
+          "start": 86,
+          "end": 100,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        12.5,
+        14.0,
+        25.0,
+        37.5,
+        50.0,
+        62.5,
+        75.0,
+        86.0,
+        87.5,
+        100.0
+      ],
+      "usage_tags": [
+        "hook",
+        "action",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_099.mp3"
+    },
+    {
+      "track_id": "bgm_100",
+      "title": "幸运时刻",
+      "duration_sec": 235.0,
+      "emotions": [
+        "light",
+        "happy",
+        "quirky"
+      ],
+      "bpm": 96,
+      "key": "A minor",
+      "energy": 0.4,
+      "instruments": [
+        "piano",
+        "flute",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 24,
+          "type": "intro"
+        },
+        {
+          "start": 24,
+          "end": 197,
+          "type": "main"
+        },
+        {
+          "start": 197,
+          "end": 235,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        24.0,
+        39.2,
+        78.3,
+        117.5,
+        156.7,
+        195.8,
+        197.0,
+        235.0
+      ],
+      "usage_tags": [
+        "intro",
+        "hook",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_100.mp3"
+    },
+    {
+      "track_id": "bgm_101",
+      "title": "童趣",
+      "duration_sec": 215.0,
+      "emotions": [
+        "playful",
+        "light",
+        "happy",
+        "nostalgic"
+      ],
+      "bpm": 104,
+      "key": "A major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "guitar",
+        "flute",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 181,
+          "type": "main"
+        },
+        {
+          "start": 181,
+          "end": 215,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        18.0,
+        35.8,
+        71.7,
+        107.5,
+        143.3,
+        179.2,
+        181.0,
+        215.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "intro",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_101.mp3"
+    },
+    {
+      "track_id": "bgm_102",
+      "title": "水墨江南",
+      "duration_sec": 120.0,
+      "emotions": [
+        "peaceful",
+        "nostalgic",
+        "emotional"
+      ],
+      "bpm": 68,
+      "key": "D minor",
+      "energy": 0.3,
+      "instruments": [
+        "guzheng",
+        "pipa",
+        "dizi",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 106,
+          "type": "main"
+        },
+        {
+          "start": 106,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        18.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        106.0,
+        120.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_102.mp3"
+    },
+    {
+      "track_id": "bgm_103",
+      "title": "龙腾虎跃",
+      "duration_sec": 230.0,
+      "emotions": [
+        "energetic",
+        "epic",
+        "heroic"
+      ],
+      "bpm": 120,
+      "key": "C minor",
+      "energy": 0.8,
+      "instruments": [
+        "guzheng",
+        "drums",
+        "erhu",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 32,
+          "type": "intro"
+        },
+        {
+          "start": 32,
+          "end": 164,
+          "type": "main"
+        },
+        {
+          "start": 164,
+          "end": 197,
+          "type": "climax"
+        },
+        {
+          "start": 197,
+          "end": 230,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        32.0,
+        46.0,
+        92.0,
+        138.0,
+        164.0,
+        184.0,
+        197.0,
+        230.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_103.mp3"
+    },
+    {
+      "track_id": "bgm_104",
+      "title": "古韵悠长",
+      "duration_sec": 130.0,
+      "emotions": [
+        "peaceful",
+        "nostalgic",
+        "emotional"
+      ],
+      "bpm": 42,
+      "key": "A minor",
+      "energy": 0.2,
+      "instruments": [
+        "guzheng",
+        "dizi",
+        "erhu"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 12,
+          "type": "intro"
+        },
+        {
+          "start": 12,
+          "end": 112,
+          "type": "main"
+        },
+        {
+          "start": 112,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        12.0,
+        18.6,
+        37.1,
+        55.7,
+        74.3,
+        92.9,
+        111.4,
+        112.0,
+        130.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_104.mp3"
+    },
+    {
+      "track_id": "bgm_105",
+      "title": "侠客风云",
+      "duration_sec": 145.0,
+      "emotions": [
+        "heroic",
+        "epic",
+        "intense"
+      ],
+      "bpm": 111,
+      "key": "G major",
+      "energy": 0.7,
+      "instruments": [
+        "erhu",
+        "guzheng",
+        "drums",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 90,
+          "type": "main"
+        },
+        {
+          "start": 90,
+          "end": 118,
+          "type": "climax"
+        },
+        {
+          "start": 118,
+          "end": 145,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        20.7,
+        41.4,
+        62.1,
+        82.9,
+        90.0,
+        103.6,
+        118.0,
+        124.3,
+        145.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_105.mp3"
+    },
+    {
+      "track_id": "bgm_106",
+      "title": "江南烟雨",
+      "duration_sec": 160.0,
+      "emotions": [
+        "nostalgic",
+        "peaceful",
+        "emotional",
+        "sad"
+      ],
+      "bpm": 47,
+      "key": "G major",
+      "energy": 0.2,
+      "instruments": [
+        "pipa",
+        "dizi",
+        "erhu",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 22,
+          "type": "intro"
+        },
+        {
+          "start": 22,
+          "end": 137,
+          "type": "main"
+        },
+        {
+          "start": 137,
+          "end": 160,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        22.0,
+        22.9,
+        45.7,
+        68.6,
+        91.4,
+        114.3,
+        137.0,
+        137.1,
+        160.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_106.mp3"
+    },
+    {
+      "track_id": "bgm_107",
+      "title": "战鼓擂",
+      "duration_sec": 90.0,
+      "emotions": [
+        "intense",
+        "epic",
+        "heroic",
+        "action"
+      ],
+      "bpm": 134,
+      "key": "A minor",
+      "energy": 0.8,
+      "instruments": [
+        "drums",
+        "orchestra",
+        "erhu",
+        "guzheng"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 61,
+          "type": "main"
+        },
+        {
+          "start": 61,
+          "end": 76,
+          "type": "climax"
+        },
+        {
+          "start": 76,
+          "end": 90,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        22.5,
+        45.0,
+        61.0,
+        67.5,
+        76.0,
+        90.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_107.mp3"
+    },
+    {
+      "track_id": "bgm_108",
+      "title": "禅意",
+      "duration_sec": 110.0,
+      "emotions": [
+        "peaceful",
+        "calm",
+        "spiritual"
+      ],
+      "bpm": 54,
+      "key": "B minor",
+      "energy": 0.1,
+      "instruments": [
+        "guzheng",
+        "dizi",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 95,
+          "type": "main"
+        },
+        {
+          "start": 95,
+          "end": 110,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        15.7,
+        31.4,
+        47.1,
+        62.9,
+        78.6,
+        94.3,
+        95.0,
+        110.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_108.mp3"
+    },
+    {
+      "track_id": "bgm_109",
+      "title": "花好月圆",
+      "duration_sec": 130.0,
+      "emotions": [
+        "warm",
+        "nostalgic",
+        "romantic",
+        "peaceful"
+      ],
+      "bpm": 65,
+      "key": "D minor",
+      "energy": 0.2,
+      "instruments": [
+        "pipa",
+        "erhu",
+        "dizi",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 15,
+          "type": "intro"
+        },
+        {
+          "start": 15,
+          "end": 116,
+          "type": "main"
+        },
+        {
+          "start": 116,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.0,
+        18.6,
+        37.1,
+        55.7,
+        74.3,
+        92.9,
+        111.4,
+        116.0,
+        130.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "intro"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_109.mp3"
+    },
+    {
+      "track_id": "bgm_110",
+      "title": "丝路驼铃",
+      "duration_sec": 220.0,
+      "emotions": [
+        "mysterious",
+        "epic",
+        "nostalgic"
+      ],
+      "bpm": 60,
+      "key": "C minor",
+      "energy": 0.4,
+      "instruments": [
+        "guzheng",
+        "dizi",
+        "drums",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "intro"
+        },
+        {
+          "start": 27,
+          "end": 137,
+          "type": "main"
+        },
+        {
+          "start": 137,
+          "end": 181,
+          "type": "climax"
+        },
+        {
+          "start": 181,
+          "end": 220,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        27.0,
+        27.5,
+        55.0,
+        82.5,
+        110.0,
+        137.0,
+        137.5,
+        165.0,
+        181.0,
+        192.5,
+        220.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_110.mp3"
+    },
+    {
+      "track_id": "bgm_111",
+      "title": "霸王别姬",
+      "duration_sec": 115.0,
+      "emotions": [
+        "dramatic",
+        "sad",
+        "emotional",
+        "epic"
+      ],
+      "bpm": 75,
+      "key": "B minor",
+      "energy": 0.3,
+      "instruments": [
+        "erhu",
+        "orchestra",
+        "pipa",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 77,
+          "type": "main"
+        },
+        {
+          "start": 77,
+          "end": 102,
+          "type": "climax"
+        },
+        {
+          "start": 102,
+          "end": 115,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        28.8,
+        57.5,
+        77.0,
+        86.2,
+        102.0,
+        115.0
+      ],
+      "usage_tags": [
+        "climax",
+        "ending",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_111.mp3"
+    },
+    {
+      "track_id": "bgm_112",
+      "title": "雪中梅花",
+      "duration_sec": 135.0,
+      "emotions": [
+        "peaceful",
+        "emotional",
+        "sad",
+        "nostalgic"
+      ],
+      "bpm": 55,
+      "key": "E minor",
+      "energy": 0.2,
+      "instruments": [
+        "erhu",
+        "guzheng",
+        "pipa",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 16,
+          "type": "intro"
+        },
+        {
+          "start": 16,
+          "end": 112,
+          "type": "main"
+        },
+        {
+          "start": 112,
+          "end": 135,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        16.0,
+        19.3,
+        38.6,
+        57.9,
+        77.1,
+        96.4,
+        112.0,
+        115.7,
+        135.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_112.mp3"
+    },
+    {
+      "track_id": "bgm_113",
+      "title": "江湖夜雨",
+      "duration_sec": 95.0,
+      "emotions": [
+        "mysterious",
+        "dark",
+        "emotional",
+        "suspense"
+      ],
+      "bpm": 59,
+      "key": "B minor",
+      "energy": 0.2,
+      "instruments": [
+        "pipa",
+        "erhu",
+        "electronic",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 85,
+          "type": "main"
+        },
+        {
+          "start": 85,
+          "end": 95,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        11.9,
+        23.8,
+        35.6,
+        47.5,
+        59.4,
+        71.2,
+        83.1,
+        85.0,
+        95.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "hook",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_113.mp3"
+    },
+    {
+      "track_id": "bgm_114",
+      "title": "敦煌飞天",
+      "duration_sec": 165.0,
+      "emotions": [
+        "ethereal",
+        "peaceful",
+        "mysterious",
+        "grand"
+      ],
+      "bpm": 59,
+      "key": "F major",
+      "energy": 0.3,
+      "instruments": [
+        "guzheng",
+        "dizi",
+        "choir",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 106,
+          "type": "main"
+        },
+        {
+          "start": 106,
+          "end": 145,
+          "type": "climax"
+        },
+        {
+          "start": 145,
+          "end": 165,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        41.2,
+        82.5,
+        106.0,
+        123.8,
+        145.0,
+        165.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_114.mp3"
+    },
+    {
+      "track_id": "bgm_115",
+      "title": "塞上曲",
+      "duration_sec": 210.0,
+      "emotions": [
+        "nostalgic",
+        "dramatic",
+        "heroic",
+        "emotional"
+      ],
+      "bpm": 72,
+      "key": "A minor",
+      "energy": 0.4,
+      "instruments": [
+        "erhu",
+        "guzheng",
+        "orchestra",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 25,
+          "type": "intro"
+        },
+        {
+          "start": 25,
+          "end": 153,
+          "type": "main"
+        },
+        {
+          "start": 153,
+          "end": 182,
+          "type": "climax"
+        },
+        {
+          "start": 182,
+          "end": 210,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        25.0,
+        30.0,
+        60.0,
+        90.0,
+        120.0,
+        150.0,
+        153.0,
+        180.0,
+        182.0,
+        210.0
+      ],
+      "usage_tags": [
+        "action",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_115.mp3"
+    },
+    {
+      "track_id": "bgm_116",
+      "title": "赛博城市",
+      "duration_sec": 200.0,
+      "emotions": [
+        "futuristic",
+        "intense",
+        "dark"
+      ],
+      "bpm": 105,
+      "key": "D minor",
+      "energy": 0.6,
+      "instruments": [
+        "electronic",
+        "synth",
+        "drums",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 27,
+          "type": "intro"
+        },
+        {
+          "start": 27,
+          "end": 148,
+          "type": "main"
+        },
+        {
+          "start": 148,
+          "end": 168,
+          "type": "climax"
+        },
+        {
+          "start": 168,
+          "end": 200,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        27.0,
+        40.0,
+        80.0,
+        120.0,
+        148.0,
+        160.0,
+        168.0,
+        200.0
+      ],
+      "usage_tags": [
+        "action",
+        "transition",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_116.mp3"
+    },
+    {
+      "track_id": "bgm_117",
+      "title": "星际航行",
+      "duration_sec": 165.0,
+      "emotions": [
+        "futuristic",
+        "ethereal",
+        "epic"
+      ],
+      "bpm": 82,
+      "key": "F minor",
+      "energy": 0.4,
+      "instruments": [
+        "synth",
+        "ambient",
+        "orchestra",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 116,
+          "type": "main"
+        },
+        {
+          "start": 116,
+          "end": 144,
+          "type": "climax"
+        },
+        {
+          "start": 144,
+          "end": 165,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        23.6,
+        47.1,
+        70.7,
+        94.3,
+        116.0,
+        117.9,
+        141.4,
+        144.0,
+        165.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "transition",
+        "intro"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_117.mp3"
+    },
+    {
+      "track_id": "bgm_118",
+      "title": "数字迷梦",
+      "duration_sec": 70.0,
+      "emotions": [
+        "futuristic",
+        "mysterious",
+        "dreamy"
+      ],
+      "bpm": 68,
+      "key": "F# minor",
+      "energy": 0.2,
+      "instruments": [
+        "synth",
+        "electronic",
+        "ambient",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 6,
+          "type": "intro"
+        },
+        {
+          "start": 6,
+          "end": 63,
+          "type": "main"
+        },
+        {
+          "start": 63,
+          "end": 70,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        6.0,
+        11.7,
+        23.3,
+        35.0,
+        46.7,
+        58.3,
+        63.0,
+        70.0
+      ],
+      "usage_tags": [
+        "intro",
+        "buildup",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_118.mp3"
+    },
+    {
+      "track_id": "bgm_119",
+      "title": "量子跃迁",
+      "duration_sec": 175.0,
+      "emotions": [
+        "futuristic",
+        "energetic",
+        "intense"
+      ],
+      "bpm": 104,
+      "key": "F# minor",
+      "energy": 0.8,
+      "instruments": [
+        "electronic",
+        "synth",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 128,
+          "type": "main"
+        },
+        {
+          "start": 128,
+          "end": 143,
+          "type": "climax"
+        },
+        {
+          "start": 143,
+          "end": 175,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        35.0,
+        70.0,
+        105.0,
+        128.0,
+        140.0,
+        143.0,
+        175.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_119.mp3"
+    },
+    {
+      "track_id": "bgm_120",
+      "title": "机械觉醒",
+      "duration_sec": 125.0,
+      "emotions": [
+        "futuristic",
+        "dark",
+        "intense"
+      ],
+      "bpm": 119,
+      "key": "D minor",
+      "energy": 0.7,
+      "instruments": [
+        "electronic",
+        "drums",
+        "synth",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 87,
+          "type": "main"
+        },
+        {
+          "start": 87,
+          "end": 109,
+          "type": "climax"
+        },
+        {
+          "start": 109,
+          "end": 125,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        20.8,
+        41.7,
+        62.5,
+        83.3,
+        87.0,
+        104.2,
+        109.0,
+        125.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_120.mp3"
+    },
+    {
+      "track_id": "bgm_121",
+      "title": "太空漫步",
+      "duration_sec": 220.0,
+      "emotions": [
+        "futuristic",
+        "peaceful",
+        "ethereal"
+      ],
+      "bpm": 51,
+      "key": "Eb minor",
+      "energy": 0.1,
+      "instruments": [
+        "synth",
+        "ambient",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 29,
+          "type": "intro"
+        },
+        {
+          "start": 29,
+          "end": 193,
+          "type": "main"
+        },
+        {
+          "start": 193,
+          "end": 220,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        27.5,
+        29.0,
+        55.0,
+        82.5,
+        110.0,
+        137.5,
+        165.0,
+        192.5,
+        193.0,
+        220.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_121.mp3"
+    },
+    {
+      "track_id": "bgm_122",
+      "title": "数据洪流",
+      "duration_sec": 235.0,
+      "emotions": [
+        "futuristic",
+        "intense",
+        "energetic"
+      ],
+      "bpm": 116,
+      "key": "Eb minor",
+      "energy": 0.7,
+      "instruments": [
+        "electronic",
+        "synth",
+        "drums"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 34,
+          "type": "intro"
+        },
+        {
+          "start": 34,
+          "end": 167,
+          "type": "main"
+        },
+        {
+          "start": 167,
+          "end": 211,
+          "type": "climax"
+        },
+        {
+          "start": 211,
+          "end": 235,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        33.6,
+        34.0,
+        67.1,
+        100.7,
+        134.3,
+        167.0,
+        167.9,
+        201.4,
+        211.0,
+        235.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "buildup"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_122.mp3"
+    },
+    {
+      "track_id": "bgm_123",
+      "title": "异星文明",
+      "duration_sec": 235.0,
+      "emotions": [
+        "mysterious",
+        "futuristic",
+        "ethereal",
+        "epic"
+      ],
+      "bpm": 74,
+      "key": "B minor",
+      "energy": 0.4,
+      "instruments": [
+        "synth",
+        "orchestra",
+        "ambient",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 24,
+          "type": "intro"
+        },
+        {
+          "start": 24,
+          "end": 152,
+          "type": "main"
+        },
+        {
+          "start": 152,
+          "end": 189,
+          "type": "climax"
+        },
+        {
+          "start": 189,
+          "end": 235,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        24.0,
+        58.8,
+        117.5,
+        152.0,
+        176.2,
+        189.0,
+        235.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "intro",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_123.mp3"
+    },
+    {
+      "track_id": "bgm_124",
+      "title": "神经网络",
+      "duration_sec": 95.0,
+      "emotions": [
+        "futuristic",
+        "dark",
+        "mysterious",
+        "intense"
+      ],
+      "bpm": 90,
+      "key": "F minor",
+      "energy": 0.4,
+      "instruments": [
+        "electronic",
+        "synth",
+        "drums",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 9,
+          "type": "intro"
+        },
+        {
+          "start": 9,
+          "end": 67,
+          "type": "main"
+        },
+        {
+          "start": 67,
+          "end": 80,
+          "type": "climax"
+        },
+        {
+          "start": 80,
+          "end": 95,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.0,
+        19.0,
+        38.0,
+        57.0,
+        67.0,
+        76.0,
+        80.0,
+        95.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "hook"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_124.mp3"
+    },
+    {
+      "track_id": "bgm_125",
+      "title": "零点能",
+      "duration_sec": 155.0,
+      "emotions": [
+        "futuristic",
+        "peaceful",
+        "dreamy",
+        "ethereal"
+      ],
+      "bpm": 49,
+      "key": "G minor",
+      "energy": 0.2,
+      "instruments": [
+        "ambient",
+        "synth",
+        "electronic",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 19,
+          "type": "intro"
+        },
+        {
+          "start": 19,
+          "end": 128,
+          "type": "main"
+        },
+        {
+          "start": 128,
+          "end": 155,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        19.0,
+        19.4,
+        38.8,
+        58.1,
+        77.5,
+        96.9,
+        116.2,
+        128.0,
+        135.6,
+        155.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_125.mp3"
+    },
+    {
+      "track_id": "bgm_126",
+      "title": "生死时速",
+      "duration_sec": 125.0,
+      "emotions": [
+        "tense",
+        "intense",
+        "urgent",
+        "action"
+      ],
+      "bpm": 138,
+      "key": "A minor",
+      "energy": 0.9,
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 92,
+          "type": "main"
+        },
+        {
+          "start": 92,
+          "end": 108,
+          "type": "climax"
+        },
+        {
+          "start": 108,
+          "end": 125,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        17.9,
+        35.7,
+        53.6,
+        71.4,
+        89.3,
+        92.0,
+        107.1,
+        108.0,
+        125.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_126.mp3"
+    },
+    {
+      "track_id": "bgm_127",
+      "title": "分秒必争",
+      "duration_sec": 80.0,
+      "emotions": [
+        "urgent",
+        "tense",
+        "intense"
+      ],
+      "bpm": 126,
+      "key": "F minor",
+      "energy": 0.9,
+      "instruments": [
+        "drums",
+        "electronic",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 9,
+          "type": "intro"
+        },
+        {
+          "start": 9,
+          "end": 55,
+          "type": "main"
+        },
+        {
+          "start": 55,
+          "end": 67,
+          "type": "climax"
+        },
+        {
+          "start": 67,
+          "end": 80,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.0,
+        11.4,
+        22.9,
+        34.3,
+        45.7,
+        55.0,
+        57.1,
+        67.0,
+        68.6,
+        80.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_127.mp3"
+    },
+    {
+      "track_id": "bgm_128",
+      "title": "暗夜飞车",
+      "duration_sec": 110.0,
+      "emotions": [
+        "intense",
+        "action",
+        "tense",
+        "urgent"
+      ],
+      "bpm": 151,
+      "key": "E minor",
+      "energy": 0.8,
+      "instruments": [
+        "electronic",
+        "drums",
+        "guitar",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 16,
+          "type": "intro"
+        },
+        {
+          "start": 16,
+          "end": 68,
+          "type": "main"
+        },
+        {
+          "start": 68,
+          "end": 97,
+          "type": "climax"
+        },
+        {
+          "start": 97,
+          "end": 110,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        15.7,
+        16.0,
+        31.4,
+        47.1,
+        62.9,
+        68.0,
+        78.6,
+        94.3,
+        97.0,
+        110.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_128.mp3"
+    },
+    {
+      "track_id": "bgm_129",
+      "title": "心跳加速",
+      "duration_sec": 240.0,
+      "emotions": [
+        "tense",
+        "urgent",
+        "intense"
+      ],
+      "bpm": 125,
+      "key": "G minor",
+      "energy": 0.9,
+      "instruments": [
+        "electronic",
+        "drums",
+        "bass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 24,
+          "type": "intro"
+        },
+        {
+          "start": 24,
+          "end": 168,
+          "type": "main"
+        },
+        {
+          "start": 168,
+          "end": 215,
+          "type": "climax"
+        },
+        {
+          "start": 215,
+          "end": 240,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        24.0,
+        40.0,
+        80.0,
+        120.0,
+        160.0,
+        168.0,
+        200.0,
+        215.0,
+        240.0
+      ],
+      "usage_tags": [
+        "action",
+        "transition",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_129.mp3"
+    },
+    {
+      "track_id": "bgm_130",
+      "title": "风暴来袭",
+      "duration_sec": 70.0,
+      "emotions": [
+        "intense",
+        "urgent",
+        "dramatic",
+        "epic"
+      ],
+      "bpm": 114,
+      "key": "G minor",
+      "energy": 0.8,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "electronic",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 51,
+          "type": "main"
+        },
+        {
+          "start": 51,
+          "end": 61,
+          "type": "climax"
+        },
+        {
+          "start": 61,
+          "end": 70,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        11.7,
+        23.3,
+        35.0,
+        46.7,
+        51.0,
+        58.3,
+        61.0,
+        70.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_130.mp3"
+    },
+    {
+      "track_id": "bgm_131",
+      "title": "穷追不舍",
+      "duration_sec": 115.0,
+      "emotions": [
+        "urgent",
+        "tense",
+        "action",
+        "intense"
+      ],
+      "bpm": 150,
+      "key": "C minor",
+      "energy": 1.0,
+      "instruments": [
+        "drums",
+        "electronic",
+        "brass",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 81,
+          "type": "main"
+        },
+        {
+          "start": 81,
+          "end": 99,
+          "type": "climax"
+        },
+        {
+          "start": 99,
+          "end": 115,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        23.0,
+        46.0,
+        69.0,
+        81.0,
+        92.0,
+        99.0,
+        115.0
+      ],
+      "usage_tags": [
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_131.mp3"
+    },
+    {
+      "track_id": "bgm_132",
+      "title": "命悬一线",
+      "duration_sec": 225.0,
+      "emotions": [
+        "tense",
+        "intense",
+        "suspense",
+        "urgent"
+      ],
+      "bpm": 108,
+      "key": "C minor",
+      "energy": 0.8,
+      "instruments": [
+        "strings",
+        "drums",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 19,
+          "type": "intro"
+        },
+        {
+          "start": 19,
+          "end": 136,
+          "type": "main"
+        },
+        {
+          "start": 136,
+          "end": 198,
+          "type": "climax"
+        },
+        {
+          "start": 198,
+          "end": 225,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        19.0,
+        37.5,
+        75.0,
+        112.5,
+        136.0,
+        150.0,
+        187.5,
+        198.0,
+        225.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_132.mp3"
+    },
+    {
+      "track_id": "bgm_133",
+      "title": "危机四伏",
+      "duration_sec": 145.0,
+      "emotions": [
+        "tense",
+        "suspense",
+        "intense",
+        "urgent"
+      ],
+      "bpm": 128,
+      "key": "G minor",
+      "energy": 0.7,
+      "instruments": [
+        "electronic",
+        "drums",
+        "strings",
+        "piano"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 19,
+          "type": "intro"
+        },
+        {
+          "start": 19,
+          "end": 90,
+          "type": "main"
+        },
+        {
+          "start": 90,
+          "end": 119,
+          "type": "climax"
+        },
+        {
+          "start": 119,
+          "end": 145,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        18.1,
+        19.0,
+        36.2,
+        54.4,
+        72.5,
+        90.0,
+        90.6,
+        108.8,
+        119.0,
+        126.9,
+        145.0
+      ],
+      "usage_tags": [
+        "buildup",
+        "action",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_133.mp3"
+    },
+    {
+      "track_id": "bgm_134",
+      "title": "无路可退",
+      "duration_sec": 130.0,
+      "emotions": [
+        "intense",
+        "action",
+        "tense",
+        "dramatic"
+      ],
+      "bpm": 128,
+      "key": "A minor",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "electronic",
+        "brass"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 18,
+          "type": "intro"
+        },
+        {
+          "start": 18,
+          "end": 94,
+          "type": "main"
+        },
+        {
+          "start": 94,
+          "end": 107,
+          "type": "climax"
+        },
+        {
+          "start": 107,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        18.0,
+        18.6,
+        37.1,
+        55.7,
+        74.3,
+        92.9,
+        94.0,
+        107.0,
+        111.4,
+        130.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_134.mp3"
+    },
+    {
+      "track_id": "bgm_135",
+      "title": "绝地反击",
+      "duration_sec": 90.0,
+      "emotions": [
+        "epic",
+        "intense",
+        "heroic",
+        "action"
+      ],
+      "bpm": 140,
+      "key": "B minor",
+      "energy": 0.9,
+      "instruments": [
+        "orchestra",
+        "drums",
+        "brass",
+        "electronic"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 64,
+          "type": "main"
+        },
+        {
+          "start": 64,
+          "end": 73,
+          "type": "climax"
+        },
+        {
+          "start": 73,
+          "end": 90,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        18.0,
+        36.0,
+        54.0,
+        64.0,
+        72.0,
+        73.0,
+        90.0
+      ],
+      "usage_tags": [
+        "climax",
+        "action",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_135.mp3"
+    },
+    {
+      "track_id": "bgm_136",
+      "title": "初见心动",
+      "duration_sec": 155.0,
+      "emotions": [
+        "romantic",
+        "warm",
+        "emotional"
+      ],
+      "bpm": 72,
+      "key": "C major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 130,
+          "type": "main"
+        },
+        {
+          "start": 130,
+          "end": 155,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        25.8,
+        51.7,
+        77.5,
+        103.3,
+        129.2,
+        130.0,
+        155.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_136.mp3"
+    },
+    {
+      "track_id": "bgm_137",
+      "title": "月下之约",
+      "duration_sec": 230.0,
+      "emotions": [
+        "romantic",
+        "nostalgic",
+        "warm",
+        "dreamy"
+      ],
+      "bpm": 70,
+      "key": "F major",
+      "energy": 0.1,
+      "instruments": [
+        "piano",
+        "strings",
+        "flute"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 30,
+          "type": "intro"
+        },
+        {
+          "start": 30,
+          "end": 190,
+          "type": "main"
+        },
+        {
+          "start": 190,
+          "end": 230,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        30.0,
+        32.9,
+        65.7,
+        98.6,
+        131.4,
+        164.3,
+        190.0,
+        197.1,
+        230.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "intro",
+        "ending"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_137.mp3"
+    },
+    {
+      "track_id": "bgm_138",
+      "title": "深情告白",
+      "duration_sec": 120.0,
+      "emotions": [
+        "romantic",
+        "emotional",
+        "warm"
+      ],
+      "bpm": 70,
+      "key": "D major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 103,
+          "type": "main"
+        },
+        {
+          "start": 103,
+          "end": 120,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        103.0,
+        105.0,
+        120.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "transition",
+        "ending"
+      ],
+      "license_type": "licensed",
+      "file_path": "/bgm/bgm_138.mp3"
+    },
+    {
+      "track_id": "bgm_139",
+      "title": "执子之手",
+      "duration_sec": 75.0,
+      "emotions": [
+        "romantic",
+        "hopeful",
+        "warm",
+        "emotional"
+      ],
+      "bpm": 75,
+      "key": "A major",
+      "energy": 0.2,
+      "instruments": [
+        "piano",
+        "guitar",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 9,
+          "type": "intro"
+        },
+        {
+          "start": 9,
+          "end": 63,
+          "type": "main"
+        },
+        {
+          "start": 63,
+          "end": 75,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        9.0,
+        12.5,
+        25.0,
+        37.5,
+        50.0,
+        62.5,
+        63.0,
+        75.0
+      ],
+      "usage_tags": [
+        "reflection",
+        "ending",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_139.mp3"
+    },
+    {
+      "track_id": "bgm_140",
+      "title": "雨中漫步",
+      "duration_sec": 70.0,
+      "emotions": [
+        "romantic",
+        "warm",
+        "peaceful",
+        "nostalgic"
+      ],
+      "bpm": 53,
+      "key": "C major",
+      "energy": 0.1,
+      "instruments": [
+        "piano",
+        "guitar",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 10,
+          "type": "intro"
+        },
+        {
+          "start": 10,
+          "end": 58,
+          "type": "main"
+        },
+        {
+          "start": 58,
+          "end": 70,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        58.0,
+        60.0,
+        70.0
+      ],
+      "usage_tags": [
+        "intro",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_140.mp3"
+    },
+    {
+      "track_id": "bgm_141",
+      "title": "永恒之爱",
+      "duration_sec": 195.0,
+      "emotions": [
+        "romantic",
+        "emotional",
+        "grand",
+        "warm"
+      ],
+      "bpm": 68,
+      "key": "D major",
+      "energy": 0.4,
+      "instruments": [
+        "orchestra",
+        "piano",
+        "strings",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 17,
+          "type": "intro"
+        },
+        {
+          "start": 17,
+          "end": 137,
+          "type": "main"
+        },
+        {
+          "start": 137,
+          "end": 165,
+          "type": "climax"
+        },
+        {
+          "start": 165,
+          "end": 195,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        17.0,
+        24.4,
+        48.8,
+        73.1,
+        97.5,
+        121.9,
+        137.0,
+        146.2,
+        165.0,
+        170.6,
+        195.0
+      ],
+      "usage_tags": [
+        "ending",
+        "climax",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_141.mp3"
+    },
+    {
+      "track_id": "bgm_142",
+      "title": "片尾余韵",
+      "duration_sec": 100.0,
+      "emotions": [
+        "reflective",
+        "emotional",
+        "nostalgic",
+        "peaceful"
+      ],
+      "bpm": 64,
+      "key": "A minor",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "guitar"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 14,
+          "type": "intro"
+        },
+        {
+          "start": 14,
+          "end": 87,
+          "type": "main"
+        },
+        {
+          "start": 87,
+          "end": 100,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        14.0,
+        14.3,
+        28.6,
+        42.9,
+        57.1,
+        71.4,
+        85.7,
+        87.0,
+        100.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_142.mp3"
+    },
+    {
+      "track_id": "bgm_143",
+      "title": "告别时刻",
+      "duration_sec": 130.0,
+      "emotions": [
+        "sad",
+        "nostalgic",
+        "emotional",
+        "reflective"
+      ],
+      "bpm": 54,
+      "key": "G major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "choir"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 11,
+          "type": "intro"
+        },
+        {
+          "start": 11,
+          "end": 109,
+          "type": "main"
+        },
+        {
+          "start": 109,
+          "end": 130,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        11.0,
+        18.6,
+        37.1,
+        55.7,
+        74.3,
+        92.9,
+        109.0,
+        111.4,
+        130.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_143.mp3"
+    },
+    {
+      "track_id": "bgm_144",
+      "title": "回望来路",
+      "duration_sec": 85.0,
+      "emotions": [
+        "reflective",
+        "nostalgic",
+        "peaceful",
+        "warm"
+      ],
+      "bpm": 46,
+      "key": "A minor",
+      "energy": 0.1,
+      "instruments": [
+        "piano",
+        "guitar",
+        "ambient"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 71,
+          "type": "main"
+        },
+        {
+          "start": 71,
+          "end": 85,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        14.2,
+        28.3,
+        42.5,
+        56.7,
+        70.8,
+        71.0,
+        85.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection",
+        "transition"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_144.mp3"
+    },
+    {
+      "track_id": "bgm_145",
+      "title": "未完待续",
+      "duration_sec": 90.0,
+      "emotions": [
+        "reflective",
+        "hopeful",
+        "warm",
+        "emotional"
+      ],
+      "bpm": 56,
+      "key": "D major",
+      "energy": 0.3,
+      "instruments": [
+        "piano",
+        "strings",
+        "orchestra"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 13,
+          "type": "intro"
+        },
+        {
+          "start": 13,
+          "end": 79,
+          "type": "main"
+        },
+        {
+          "start": 79,
+          "end": 90,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        13.0,
+        22.5,
+        45.0,
+        67.5,
+        79.0,
+        90.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection",
+        "buildup"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_145.mp3"
+    },
+    {
+      "track_id": "bgm_146",
+      "title": "永恒之声",
+      "duration_sec": 65.0,
+      "emotions": [
+        "reflective",
+        "grand",
+        "emotional",
+        "peaceful"
+      ],
+      "bpm": 56,
+      "key": "C major",
+      "energy": 0.4,
+      "instruments": [
+        "orchestra",
+        "choir",
+        "piano",
+        "strings"
+      ],
+      "sections": [
+        {
+          "start": 0,
+          "end": 5,
+          "type": "intro"
+        },
+        {
+          "start": 5,
+          "end": 49,
+          "type": "main"
+        },
+        {
+          "start": 49,
+          "end": 54,
+          "type": "climax"
+        },
+        {
+          "start": 54,
+          "end": 65,
+          "type": "outro"
+        }
+      ],
+      "natural_cut_points": [
+        5.0,
+        8.1,
+        16.2,
+        24.4,
+        32.5,
+        40.6,
+        48.8,
+        49.0,
+        54.0,
+        56.9,
+        65.0
+      ],
+      "usage_tags": [
+        "ending",
+        "reflection",
+        "climax"
+      ],
+      "license_type": "cc0",
+      "file_path": "/bgm/bgm_146.mp3"
     }
   ]
 }

@@ -11,7 +11,7 @@
       "cast": ["蒂姆·罗宾斯", "摩根·弗里曼"],
       "plot_summary": "银行家安迪被冤枉谋杀妻子及其情人，被判终身监禁关进肖申克监狱。他用20年时间，凭借智慧和毅力完成了惊天越狱。",
       "narration_hotspots": ["越狱片段", "希望主题", "体制化讨论", "屋顶喝啤酒", "雨中拥抱自由"],
-      "poster_url": "/posters/shawshank.jpg",
+      "poster_url": "/posters/shawshank_redemption.jpg",
       "douban_id": "1292052",
       "key_scenes": [
         {
@@ -72,7 +72,8 @@
           "duration_sec": 30.0,
           "tags": ["压抑", "残酷", "成长"],
           "description": "小豆子被母亲剁掉多余手指送入戏班",
-          "characters": ["小豆子", "母亲"]
+          "characters": ["小豆子", "母亲"],
+          "dialogue_highlights": []
         },
         {
           "name": "蝶衣自刎",
@@ -80,7 +81,1676 @@
           "duration_sec": 60.0,
           "tags": ["高潮", "悲剧", "宿命"],
           "description": "多年后蝶衣与段小楼再唱《霸王别姬》，蝶衣拔剑自刎",
-          "characters": ["程蝶衣", "段小楼"]
+          "characters": ["程蝶衣", "段小楼"],
+          "dialogue_highlights": ["说的是一辈子！差一年，一个月，一天，一个时辰，都不算一辈子！"]
+        }
+      ]
+    },
+    {
+      "movie_id": "let_the_bullets_fly",
+      "title": "让子弹飞",
+      "year": 2010,
+      "genre": ["剧情", "喜剧", "动作"],
+      "rating": 9.0,
+      "duration_min": 132,
+      "director": "姜文",
+      "cast": ["姜文", "周润发", "葛优", "刘嘉玲"],
+      "plot_summary": "北洋年间，悍匪张麻子劫了马拉火车，假冒县长走马上任鹅城，与恶霸黄四郎展开了一场斗智斗勇的较量。",
+      "narration_hotspots": ["站着把钱挣了", "鸿门宴", "枪在手跟我走"],
+      "poster_url": "/posters/let_the_bullets_fly.jpg",
+      "douban_id": "1293081",
+      "key_scenes": [
+        {
+          "name": "劫火车",
+          "timestamp": "00:03:00",
+          "duration_sec": 120.0,
+          "tags": ["西部", "动作", "开场"],
+          "description": "张麻子带领兄弟在铁轨上伏击马拉火车，开启鹅城故事",
+          "characters": ["张麻子", "汤师爷"],
+          "dialogue_highlights": ["让子弹飞一会儿"]
+        },
+        {
+          "name": "鸿门宴",
+          "timestamp": "00:52:00",
+          "duration_sec": 180.0,
+          "tags": ["对峙", "台词", "经典"],
+          "description": "张麻子与黄四郎在饭桌上三方角力，每句话都暗藏杀机",
+          "characters": ["张麻子", "黄四郎", "汤师爷"],
+          "dialogue_highlights": ["我就是想站着，还把钱挣了"]
+        },
+        {
+          "name": "枪在手跟我走",
+          "timestamp": "01:50:00",
+          "duration_sec": 90.0,
+          "tags": ["高潮", "复仇", "正义"],
+          "description": "张麻子号召鹅城百姓奋起反抗，最终攻入黄四郎碉楼",
+          "characters": ["张麻子", "百姓"],
+          "dialogue_highlights": ["枪在手，跟我走！杀四郎，抢碉楼！"]
+        }
+      ]
+    },
+    {
+      "movie_id": "infernal_affairs",
+      "title": "无间道",
+      "year": 2002,
+      "genre": ["犯罪", "悬疑", "惊悚"],
+      "rating": 9.3,
+      "duration_min": 101,
+      "director": "刘伟强",
+      "cast": ["梁朝伟", "刘德华", "黄秋生", "曾志伟"],
+      "plot_summary": "警方卧底陈永仁与黑帮卧底刘建明分别潜伏对方阵营多年，两人的身份与命运在一次毒品交易中激烈碰撞。",
+      "narration_hotspots": ["天台对决", "黄sir坠楼", "无间地狱"],
+      "poster_url": "/posters/infernal_affairs.jpg",
+      "douban_id": "1307914",
+      "key_scenes": [
+        {
+          "name": "黄sir之死",
+          "timestamp": "01:15:00",
+          "duration_sec": 90.0,
+          "tags": ["伤感", "牺牲", "高潮"],
+          "description": "黄志诚警司被韩琛手下推下楼顶，陈永仁目睹搭档惨死",
+          "characters": ["黄志诚", "陈永仁", "韩琛"],
+          "dialogue_highlights": ["对不起，我是警察"]
+        },
+        {
+          "name": "天台对决",
+          "timestamp": "01:35:00",
+          "duration_sec": 120.0,
+          "tags": ["对峙", "高潮", "结局"],
+          "description": "陈永仁与刘建明在天台对峙，摊牌身份，宿命难逃",
+          "characters": ["陈永仁", "刘建明"],
+          "dialogue_highlights": ["以前我没得选，现在我想做个好人"]
+        }
+      ]
+    },
+    {
+      "movie_id": "a_chinese_odyssey",
+      "title": "大话西游",
+      "year": 1995,
+      "genre": ["喜剧", "爱情", "奇幻"],
+      "rating": 9.2,
+      "duration_min": 99,
+      "director": "刘镇伟",
+      "cast": ["周星驰", "朱茵", "莫文蔚", "吴孟达"],
+      "plot_summary": "至尊宝为了救紫霞仙子穿梭时空，却发现自己注定成为孙悟空，那份一万年的爱情终究成空。",
+      "narration_hotspots": ["一万年", "紧箍咒", "城头之吻"],
+      "poster_url": "/posters/a_chinese_odyssey.jpg",
+      "douban_id": "1292213",
+      "key_scenes": [
+        {
+          "name": "一万年告白",
+          "timestamp": "01:05:00",
+          "duration_sec": 60.0,
+          "tags": ["爱情", "台词", "经典"],
+          "description": "至尊宝对紫霞说出那段一万年的告白，以为是谎言却终成真",
+          "characters": ["至尊宝", "紫霞"],
+          "dialogue_highlights": ["曾经有一份真诚的爱情放在我面前，我没有珍惜"]
+        },
+        {
+          "name": "城头之吻",
+          "timestamp": "01:40:00",
+          "duration_sec": 90.0,
+          "tags": ["结局", "爱情", "宿命"],
+          "description": "悟空附身城头武士，完成与紫霞的最后一吻，转身踏上西行",
+          "characters": ["孙悟空", "紫霞"],
+          "dialogue_highlights": ["你看那个人，好奇怪哟，像一条狗"]
+        }
+      ]
+    },
+    {
+      "movie_id": "devils_on_the_doorstep",
+      "title": "鬼子来了",
+      "year": 2000,
+      "genre": ["剧情", "战争", "喜剧"],
+      "rating": 9.3,
+      "duration_min": 139,
+      "director": "姜文",
+      "cast": ["姜文", "姜宏波", "香川照之"],
+      "plot_summary": "抗战末期，一个日本俘虏被扔到了挂甲台村，村民在恐惧与善恶之间挣扎，最终迎来毁灭性的结局。",
+      "narration_hotspots": ["挂甲台", "砍头", "屠村"],
+      "poster_url": "/posters/devils_on_the_doorstep.jpg",
+      "douban_id": "1293275",
+      "key_scenes": [
+        {
+          "name": "审讯俘虏",
+          "timestamp": "00:45:00",
+          "duration_sec": 120.0,
+          "tags": ["荒诞", "人性", "对峙"],
+          "description": "马大三和村民们试图审问花屋小三郎，语言不通闹出荒诞场面",
+          "characters": ["马大三", "花屋小三郎", "村民"],
+          "dialogue_highlights": ["大哥大嫂过年好，你是我的爷，我是你的儿"]
+        },
+        {
+          "name": "屠村",
+          "timestamp": "02:05:00",
+          "duration_sec": 150.0,
+          "tags": ["悲剧", "高潮", "战争"],
+          "description": "日本降兵回村屠杀，火光冲天，挂甲台化为灰烬",
+          "characters": ["马大三", "花屋小三郎", "村民"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "马大三之死",
+          "timestamp": "02:15:00",
+          "duration_sec": 60.0,
+          "tags": ["悲剧", "结局", "震撼"],
+          "description": "马大三被国民党判处砍头，行刑的是他曾经放过的花屋小三郎",
+          "characters": ["马大三", "花屋小三郎"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "to_live",
+      "title": "活着",
+      "year": 1994,
+      "genre": ["剧情", "历史", "家庭"],
+      "rating": 9.3,
+      "duration_min": 133,
+      "director": "张艺谋",
+      "cast": ["葛优", "巩俐"],
+      "plot_summary": "福贵从民国到文革，经历了家道中落、战争、饥荒和亲人离世，却始终顽强地活着。",
+      "narration_hotspots": ["皮影戏", "有庆之死", "凤霞出嫁"],
+      "poster_url": "/posters/to_live.jpg",
+      "douban_id": "1292424",
+      "key_scenes": [
+        {
+          "name": "赌场败家",
+          "timestamp": "00:10:00",
+          "duration_sec": 80.0,
+          "tags": ["开场", "转折", "命运"],
+          "description": "福贵在赌场输光家产，父亲气死，人生从此改变",
+          "characters": ["福贵", "龙二"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "有庆之死",
+          "timestamp": "01:20:00",
+          "duration_sec": 60.0,
+          "tags": ["悲剧", "心碎", "压抑"],
+          "description": "福贵的儿子有庆因给县长夫人献血过多而死",
+          "characters": ["福贵", "家珍"],
+          "dialogue_highlights": ["医生，我就这一个儿子啊"]
+        }
+      ]
+    },
+    {
+      "movie_id": "in_the_heat_of_the_sun",
+      "title": "阳光灿烂的日子",
+      "year": 1994,
+      "genre": ["剧情", "青春"],
+      "rating": 8.9,
+      "duration_min": 134,
+      "director": "姜文",
+      "cast": ["夏雨", "宁静", "耿乐"],
+      "plot_summary": "文革时代背景下，北京大院里的少年马小军和他的朋友们在燥热的夏日里经历了懵懂的青春和初恋。",
+      "narration_hotspots": ["爬烟囱", "米兰", "幻想与现实"],
+      "poster_url": "/posters/in_the_heat_of_the_sun.jpg",
+      "douban_id": "1293143",
+      "key_scenes": [
+        {
+          "name": "初见米兰",
+          "timestamp": "00:35:00",
+          "duration_sec": 60.0,
+          "tags": ["青春", "爱情", "夏日"],
+          "description": "马小军在望远镜里第一次看到米兰，那个笑容照亮了阳光灿烂的夏天",
+          "characters": ["马小军", "米兰"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "雨中骑车",
+          "timestamp": "01:50:00",
+          "duration_sec": 45.0,
+          "tags": ["青春", "幻想", "高潮"],
+          "description": "马小军在暴雨中骑车追逐米兰，现实与记忆在此模糊",
+          "characters": ["马小军", "米兰"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "raise_the_red_lantern",
+      "title": "大红灯笼高高挂",
+      "year": 1991,
+      "genre": ["剧情", "历史"],
+      "rating": 8.7,
+      "duration_min": 125,
+      "director": "张艺谋",
+      "cast": ["巩俐", "何赛飞", "马精武"],
+      "plot_summary": "民国时期，大学生颂莲嫁给富绅做四姨太，陈家大院里的女人们在灯笼明灭间互相倾轧，颂莲最终被封建礼教吞噬。",
+      "narration_hotspots": ["点灯仪式", "颂莲发疯", "封灯"],
+      "poster_url": "/posters/raise_the_red_lantern.jpg",
+      "douban_id": "1292999",
+      "key_scenes": [
+        {
+          "name": "初入陈府",
+          "timestamp": "00:08:00",
+          "duration_sec": 90.0,
+          "tags": ["压抑", "封建", "开场"],
+          "description": "颂莲第一次踏入陈家大院，高墙深院如牢笼般笼罩着她",
+          "characters": ["颂莲"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "颂莲发疯",
+          "timestamp": "01:55:00",
+          "duration_sec": 120.0,
+          "tags": ["悲剧", "高潮", "结局"],
+          "description": "三姨太梅珊被吊死后，颂莲精神崩溃，在庭院里徘徊疯癫",
+          "characters": ["颂莲"],
+          "dialogue_highlights": ["在这院子里，人是会疯的"]
+        }
+      ]
+    },
+    {
+      "movie_id": "eat_drink_man_woman",
+      "title": "饮食男女",
+      "year": 1994,
+      "genre": ["剧情", "家庭"],
+      "rating": 9.2,
+      "duration_min": 124,
+      "director": "李安",
+      "cast": ["郎雄", "吴倩莲", "王渝文", "张艾嘉"],
+      "plot_summary": "退休大厨老朱每周日做一桌盛宴，三个女儿各怀心事，饭桌上的家庭温情与冲突交织成一出人间烟火。",
+      "narration_hotspots": ["开场做菜", "家宴", "最后的告白"],
+      "poster_url": "/posters/eat_drink_man_woman.jpg",
+      "douban_id": "1292350",
+      "key_scenes": [
+        {
+          "name": "开场做菜",
+          "timestamp": "00:00:30",
+          "duration_sec": 180.0,
+          "tags": ["美食", "开场", "烟火气"],
+          "description": "老朱在厨房里行云流水地处理食材，炸炒蒸煮，色香味俱全的盛宴即将开始",
+          "characters": ["老朱"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "最终家宴",
+          "timestamp": "01:45:00",
+          "duration_sec": 150.0,
+          "tags": ["家庭", "转折", "温情"],
+          "description": "最后一次周日家宴，老朱宣布惊人消息，每个女儿也都有了各自的归宿",
+          "characters": ["老朱", "家珍", "家宁", "家倩"],
+          "dialogue_highlights": ["人生不能像做菜，等所有的材料都准备好了才下锅"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_wedding_banquet",
+      "title": "喜宴",
+      "year": 1993,
+      "genre": ["剧情", "喜剧", "家庭"],
+      "rating": 9.1,
+      "duration_min": 106,
+      "director": "李安",
+      "cast": ["赵文瑄", "归亚蕾", "郎雄", "米切尔·利希滕斯坦"],
+      "plot_summary": "在美国的华人同性恋者伟同为应付父母催婚，与女艺术家假装结婚，一场喜宴引发一连串哭笑不得的闹剧。",
+      "narration_hotspots": ["假婚骗局", "欢乐喜宴", "父亲洞悉一切"],
+      "poster_url": "/posters/the_wedding_banquet.jpg",
+      "douban_id": "1292288",
+      "key_scenes": [
+        {
+          "name": "中式婚宴",
+          "timestamp": "00:50:00",
+          "duration_sec": 150.0,
+          "tags": ["热闹", "喜剧", "文化"],
+          "description": "大喜之日的闹洞房、敬酒、起哄声浪此起彼伏，东西方文化碰撞出荒诞喜剧",
+          "characters": ["伟同", "微微", "父母"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "父亲的决定",
+          "timestamp": "01:40:00",
+          "duration_sec": 90.0,
+          "tags": ["温情", "理解", "结局"],
+          "description": "父亲其实早已洞悉一切，他选择了沉默的接纳",
+          "characters": ["父亲", "赛门"],
+          "dialogue_highlights": ["如果我不让他们骗我，我怎么抱上孙子呢？"]
+        }
+      ]
+    },
+    {
+      "movie_id": "yi_yi",
+      "title": "一一",
+      "year": 2000,
+      "genre": ["剧情", "家庭"],
+      "rating": 9.1,
+      "duration_min": 173,
+      "director": "杨德昌",
+      "cast": ["吴念真", "金燕玲", "李凯莉", "张洋洋"],
+      "plot_summary": "一家人的生活片段拼接出生命的全景：中年危机的NJ、青春迷茫的婷婷、天真好奇的洋洋，每个人都在寻找自己的答案。",
+      "narration_hotspots": ["洋洋拍后脑勺", "NJ东京重逢", "葬礼"],
+      "poster_url": "/posters/yi_yi.jpg",
+      "douban_id": "1292267",
+      "key_scenes": [
+        {
+          "name": "洋洋的哲学",
+          "timestamp": "01:30:00",
+          "duration_sec": 60.0,
+          "tags": ["哲学", "童真", "智慧"],
+          "description": "洋洋拿着相机拍别人的后脑勺，因为我们每个人只能看到一半的世界",
+          "characters": ["洋洋", "NJ"],
+          "dialogue_highlights": ["你看不到自己的后面，所以我拍给你看啊"]
+        },
+        {
+          "name": "NJ东京重逢",
+          "timestamp": "02:00:00",
+          "duration_sec": 120.0,
+          "tags": ["爱情", "遗憾", "中年"],
+          "description": "NJ在东京与初恋女友重逢，两人回忆往昔，感叹人生没有重来的机会",
+          "characters": ["NJ", "初恋女友"],
+          "dialogue_highlights": ["其实你再活一次的话，结果也差不多"]
+        }
+      ]
+    },
+    {
+      "movie_id": "a_brighter_summer_day",
+      "title": "牯岭街少年杀人事件",
+      "year": 1991,
+      "genre": ["剧情", "犯罪", "青春"],
+      "rating": 8.9,
+      "duration_min": 237,
+      "director": "杨德昌",
+      "cast": ["张震", "杨静怡", "张国柱"],
+      "plot_summary": "1960年代的台北，少年小四在帮派冲突、家庭变故和初恋中迷失，最终用一把刀结束了所有的不安与愤怒。",
+      "narration_hotspots": ["帮派械斗", "小明之死", "小四被带走"],
+      "poster_url": "/posters/a_brighter_summer_day.jpg",
+      "douban_id": "1293002",
+      "key_scenes": [
+        {
+          "name": "小四杀小明",
+          "timestamp": "03:30:00",
+          "duration_sec": 90.0,
+          "tags": ["悲剧", "高潮", "青春残酷"],
+          "description": "小四在街头拦住小明，争吵中捅出致命一刀，少年的愤怒凝固在夜色里",
+          "characters": ["小四", "小明"],
+          "dialogue_highlights": ["你不要脸，你没有出息"]
+        },
+        {
+          "name": "结局",
+          "timestamp": "03:50:00",
+          "duration_sec": 120.0,
+          "tags": ["结局", "反思", "悲凉"],
+          "description": "小四被捕，阳光依旧照亮牯岭街，但青春已经碎裂",
+          "characters": ["小四"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "chungking_express",
+      "title": "重庆森林",
+      "year": 1994,
+      "genre": ["剧情", "爱情"],
+      "rating": 8.8,
+      "duration_min": 102,
+      "director": "王家卫",
+      "cast": ["梁朝伟", "王菲", "金城武", "林青霞"],
+      "plot_summary": "两个平行的都市爱情故事：警员223用过期罐头纪念逝去的恋情，警员663在快餐店里与一位偷偷闯入他生活的女孩相遇。",
+      "narration_hotspots": ["过期罐头", "偷进663家", "California Dreaming"],
+      "poster_url": "/posters/chungking_express.jpg",
+      "douban_id": "1292077",
+      "key_scenes": [
+        {
+          "name": "金城武吃罐头",
+          "timestamp": "00:25:00",
+          "duration_sec": 90.0,
+          "tags": ["失恋", "孤独", "都市"],
+          "description": "警员223在便利店前吃光所有过期的凤梨罐头，决定放下已过期的爱情",
+          "characters": ["何志武"],
+          "dialogue_highlights": ["不知道从什么时候开始，每个东西上面都有一个日子"]
+        },
+        {
+          "name": "阿菲潜入663家",
+          "timestamp": "00:55:00",
+          "duration_sec": 120.0,
+          "tags": ["暗恋", "天真", "浪漫"],
+          "description": "阿菲偷偷潜入警员663家中，帮他整理房间换掉旧物，而663浑然不觉",
+          "characters": ["阿菲", "警员663"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "in_the_mood_for_love",
+      "title": "花样年华",
+      "year": 2000,
+      "genre": ["剧情", "爱情"],
+      "rating": 8.7,
+      "duration_min": 98,
+      "director": "王家卫",
+      "cast": ["梁朝伟", "张曼玉"],
+      "plot_summary": "1962年的香港，周慕云和苏丽珍发现各自的伴侣出轨，两人在排练对质中越走越近，却始终无法跨越那道道德的门槛。",
+      "narration_hotspots": ["雨巷擦肩", "写作室的暧昧", "吴哥窟树洞"],
+      "poster_url": "/posters/in_the_mood_for_love.jpg",
+      "douban_id": "1291557",
+      "key_scenes": [
+        {
+          "name": "排练对峙",
+          "timestamp": "00:40:00",
+          "duration_sec": 120.0,
+          "tags": ["暧昧", "压抑", "表演"],
+          "description": "苏丽珍假装周慕云的妻子对质，周慕云假装苏丽珍的丈夫回应，假戏中动了真情",
+          "characters": ["周慕云", "苏丽珍"],
+          "dialogue_highlights": ["如果多一张船票，你会不会跟我走？"]
+        },
+        {
+          "name": "吴哥窟树洞",
+          "timestamp": "01:32:00",
+          "duration_sec": 90.0,
+          "tags": ["结局", "秘密", "遗憾"],
+          "description": "多年后周慕云来到吴哥窟，对着石壁上的树洞倾诉了心底那个秘密",
+          "characters": ["周慕云"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "comrades_almost_a_love_story",
+      "title": "甜蜜蜜",
+      "year": 1996,
+      "genre": ["剧情", "爱情"],
+      "rating": 8.9,
+      "duration_min": 118,
+      "director": "陈可辛",
+      "cast": ["黎明", "张曼玉", "曾志伟"],
+      "plot_summary": "1980年代，从大陆来的黎小军和李翘在香港相遇，两个人怀揣着各自的梦想相互依靠，在时代的洪流中分分合合，最终在纽约重逢。",
+      "narration_hotspots": ["单车载人", "纽约重逢", "邓丽君"],
+      "poster_url": "/posters/comrades_almost_a_love_story.jpg",
+      "douban_id": "1292269",
+      "key_scenes": [
+        {
+          "name": "单车上的甜蜜蜜",
+          "timestamp": "00:30:00",
+          "duration_sec": 80.0,
+          "tags": ["爱情", "浪漫", "青春"],
+          "description": "黎小军骑自行车载着李翘穿过香港街道，两人唱着《甜蜜蜜》，笑容灿烂",
+          "characters": ["黎小军", "李翘"],
+          "dialogue_highlights": ["甜蜜蜜，你笑得甜蜜蜜"]
+        },
+        {
+          "name": "纽约重逢",
+          "timestamp": "01:50:00",
+          "duration_sec": 120.0,
+          "tags": ["重逢", "结局", "命运"],
+          "description": "多年后在纽约街头，邓丽君的歌声中两人在橱窗前重逢",
+          "characters": ["黎小军", "李翘"],
+          "dialogue_highlights": ["在哪里，在哪里见过你"]
+        }
+      ]
+    },
+    {
+      "movie_id": "a_better_tomorrow",
+      "title": "英雄本色",
+      "year": 1986,
+      "genre": ["动作", "犯罪", "剧情"],
+      "rating": 8.6,
+      "duration_min": 95,
+      "director": "吴宇森",
+      "cast": ["周润发", "狄龙", "张国荣"],
+      "plot_summary": "伪钞集团骨干宋子豪出狱后想改邪归正，弟弟宋子杰却不原谅他。好友小马哥为报仇而负伤，三人最终在枪火中完成了兄弟情的救赎。",
+      "narration_hotspots": ["小马哥双枪", "风衣墨镜", "码头枪战"],
+      "poster_url": "/posters/a_better_tomorrow.jpg",
+      "douban_id": "1292140",
+      "key_scenes": [
+        {
+          "name": "小马哥枫林阁",
+          "timestamp": "00:40:00",
+          "duration_sec": 120.0,
+          "tags": ["复仇", "枪战", "经典"],
+          "description": "小马哥独闯枫林阁为豪哥报仇，一袭风衣双枪在手，成为港片经典",
+          "characters": ["小马哥"],
+          "dialogue_highlights": ["我失去的东西一定要拿回来"]
+        },
+        {
+          "name": "码头决战",
+          "timestamp": "01:25:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "兄弟情", "牺牲"],
+          "description": "三兄弟在码头联手对抗黑帮，小马哥为救子杰中弹身亡",
+          "characters": ["小马哥", "宋子豪", "宋子杰"],
+          "dialogue_highlights": ["做兄弟的，有今生没来世"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_killer",
+      "title": "喋血双雄",
+      "year": 1989,
+      "genre": ["动作", "犯罪", "剧情"],
+      "rating": 8.5,
+      "duration_min": 111,
+      "director": "吴宇森",
+      "cast": ["周润发", "李修贤", "叶倩文"],
+      "plot_summary": "杀手小庄在最后一次任务中误伤女歌手珍妮，为了赎罪他决定接下最后一单赚钱为她治眼，却被警察李鹰追捕，两人在交锋中产生了惺惺相惜。",
+      "narration_hotspots": ["教堂枪战", "双雄对决", "白鸽"],
+      "poster_url": "/posters/the_killer.jpg",
+      "douban_id": "1293153",
+      "key_scenes": [
+        {
+          "name": "教堂初见",
+          "timestamp": "00:35:00",
+          "duration_sec": 60.0,
+          "tags": ["暴力美学", "宿命", "教堂"],
+          "description": "小庄与李鹰在教堂首次对峙，枪指对方，白鸽飞起",
+          "characters": ["小庄", "李鹰"],
+          "dialogue_highlights": ["你这一行有没有想过退休？"]
+        },
+        {
+          "name": "教堂决战",
+          "timestamp": "01:40:00",
+          "duration_sec": 180.0,
+          "tags": ["高潮", "牺牲", "浪漫"],
+          "description": "小庄和李鹰在教堂联手对抗黑帮，白鸽飞舞，子弹横飞，小庄最终双目失明中弹身亡",
+          "characters": ["小庄", "李鹰", "珍妮"],
+          "dialogue_highlights": ["朋友之间是无所谓欠不欠的"]
+        }
+      ]
+    },
+    {
+      "movie_id": "once_a_thief",
+      "title": "纵横四海",
+      "year": 1991,
+      "genre": ["动作", "喜剧", "犯罪"],
+      "rating": 8.8,
+      "duration_min": 108,
+      "director": "吴宇森",
+      "cast": ["周润发", "张国荣", "钟楚红"],
+      "plot_summary": "三个孤儿被黑帮老大收养训练成神偷，长大后盗取名画《赫林之女仆》时卷入江湖恩怨，最终合力复仇，奔向自由。",
+      "narration_hotspots": ["名画盗取", "轮椅舞", "游艇结局"],
+      "poster_url": "/posters/once_a_thief.jpg",
+      "douban_id": "1292143",
+      "key_scenes": [
+        {
+          "name": "轮椅华尔兹",
+          "timestamp": "00:55:00",
+          "duration_sec": 120.0,
+          "tags": ["浪漫", "舞蹈", "经典"],
+          "description": "坐轮椅的阿祖与红豆在画廊里跳起华尔兹，盗取名画的艺术与优雅",
+          "characters": ["阿祖", "红豆"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "游艇结局",
+          "timestamp": "01:42:00",
+          "duration_sec": 90.0,
+          "tags": ["结局", "自由", "友情"],
+          "description": "三人成功复仇后乘游艇奔向自由，开启新的人生",
+          "characters": ["阿祖", "阿占", "红豆"],
+          "dialogue_highlights": ["我们三个以后再也不分开了"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_warlords",
+      "title": "投名状",
+      "year": 2007,
+      "genre": ["剧情", "战争", "动作"],
+      "rating": 7.5,
+      "duration_min": 126,
+      "director": "陈可辛",
+      "cast": ["李连杰", "刘德华", "金城武", "徐静蕾"],
+      "plot_summary": "清末，庞青云、赵二虎和姜午阳三人结为兄弟，立下投名状，在乱世中打出一片天地。但权力和欲望最终撕裂了兄弟情义。",
+      "narration_hotspots": ["结拜投名状", "苏州之战", "兄弟相残"],
+      "poster_url": "/posters/the_warlords.jpg",
+      "douban_id": "1293106",
+      "key_scenes": [
+        {
+          "name": "立投名状",
+          "timestamp": "00:15:00",
+          "duration_sec": 60.0,
+          "tags": ["誓言", "兄弟", "开场"],
+          "description": "三人在雪地里歃血为盟，立下生死与共的投名状",
+          "characters": ["庞青云", "赵二虎", "姜午阳"],
+          "dialogue_highlights": ["纳投名状，结兄弟谊，死生相托"]
+        },
+        {
+          "name": "兄弟相残",
+          "timestamp": "01:55:00",
+          "duration_sec": 120.0,
+          "tags": ["悲剧", "高潮", "背叛"],
+          "description": "庞青云下令处死赵二虎，姜午阳为守投名状刺杀庞青云",
+          "characters": ["庞青云", "姜午阳", "赵二虎"],
+          "dialogue_highlights": ["杀我兄弟者，必杀之"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_grandmaster",
+      "title": "一代宗师",
+      "year": 2013,
+      "genre": ["剧情", "动作", "传记"],
+      "rating": 7.7,
+      "duration_min": 130,
+      "director": "王家卫",
+      "cast": ["梁朝伟", "章子怡", "张震"],
+      "plot_summary": "咏春宗师叶问的时代传奇，从佛山到香港，历经抗战和流离，用一生诠释了功夫的境界——见自己、见天地、见众生。",
+      "narration_hotspots": ["雨中打斗", "宫二告白", "见众生"],
+      "poster_url": "/posters/the_grandmaster.jpg",
+      "douban_id": "1291574",
+      "key_scenes": [
+        {
+          "name": "雨中群战",
+          "timestamp": "00:12:00",
+          "duration_sec": 90.0,
+          "tags": ["武术", "美学", "开场"],
+          "description": "叶问在雨中独战群敌，拳拳到肉，雨水四溅，功夫的美学发挥到极致",
+          "characters": ["叶问"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "宫二告白",
+          "timestamp": "01:50:00",
+          "duration_sec": 150.0,
+          "tags": ["爱情", "遗憾", "高潮"],
+          "description": "宫二对叶问坦露心声，一生的情义与遗憾都在那句告白里",
+          "characters": ["宫二", "叶问"],
+          "dialogue_highlights": ["我在最好的时候碰到你，是我的运气。可惜我没时间了"]
+        }
+      ]
+    },
+    {
+      "movie_id": "kung_fu_hustle",
+      "title": "功夫",
+      "year": 2004,
+      "genre": ["动作", "喜剧", "奇幻"],
+      "rating": 8.8,
+      "duration_min": 99,
+      "director": "周星驰",
+      "cast": ["周星驰", "黄圣依", "元华", "元秋"],
+      "plot_summary": "小混混阿星闯进猪笼城寨，引来了斧头帮的注意，却发现这里卧虎藏龙，各路武林高手隐居于此，一场大战一触即发。",
+      "narration_hotspots": ["如来神掌", "包租婆", "斧头帮舞"],
+      "poster_url": "/posters/kung_fu_hustle.jpg",
+      "douban_id": "1293082",
+      "key_scenes": [
+        {
+          "name": "斧头帮来袭",
+          "timestamp": "00:25:00",
+          "duration_sec": 120.0,
+          "tags": ["动作", "喜剧", "经典"],
+          "description": "斧头帮气势汹汹闯入猪笼城寨，却被隐藏的各路高手的武功教训得落花流水",
+          "characters": ["阿星", "斧头帮", "城寨高手"],
+          "dialogue_highlights": ["还有谁？！"]
+        },
+        {
+          "name": "终极决战",
+          "timestamp": "01:25:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "功夫", "特效"],
+          "description": "阿星使出如来神掌，一掌劈下天地为之变色，与火云邪神决一死战",
+          "characters": ["阿星", "火云邪神"],
+          "dialogue_highlights": ["想学啊你？我教你"]
+        }
+      ]
+    },
+    {
+      "movie_id": "shaolin_soccer",
+      "title": "少林足球",
+      "year": 2001,
+      "genre": ["喜剧", "动作", "运动"],
+      "rating": 8.1,
+      "duration_min": 113,
+      "director": "周星驰",
+      "cast": ["周星驰", "赵薇", "吴孟达"],
+      "plot_summary": "落魄的少林传人阿星和过气球员明峰联手组建少林足球队，用少林功夫踢足球，一路杀进全国大赛。",
+      "narration_hotspots": ["大力金刚腿", "铁头功", "决赛逆转"],
+      "poster_url": "/posters/shaolin_soccer.jpg",
+      "douban_id": "1292183",
+      "key_scenes": [
+        {
+          "name": "组建球队",
+          "timestamp": "00:30:00",
+          "duration_sec": 90.0,
+          "tags": ["喜剧", "功夫", "热血"],
+          "description": "阿星和锋哥在街头召集失散的师兄弟，各显少林绝技",
+          "characters": ["阿星", "明峰", "师兄弟"],
+          "dialogue_highlights": ["做人如果没有梦想，跟咸鱼有什么分别？"]
+        },
+        {
+          "name": "决赛终极一击",
+          "timestamp": "01:45:00",
+          "duration_sec": 120.0,
+          "tags": ["高潮", "动作", "特效"],
+          "description": "阿星右脚踢出惊天大力金刚腿射门，阿梅以太极化解恶魔队攻势",
+          "characters": ["阿星", "阿梅", "明峰"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "crazy_stone",
+      "title": "疯狂的石头",
+      "year": 2006,
+      "genre": ["喜剧", "犯罪"],
+      "rating": 8.6,
+      "duration_min": 98,
+      "director": "宁浩",
+      "cast": ["郭涛", "刘桦", "黄渤", "徐峥"],
+      "plot_summary": "一个在厕所里发现的翡翠，将濒临破产的工艺厂厂长、香港大盗和本地小贼的命运交织在一起，黑色幽默的多线叙事层层展开。",
+      "narration_hotspots": ["翡翠调包", "下水道盗宝", "飞车抢夺"],
+      "poster_url": "/posters/crazy_stone.jpg",
+      "douban_id": "1862151",
+      "key_scenes": [
+        {
+          "name": "下水道困境",
+          "timestamp": "00:50:00",
+          "duration_sec": 90.0,
+          "tags": ["黑色幽默", "窘境", "喜剧"],
+          "description": "黑皮被困在下水道里，手机没信号，外面发生一连串荒诞事件",
+          "characters": ["黑皮"],
+          "dialogue_highlights": ["道哥，我被困住了！"]
+        },
+        {
+          "name": "飞车抢面包",
+          "timestamp": "01:20:00",
+          "duration_sec": 45.0,
+          "tags": ["喜剧", "结局", "荒诞"],
+          "description": "黑皮骑着摩托车在高架上飞驰抢一个面包，荒诞又心酸",
+          "characters": ["黑皮"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "a_cool_fish",
+      "title": "无名之辈",
+      "year": 2018,
+      "genre": ["剧情", "喜剧"],
+      "rating": 8.1,
+      "duration_min": 103,
+      "director": "饶晓志",
+      "cast": ["陈建斌", "任素汐", "章宇", "王砚辉"],
+      "plot_summary": "两个笨劫匪和一个瘫痪女，一个落魄保安和一把丢了的枪，几个底层小人物的命运在一座小城里荒诞交织，最终完成了各自的救赎。",
+      "narration_hotspots": ["轮椅对骂", "天台告别", "西山大桥"],
+      "poster_url": "/posters/a_cool_fish.jpg",
+      "douban_id": "3033019",
+      "key_scenes": [
+        {
+          "name": "轮椅对骂",
+          "timestamp": "00:30:00",
+          "duration_sec": 120.0,
+          "tags": ["喜剧", "语言", "底层"],
+          "description": "两个笨劫匪和瘫痪女马嘉旗在轮椅上激烈对骂，嘴炮连天笑中带泪",
+          "characters": ["胡广生", "李海根", "马嘉旗"],
+          "dialogue_highlights": ["你们俩是来搞笑的吗？"]
+        },
+        {
+          "name": "天台告别",
+          "timestamp": "01:20:00",
+          "duration_sec": 90.0,
+          "tags": ["温情", "救赎", "感动"],
+          "description": "胡广生抱着马嘉旗上天台，让她在告别前看了一眼蓝天",
+          "characters": ["胡广生", "马嘉旗"],
+          "dialogue_highlights": ["我叫胡广生，我不是个坏人"]
+        }
+      ]
+    },
+    {
+      "movie_id": "dying_to_survive",
+      "title": "我不是药神",
+      "year": 2018,
+      "genre": ["剧情", "喜剧"],
+      "rating": 9.0,
+      "duration_min": 117,
+      "director": "文牧野",
+      "cast": ["徐峥", "王传君", "周一围", "谭卓"],
+      "plot_summary": "保健品店老板程勇从印度代购廉价白血病仿制药，游走在法律与良知之间，从一个自私的小人物变成数千病人的希望。",
+      "narration_hotspots": ["第一次卖药", "吕受益之死", "法庭陈词"],
+      "poster_url": "/posters/dying_to_survive.jpg",
+      "douban_id": "2719134",
+      "key_scenes": [
+        {
+          "name": "吕受益之死",
+          "timestamp": "01:05:00",
+          "duration_sec": 120.0,
+          "tags": ["悲剧", "心碎", "无力"],
+          "description": "程勇赶到医院时吕受益已经不堪病痛折磨自杀，他的痛哭震撼人心",
+          "characters": ["程勇", "吕受益"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "法庭陈词",
+          "timestamp": "01:50:00",
+          "duration_sec": 90.0,
+          "tags": ["高潮", "正义", "感动"],
+          "description": "程勇在法庭上坦然承认一切，千人送别时街上全是摘下口罩的病人",
+          "characters": ["程勇"],
+          "dialogue_highlights": ["这世上只有一种病，穷病"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_wandering_earth",
+      "title": "流浪地球",
+      "year": 2019,
+      "genre": ["科幻", "冒险", "灾难"],
+      "rating": 7.9,
+      "duration_min": 125,
+      "director": "郭帆",
+      "cast": ["吴京", "屈楚萧", "李光洁", "吴孟达"],
+      "plot_summary": "太阳即将膨胀吞没地球，人类在地球表面建造了一万台行星发动机，带着家园踏上2500年的流浪之旅。",
+      "narration_hotspots": ["点燃木星", "行星发动机", "饱和式救援"],
+      "poster_url": "/posters/the_wandering_earth.jpg",
+      "douban_id": "3040563",
+      "key_scenes": [
+        {
+          "name": "点燃木星",
+          "timestamp": "01:45:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "特效", "牺牲"],
+          "description": "刘培强驾驶空间站撞向木星大气引爆氢气，用牺牲换地球一线生机",
+          "characters": ["刘培强", "刘启"],
+          "dialogue_highlights": ["北京第三区交通委提醒您：道路千万条，安全第一条"]
+        },
+        {
+          "name": "饱和式救援",
+          "timestamp": "01:00:00",
+          "duration_sec": 120.0,
+          "tags": ["灾难", "救援", "集体"],
+          "description": "全球各地的救援队争先恐后冲向行星发动机，都是同一句口号",
+          "characters": ["刘启", "韩朵朵", "救援队"],
+          "dialogue_highlights": ["希望，是这个时代像钻石一样珍贵的东西"]
+        }
+      ]
+    },
+    {
+      "movie_id": "nezha",
+      "title": "哪吒之魔童降世",
+      "year": 2019,
+      "genre": ["动画", "奇幻", "动作"],
+      "rating": 8.4,
+      "duration_min": 110,
+      "director": "饺子",
+      "cast": ["吕艳婷", "囧森瑟夫", "瀚墨"],
+      "plot_summary": "哪吒天生是魔丸转世，被世人唾弃和孤立。但他不认命，用自己的方式反抗偏见，最终守护了陈塘关。",
+      "narration_hotspots": ["我命由我不由天", "哪吒敖丙大战", "天劫降临"],
+      "poster_url": "/posters/nezha.jpg",
+      "douban_id": "3480766",
+      "key_scenes": [
+        {
+          "name": "海边结友",
+          "timestamp": "00:40:00",
+          "duration_sec": 90.0,
+          "tags": ["友情", "孤独", "温情"],
+          "description": "哪吒和敖丙在海边踢毽子，两个孤独的灵魂第一次有了朋友",
+          "characters": ["哪吒", "敖丙"],
+          "dialogue_highlights": ["你是我唯一的朋友"]
+        },
+        {
+          "name": "天劫逆命",
+          "timestamp": "01:35:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "热血", "成长"],
+          "description": "哪吒喊出“我命由我不由天”，与敖丙联手对抗天劫，拼尽全力守护陈塘关",
+          "characters": ["哪吒", "敖丙", "太乙真人"],
+          "dialogue_highlights": ["我命由我不由天，是魔是仙，我自己说了算"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_battle_at_lake_changjin",
+      "title": "长津湖",
+      "year": 2021,
+      "genre": ["战争", "剧情", "历史"],
+      "rating": 7.6,
+      "duration_min": 176,
+      "director": "陈凯歌",
+      "cast": ["吴京", "易烊千玺", "段奕宏", "朱亚文"],
+      "plot_summary": "1950年抗美援朝，中国志愿军第九兵团在零下40度的极寒中与美军精锐在长津湖展开惨烈战斗，用血肉之躯书写了悲壮史诗。",
+      "narration_hotspots": ["冰雕连", "伍万里初战", "长津湖决战"],
+      "poster_url": "/posters/the_battle_at_lake_changjin.jpg",
+      "douban_id": "3560082",
+      "key_scenes": [
+        {
+          "name": "伍万里初战",
+          "timestamp": "01:00:00",
+          "duration_sec": 120.0,
+          "tags": ["战争", "成长", "惨烈"],
+          "description": "新兵伍万里在炮火中经历第一次真正的战斗，从恐惧到勇敢",
+          "characters": ["伍万里", "伍千里"],
+          "dialogue_highlights": ["一个蛋从外面被敲开，注定被吃掉，你要是从里面自己啄开，没准是只鹰"]
+        },
+        {
+          "name": "冰雕连",
+          "timestamp": "02:40:00",
+          "duration_sec": 90.0,
+          "tags": ["震撼", "牺牲", "英雄"],
+          "description": "志愿军战士在极寒中冻成冰雕却仍保持战斗姿势，连美军都肃然起敬",
+          "characters": ["志愿军战士"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "the_godfather",
+      "title": "教父",
+      "year": 1972,
+      "genre": ["剧情", "犯罪"],
+      "rating": 9.3,
+      "duration_min": 175,
+      "director": "弗朗西斯·福特·科波拉",
+      "cast": ["马龙·白兰度", "阿尔·帕西诺", "詹姆斯·凯恩"],
+      "plot_summary": "柯里昂家族是美国最强大的黑手党家族之一，教父维托·柯里昂的小儿子迈克尔从圈外人一步步成为新任教父，完成了冷酷的接班。",
+      "narration_hotspots": ["马头", "洗礼屠杀", "给我一个无法拒绝的理由"],
+      "poster_url": "/posters/the_godfather.jpg",
+      "douban_id": "1291841",
+      "key_scenes": [
+        {
+          "name": "开篇婚礼",
+          "timestamp": "00:05:00",
+          "duration_sec": 180.0,
+          "tags": ["开场", "家族", "黑色"],
+          "description": "柯里昂家族为康妮举办盛大婚礼，暗处却在处理各种灰色事务",
+          "characters": ["维托·柯里昂", "迈克尔", "汤姆"],
+          "dialogue_highlights": ["我愿意在他女儿的婚礼这天帮他"]
+        },
+        {
+          "name": "洗礼大屠杀",
+          "timestamp": "02:30:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "对比", "经典"],
+          "description": "迈克尔在教堂做新生儿教父的同时，安排了对五大家族的全面清洗，圣洁与血腥交织",
+          "characters": ["迈克尔·柯里昂"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "forrest_gump",
+      "title": "阿甘正传",
+      "year": 1994,
+      "genre": ["剧情", "爱情"],
+      "rating": 9.5,
+      "duration_min": 142,
+      "director": "罗伯特·泽米吉斯",
+      "cast": ["汤姆·汉克斯", "罗宾·怀特", "加里·西尼斯"],
+      "plot_summary": "智商只有75的阿甘凭借善良和奔跑的天赋，无意间见证了美国半个世纪的历史，而他一生中最爱的只有珍妮。",
+      "narration_hotspots": ["奔跑人生", "珍妮", "巧克力名言"],
+      "poster_url": "/posters/forrest_gump.jpg",
+      "douban_id": "1292720",
+      "key_scenes": [
+        {
+          "name": "奔跑的起源",
+          "timestamp": "00:20:00",
+          "duration_sec": 60.0,
+          "tags": ["励志", "奔跑", "自由"],
+          "description": "小阿甘挣脱腿部支架，第一次自由奔跑，支架片片碎裂",
+          "characters": ["阿甘", "珍妮"],
+          "dialogue_highlights": ["跑，福雷斯，跑！"]
+        },
+        {
+          "name": "珍妮之墓",
+          "timestamp": "02:15:00",
+          "duration_sec": 90.0,
+          "tags": ["爱情", "悲伤", "结局"],
+          "description": "阿甘在珍妮墓前倾诉思念，泪流满面地问自己是否太过思念她",
+          "characters": ["阿甘"],
+          "dialogue_highlights": ["人生就像一盒巧克力，你永远不知道下一块是什么味道"]
+        }
+      ]
+    },
+    {
+      "movie_id": "schindlers_list",
+      "title": "辛德勒的名单",
+      "year": 1993,
+      "genre": ["剧情", "历史", "战争"],
+      "rating": 9.5,
+      "duration_min": 195,
+      "director": "史蒂文·斯皮尔伯格",
+      "cast": ["连姆·尼森", "本·金斯利", "拉尔夫·费因斯"],
+      "plot_summary": "二战期间，德国商人辛德勒在纳粹统治下的波兰开设工厂，利用自己的财富和人脉拯救了1100多名犹太人的生命。",
+      "narration_hotspots": ["红衣女孩", "辛德勒的崩溃", "送别戒指"],
+      "poster_url": "/posters/schindlers_list.jpg",
+      "douban_id": "1295124",
+      "key_scenes": [
+        {
+          "name": "红衣女孩",
+          "timestamp": "01:15:00",
+          "duration_sec": 45.0,
+          "tags": ["震撼", "象征", "黑白色"],
+          "description": "在黑白画面上，一个穿红衣服的小女孩在血腥屠杀中穿行，成为辛德勒良知的转折点",
+          "characters": ["红衣女孩", "辛德勒"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "辛德勒的崩溃",
+          "timestamp": "03:05:00",
+          "duration_sec": 120.0,
+          "tags": ["高潮", "悔恨", "救赎"],
+          "description": "辛德勒在告别时痛哭：我本可以救更多人。他拿出胸针说这还能换一个人",
+          "characters": ["辛德勒", "斯特恩"],
+          "dialogue_highlights": ["救一人，就是救全世界"]
+        }
+      ]
+    },
+    {
+      "movie_id": "inception",
+      "title": "盗梦空间",
+      "year": 2010,
+      "genre": ["科幻", "动作", "悬疑"],
+      "rating": 9.4,
+      "duration_min": 148,
+      "director": "克里斯托弗·诺兰",
+      "cast": ["莱昂纳多·迪卡普里奥", "约瑟夫·高登-莱维特", "艾伦·佩吉"],
+      "plot_summary": "柯布是一个能进入他人梦境窃取秘密的特工，为了见到自己的孩子，他接受了在目标脑中植入想法的极限任务。",
+      "narration_hotspots": ["巴黎折叠", "失重走廊", "陀螺"],
+      "poster_url": "/posters/inception.jpg",
+      "douban_id": "3541415",
+      "key_scenes": [
+        {
+          "name": "巴黎折叠",
+          "timestamp": "00:35:00",
+          "duration_sec": 90.0,
+          "tags": ["视觉奇观", "梦境", "想象力"],
+          "description": "柯布在梦中向阿里阿德涅演示梦境构造，巴黎的街道在他们头顶折叠起来",
+          "characters": ["柯布", "阿里阿德涅"],
+          "dialogue_highlights": ["想法是最有感染力的寄生虫"]
+        },
+        {
+          "name": "走廊失重战",
+          "timestamp": "01:50:00",
+          "duration_sec": 120.0,
+          "tags": ["动作", "创意", "经典"],
+          "description": "在失重的酒店走廊里，亚瑟与防御者展开旋转翻滚的格斗",
+          "characters": ["亚瑟"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "结局陀螺",
+          "timestamp": "02:25:00",
+          "duration_sec": 60.0,
+          "tags": ["结局", "悬念", "争议"],
+          "description": "柯布终于见到孩子们，桌上的陀螺在旋转中晃动但永不停止——或是停止？",
+          "characters": ["柯布"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "interstellar",
+      "title": "星际穿越",
+      "year": 2014,
+      "genre": ["科幻", "冒险", "剧情"],
+      "rating": 9.4,
+      "duration_min": 169,
+      "director": "克里斯托弗·诺兰",
+      "cast": ["马修·麦康纳", "安妮·海瑟薇", "杰西卡·查斯坦"],
+      "plot_summary": "地球面临末日，前NASA飞行员库珀穿越虫洞寻找人类新家园。在黑洞边缘，他发现爱与引力一样，可以穿越时空。",
+      "narration_hotspots": ["黑洞卡冈图雅", "23年留言", "书架密室"],
+      "poster_url": "/posters/interstellar.jpg",
+      "douban_id": "1889248",
+      "key_scenes": [
+        {
+          "name": "23年留言",
+          "timestamp": "01:30:00",
+          "duration_sec": 120.0,
+          "tags": ["心碎", "家庭", "时间"],
+          "description": "因为引力时间膨胀，库珀回到飞船发现地球已过了23年，他看着孩子们23年的留言崩溃痛哭",
+          "characters": ["库珀", "墨菲（成年）"],
+          "dialogue_highlights": ["我们曾经认为我们不是彼此，但我现在知道，我们就是彼此"]
+        },
+        {
+          "name": "穿越黑洞",
+          "timestamp": "02:25:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "牺牲", "超越时空"],
+          "description": "库珀进入黑洞，在超立方体中穿越时间，通过书架向过去的女儿传递关键信息",
+          "characters": ["库珀", "墨菲"],
+          "dialogue_highlights": ["父母是孩子的幽灵"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_dark_knight",
+      "title": "蝙蝠侠：黑暗骑士",
+      "year": 2008,
+      "genre": ["动作", "犯罪", "剧情"],
+      "rating": 9.2,
+      "duration_min": 152,
+      "director": "克里斯托弗·诺兰",
+      "cast": ["克里斯蒂安·贝尔", "希斯·莱杰", "艾伦·艾克哈特"],
+      "plot_summary": "蝙蝠侠面对最疯狂的敌人——小丑。小丑不是为钱，而是为了证明任何人都可以在一个糟糕的一天后变成疯子。",
+      "narration_hotspots": ["铅笔戏法", "渡轮抉择", "哈维坠落"],
+      "poster_url": "/posters/the_dark_knight.jpg",
+      "douban_id": "2582678",
+      "key_scenes": [
+        {
+          "name": "审讯室对决",
+          "timestamp": "01:20:00",
+          "duration_sec": 120.0,
+          "tags": ["对峙", "黑暗", "经典"],
+          "description": "蝙蝠侠在审讯室殴打小丑，小丑却越笑越疯狂，因为他要的就是混乱",
+          "characters": ["蝙蝠侠", "小丑"],
+          "dialogue_highlights": ["为什么这么认真？"]
+        },
+        {
+          "name": "渡轮抉择",
+          "timestamp": "02:00:00",
+          "duration_sec": 90.0,
+          "tags": ["人性", "选择", "高潮"],
+          "description": "小丑在两艘渡轮上装了炸弹，每艘都有引爆对方的遥控器，测试人性的极限",
+          "characters": ["小丑", "蝙蝠侠", "市民"],
+          "dialogue_highlights": ["疯狂就像引力，你只需要轻轻一推"]
+        }
+      ]
+    },
+    {
+      "movie_id": "fight_club",
+      "title": "搏击俱乐部",
+      "year": 1999,
+      "genre": ["剧情", "悬疑", "犯罪"],
+      "rating": 9.0,
+      "duration_min": 139,
+      "director": "大卫·芬奇",
+      "cast": ["布拉德·皮特", "爱德华·诺顿", "海伦娜·伯翰·卡特"],
+      "plot_summary": "一个患失眠症的白领遇到了肥皂商人泰勒·德顿，两人创建了一个发泄压力的地下搏击俱乐部，但事情逐渐失控。",
+      "narration_hotspots": ["你的一切都不属于你", "化学灼烧", "最终反转"],
+      "poster_url": "/posters/fight_club.jpg",
+      "douban_id": "1292000",
+      "key_scenes": [
+        {
+          "name": "化学灼伤",
+          "timestamp": "00:55:00",
+          "duration_sec": 120.0,
+          "tags": ["压抑", "痛苦", "释放"],
+          "description": "泰勒用手背灼烧叙述者，逼他直面痛苦——只有经过彻底的毁灭才能获得真的自由",
+          "characters": ["泰勒", "叙述者"],
+          "dialogue_highlights": ["伤害自己比伤害别人需要更大的勇气"]
+        },
+        {
+          "name": "最终反转",
+          "timestamp": "02:00:00",
+          "duration_sec": 180.0,
+          "tags": ["高潮", "反转", "震撼"],
+          "description": "叙述者终于发现泰勒·德顿就是他自己分裂出来的另一个人格",
+          "characters": ["叙述者", "泰勒", "玛拉"],
+          "dialogue_highlights": ["第一条规定：不能谈论搏击俱乐部"]
+        }
+      ]
+    },
+    {
+      "movie_id": "spirited_away",
+      "title": "千与千寻",
+      "year": 2001,
+      "genre": ["动画", "奇幻", "冒险"],
+      "rating": 9.4,
+      "duration_min": 125,
+      "director": "宫崎骏",
+      "cast": ["柊瑠美", "入野自由", "夏木真理"],
+      "plot_summary": "10岁的小女孩千寻误入神秘的神灵世界，父母因贪吃变成了猪，她必须在汤屋工作找到回家的办法。",
+      "narration_hotspots": ["无脸男", "海上列车", "名字的约定"],
+      "poster_url": "/posters/spirited_away.jpg",
+      "douban_id": "1291561",
+      "key_scenes": [
+        {
+          "name": "父母变成猪",
+          "timestamp": "00:15:00",
+          "duration_sec": 60.0,
+          "tags": ["震撼", "开场", "奇幻"],
+          "description": "千寻在寂静的街道上发现父母在狂吃供奉给神灵的食物，然后变成了猪",
+          "characters": ["千寻", "父母"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "海上列车",
+          "timestamp": "01:20:00",
+          "duration_sec": 90.0,
+          "tags": ["意境", "孤独", "成长"],
+          "description": "千寻乘坐海上列车去找钱婆婆，无脸男安静地陪伴在旁，海面倒映着天空",
+          "characters": ["千寻", "无脸男"],
+          "dialogue_highlights": ["发生过的事是忘不掉的"]
+        },
+        {
+          "name": "名字的约定",
+          "timestamp": "01:50:00",
+          "duration_sec": 60.0,
+          "tags": ["友情", "别离", "结局"],
+          "description": "千寻认出父母中没有白龙，回归人间的她与白龙约定将来再见",
+          "characters": ["千寻", "白龙"],
+          "dialogue_highlights": ["不要回头，一直走下去"]
+        }
+      ]
+    },
+    {
+      "movie_id": "titanic",
+      "title": "泰坦尼克号",
+      "year": 1997,
+      "genre": ["剧情", "爱情", "灾难"],
+      "rating": 9.4,
+      "duration_min": 194,
+      "director": "詹姆斯·卡梅隆",
+      "cast": ["莱昂纳多·迪卡普里奥", "凯特·温斯莱特"],
+      "plot_summary": "穷画家杰克与富家女罗丝在泰坦尼克号上相遇相爱，巨轮撞上冰山沉没，杰克将生的机会留给了罗丝。",
+      "narration_hotspots": ["船头飞翔", "沉船", "海洋之心"],
+      "poster_url": "/posters/titanic.jpg",
+      "douban_id": "1292722",
+      "key_scenes": [
+        {
+          "name": "船头飞翔",
+          "timestamp": "00:55:00",
+          "duration_sec": 120.0,
+          "tags": ["浪漫", "爱情", "经典"],
+          "description": "杰克带着罗丝站在船头，张开双臂迎风飞翔，夕阳洒在海面上",
+          "characters": ["杰克", "罗丝"],
+          "dialogue_highlights": ["我是世界之王！"]
+        },
+        {
+          "name": "沉船诀别",
+          "timestamp": "02:50:00",
+          "duration_sec": 180.0,
+          "tags": ["悲剧", "爱情", "牺牲"],
+          "description": "泰坦尼克号沉没，杰克泡在冰水中紧握罗丝的手，让她承诺活下去",
+          "characters": ["杰克", "罗丝"],
+          "dialogue_highlights": ["我从未后悔那一天，我会永远感恩"]
+        }
+      ]
+    },
+    {
+      "movie_id": "leon_the_professional",
+      "title": "这个杀手不太冷",
+      "year": 1994,
+      "genre": ["剧情", "动作", "犯罪"],
+      "rating": 9.4,
+      "duration_min": 110,
+      "director": "吕克·贝松",
+      "cast": ["让·雷诺", "娜塔莉·波特曼", "加里·奥德曼"],
+      "plot_summary": "独行杀手莱昂收留了全家被杀的12岁女孩玛蒂尔达，两个孤独的灵魂在暴力中找到了彼此温暖的依靠。",
+      "narration_hotspots": ["盆栽", "训练", "最后的告别"],
+      "poster_url": "/posters/leon_the_professional.jpg",
+      "douban_id": "1294114",
+      "key_scenes": [
+        {
+          "name": "玛蒂尔达敲门",
+          "timestamp": "00:30:00",
+          "duration_sec": 90.0,
+          "tags": ["绝望", "希望", "开场"],
+          "description": "玛蒂尔达全家被杀，她站在莱昂门前，泪流满面地敲门请求开门",
+          "characters": ["玛蒂尔达", "莱昂"],
+          "dialogue_highlights": ["开门！请开门！"]
+        },
+        {
+          "name": "最后的告别",
+          "timestamp": "01:40:00",
+          "duration_sec": 120.0,
+          "tags": ["牺牲", "高潮", "感动"],
+          "description": "莱昂把玛蒂尔达送入通风管道逃走，自己与斯坦菲尔德同归于尽",
+          "characters": ["莱昂", "玛蒂尔达", "斯坦菲尔德"],
+          "dialogue_highlights": ["我爱你，玛蒂尔达"]
+        }
+      ]
+    },
+    {
+      "movie_id": "green_book",
+      "title": "绿皮书",
+      "year": 2018,
+      "genre": ["剧情", "喜剧", "传记"],
+      "rating": 8.9,
+      "duration_min": 130,
+      "director": "彼得·法雷里",
+      "cast": ["维果·莫滕森", "马赫沙拉·阿里"],
+      "plot_summary": "1962年，意裔白人混混托尼给黑人钢琴家唐·谢利当司机，一路穿越种族歧视严重的美国南方，两个截然不同的人在旅途中建立了深厚的友谊。",
+      "narration_hotspots": ["吃炸鸡", "酒吧弹琴", "圣诞夜"],
+      "poster_url": "/posters/green_book.jpg",
+      "douban_id": "3041883",
+      "key_scenes": [
+        {
+          "name": "肯德基炸鸡",
+          "timestamp": "00:50:00",
+          "duration_sec": 60.0,
+          "tags": ["喜剧", "文化", "友情"],
+          "description": "托尼逼着谢利第一次吃炸鸡，用手拿着吃然后把骨头扔出窗外",
+          "characters": ["托尼", "谢利博士"],
+          "dialogue_highlights": ["我这辈子从未吃过炸鸡"]
+        },
+        {
+          "name": "酒吧钢琴",
+          "timestamp": "01:50:00",
+          "duration_sec": 90.0,
+          "tags": ["音乐", "尊严", "高潮"],
+          "description": "谢利在小酒馆里用破旧钢琴弹起爵士乐，全场为之沸腾",
+          "characters": ["谢利博士", "托尼"],
+          "dialogue_highlights": ["天才是不够的，还需要勇气去改变人们的心"]
+        }
+      ]
+    },
+    {
+      "movie_id": "parasite",
+      "title": "寄生虫",
+      "year": 2019,
+      "genre": ["剧情", "悬疑", "惊悚"],
+      "rating": 8.8,
+      "duration_min": 132,
+      "director": "奉俊昊",
+      "cast": ["宋康昊", "李善均", "赵汝贞", "崔宇植"],
+      "plot_summary": "贫穷的金家四口人逐一渗透到富裕的朴家工作，两个家庭的命运在地下室秘密暴露后走向无法控制的深渊。",
+      "narration_hotspots": ["地下室秘密", "暴雨之夜", "生日派对"],
+      "poster_url": "/posters/parasite.jpg",
+      "douban_id": "3486165",
+      "key_scenes": [
+        {
+          "name": "暴雨逃窜",
+          "timestamp": "01:15:00",
+          "duration_sec": 120.0,
+          "tags": ["暴雨", "隐喻", "绝望"],
+          "description": "金家一家人在暴雨中沿着不断下行的楼梯逃回被淹的地下室，水没过胸口",
+          "characters": ["金基泽", "金基宇", "金基婷", "忠淑"],
+          "dialogue_highlights": ["有钱人即使什么都不做也很体贴，没钱的人即使什么都不买也很寒酸"]
+        },
+        {
+          "name": "生日派对血腥结局",
+          "timestamp": "02:05:00",
+          "duration_sec": 150.0,
+          "tags": ["高潮", "暴力", "悲剧"],
+          "description": "前管家的丈夫从地下室冲出，在朴家花园生日派对上展开疯狂复仇",
+          "characters": ["金基泽", "朴社长", "勤世"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "joker",
+      "title": "小丑",
+      "year": 2019,
+      "genre": ["剧情", "犯罪", "惊悚"],
+      "rating": 8.7,
+      "duration_min": 122,
+      "director": "托德·菲利普斯",
+      "cast": ["华金·菲尼克斯", "罗伯特·德尼罗"],
+      "plot_summary": "患有精神疾病的脱口秀小丑亚瑟·弗莱克在哥谭市的冷漠和暴力中一步步走向疯狂，最终脱变为蝙蝠侠最可怕的敌人——小丑。",
+      "narration_hotspots": ["阶梯之舞", "直播杀人", "街头狂欢"],
+      "poster_url": "/posters/joker.jpg",
+      "douban_id": "3480927",
+      "key_scenes": [
+        {
+          "name": "阶梯之舞",
+          "timestamp": "01:20:00",
+          "duration_sec": 90.0,
+          "tags": ["舞蹈", "蜕变", "经典"],
+          "description": "亚瑟穿上红色西装，在布朗克斯的阶梯上跳起疯狂的舞蹈，完成了到小丑的最终蜕变",
+          "characters": ["亚瑟·弗莱克"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "直播枪杀",
+          "timestamp": "01:40:00",
+          "duration_sec": 120.0,
+          "tags": ["高潮", "疯狂", "争议"],
+          "description": "小丑在电视直播节目中开枪杀死主持人莫瑞，引爆了整个哥谭市的疯狂",
+          "characters": ["小丑", "莫瑞"],
+          "dialogue_highlights": ["你会笑话我，对吧？"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_matrix",
+      "title": "黑客帝国",
+      "year": 1999,
+      "genre": ["科幻", "动作"],
+      "rating": 9.1,
+      "duration_min": 136,
+      "director": "莉莉·沃卓斯基",
+      "cast": ["基努·里维斯", "劳伦斯·菲什伯恩", "凯瑞-安·莫斯"],
+      "plot_summary": "程序员尼奥发现世界其实是机器创造的虚拟现实，他被引导到真实世界，然后以救世主的身份回到矩阵中战斗。",
+      "narration_hotspots": ["红蓝药丸", "子弹时间", "尼奥觉醒"],
+      "poster_url": "/posters/the_matrix.jpg",
+      "douban_id": "1291843",
+      "key_scenes": [
+        {
+          "name": "红蓝药丸",
+          "timestamp": "00:40:00",
+          "duration_sec": 120.0,
+          "tags": ["选择", "哲学", "经典"],
+          "description": "墨菲斯递给尼奥红蓝两颗药丸：吃下蓝的继续活在梦境中，红的则看见真相",
+          "characters": ["尼奥", "墨菲斯"],
+          "dialogue_highlights": ["这是你最后的机会，在此之后没有回头路。你吞下蓝色药丸，事情结束"]
+        },
+        {
+          "name": "子弹时间",
+          "timestamp": "01:45:00",
+          "duration_sec": 60.0,
+          "tags": ["动作", "视觉", "革命"],
+          "description": "尼奥在大厅里躲避子弹，身体后仰，时间渐慢，开创了电影视觉的新纪元",
+          "characters": ["尼奥", "特工史密斯特工"],
+          "dialogue_highlights": ["我知道你们要来，我知道你们每一个动作"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_truman_show",
+      "title": "楚门的世界",
+      "year": 1998,
+      "genre": ["剧情", "科幻"],
+      "rating": 9.4,
+      "duration_min": 103,
+      "director": "彼得·威尔",
+      "cast": ["金·凯瑞", "劳拉·琳妮", "艾德·哈里斯"],
+      "plot_summary": "楚门·伯班克从出生起就生活在一个巨大的电视节目片场中，他的一切都是直播给全世界的，但他毫不知情。当他发现异常时，他决定走出这个完美的谎言。",
+      "narration_hotspots": ["帆船撞墙", "最后的鞠躬", "再见楚门"],
+      "poster_url": "/posters/the_truman_show.jpg",
+      "douban_id": "1292586",
+      "key_scenes": [
+        {
+          "name": "帆船撞南墙",
+          "timestamp": "01:30:00",
+          "duration_sec": 120.0,
+          "tags": ["觉醒", "自由", "高潮"],
+          "description": "楚门驾船出海寻找真相，帆船撞到了蓝色天幕的边缘，他摸到了这个世界的尽头",
+          "characters": ["楚门"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "最后的告别",
+          "timestamp": "01:40:00",
+          "duration_sec": 90.0,
+          "tags": ["结局", "告别", "自由"],
+          "description": "楚门站在天幕的出口前，对导演深深鞠躬，然后昂首走进了真实的未知世界",
+          "characters": ["楚门", "导演"],
+          "dialogue_highlights": ["如果再也见不到你，那么祝你早安、午安、晚安"]
+        }
+      ]
+    },
+    {
+      "movie_id": "pulp_fiction",
+      "title": "低俗小说",
+      "year": 1994,
+      "genre": ["剧情", "犯罪"],
+      "rating": 8.9,
+      "duration_min": 154,
+      "director": "昆汀·塔伦蒂诺",
+      "cast": ["约翰·特拉沃尔塔", "乌玛·瑟曼", "塞缪尔·杰克逊", "布鲁斯·威利斯"],
+      "plot_summary": "几个看似不相干的故事在洛杉矶地下世界中交错：两个杀手的日常、黑帮老大的妻子、拳击手和抢劫犯，时间线被打乱，情节环环相扣。",
+      "narration_hotspots": ["兔子舞", "圣经引文", "金表"],
+      "poster_url": "/posters/pulp_fiction.jpg",
+      "douban_id": "1291832",
+      "key_scenes": [
+        {
+          "name": "扭扭舞",
+          "timestamp": "01:05:00",
+          "duration_sec": 90.0,
+          "tags": ["经典", "舞蹈", "情调"],
+          "description": "文森特和米娅在主题餐厅里赤脚跳扭扭舞，成为影史最经典的舞蹈之一",
+          "characters": ["文森特", "米娅"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "朱尔斯的圣经",
+          "timestamp": "00:15:00",
+          "duration_sec": 60.0,
+          "tags": ["台词", "暴力", "经典"],
+          "description": "朱尔斯在动手前朗诵圣经以西结书二十五章十七节",
+          "characters": ["朱尔斯"],
+          "dialogue_highlights": ["当他们用愤怒和暴力的方式来削弱我的时候，我会做在主身上作的事——在我的复仇中把他们毁灭掉"]
+        }
+      ]
+    },
+    {
+      "movie_id": "silence_of_the_lambs",
+      "title": "沉默的羔羊",
+      "year": 1991,
+      "genre": ["犯罪", "惊悚", "剧情"],
+      "rating": 8.9,
+      "duration_min": 118,
+      "director": "乔纳森·戴米",
+      "cast": ["朱迪·福斯特", "安东尼·霍普金斯"],
+      "plot_summary": "FBI实习生克拉丽丝·史达琳为了追查连环杀手“水牛比尔”，向狱中的天才食人心理医生汉尼拔·莱克特求教，两人展开了一场危险的心理博弈。",
+      "narration_hotspots": ["初次见面", "水牛比尔夜视镜", "汉尼拔越狱"],
+      "poster_url": "/posters/silence_of_the_lambs.jpg",
+      "douban_id": "1293544",
+      "key_scenes": [
+        {
+          "name": "初次见面",
+          "timestamp": "00:25:00",
+          "duration_sec": 120.0,
+          "tags": ["对峙", "悬疑", "经典"],
+          "description": "史达琳穿过关押连环杀手的走廊，来到汉尼拔的玻璃牢房前，两人的第一次对话就充满压迫感",
+          "characters": ["史达琳", "汉尼拔"],
+          "dialogue_highlights": ["曾经有人试图测试我，我吃了他的肝脏，配上了蚕豆和一杯上好的基安蒂"]
+        },
+        {
+          "name": "夜视镜中的猎物",
+          "timestamp": "01:40:00",
+          "duration_sec": 90.0,
+          "tags": ["恐怖", "高潮", "对决"],
+          "description": "史达琳在黑暗中追捕水牛比尔，比尔通过夜视镜观察她，伸手几乎触碰到她的脸",
+          "characters": ["史达琳", "水牛比尔"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "one_flew_over_the_cuckoos_nest",
+      "title": "飞越疯人院",
+      "year": 1975,
+      "genre": ["剧情"],
+      "rating": 9.1,
+      "duration_min": 133,
+      "director": "米洛斯·福尔曼",
+      "cast": ["杰克·尼科尔森", "路易丝·弗莱彻"],
+      "plot_summary": "墨菲为了逃避监狱劳动装疯进了精神病院，他带着病人们反抗冷酷的护士长，唤醒了每个人内心深处的自由意志，但也为此付出了生命的代价。",
+      "narration_hotspots": ["看电视赌局", "出海钓鱼", "酋长的出逃"],
+      "poster_url": "/posters/one_flew_over_the_cuckoos_nest.jpg",
+      "douban_id": "1301329",
+      "key_scenes": [
+        {
+          "name": "假装看棒球",
+          "timestamp": "00:50:00",
+          "duration_sec": 90.0,
+          "tags": ["反抗", "喜剧", "自由"],
+          "description": "墨菲带领病人们假装电视在播棒球，对着空白的屏幕狂呼呐喊，护士长气得发抖",
+          "characters": ["墨菲", "护士长拉契特", "病人们"],
+          "dialogue_highlights": ["至少我试过了，该死，至少我试过了"]
+        },
+        {
+          "name": "酋长的逃离",
+          "timestamp": "02:05:00",
+          "duration_sec": 60.0,
+          "tags": ["悲剧", "希望", "结局"],
+          "description": "酋长不忍看墨菲变成行尸走肉，闷死他后砸开水疗台，奔向黎明中的远方",
+          "characters": ["酋长", "墨菲"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "life_is_beautiful",
+      "title": "美丽人生",
+      "year": 1997,
+      "genre": ["剧情", "喜剧", "战争"],
+      "rating": 9.5,
+      "duration_min": 116,
+      "director": "罗伯托·贝尼尼",
+      "cast": ["罗伯托·贝尼尼", "尼可莱塔·布拉斯基"],
+      "plot_summary": "犹太人圭多用幽默和想象力保护年幼的儿子约书亚不受集中营恐怖的影响，他告诉儿子这只是一场游戏，赢的人将得到一辆坦克。",
+      "narration_hotspots": ["早安公主", "集中营游戏", "父亲的最后一步"],
+      "poster_url": "/posters/life_is_beautiful.jpg",
+      "douban_id": "1292063",
+      "key_scenes": [
+        {
+          "name": "早安公主",
+          "timestamp": "00:25:00",
+          "duration_sec": 90.0,
+          "tags": ["浪漫", "爱情", "喜剧"],
+          "description": "圭多在餐厅里用各种奇妙的方式对多拉喊出“早安，我的公主！”",
+          "characters": ["圭多", "多拉"],
+          "dialogue_highlights": ["早安，公主！"]
+        },
+        {
+          "name": "父亲的最后一步",
+          "timestamp": "01:50:00",
+          "duration_sec": 90.0,
+          "tags": ["牺牲", "父爱", "感动"],
+          "description": "圭多被德国兵押去枪决，路过约书亚藏身的箱子时他笑着迈出滑稽的正步，让孩子以为游戏还在继续",
+          "characters": ["圭多", "约书亚"],
+          "dialogue_highlights": ["我们赢了！我们赢了满分！"]
+        }
+      ]
+    },
+    {
+      "movie_id": "the_pianist",
+      "title": "钢琴家",
+      "year": 2002,
+      "genre": ["剧情", "传记", "战争"],
+      "rating": 9.3,
+      "duration_min": 150,
+      "director": "罗曼·波兰斯基",
+      "cast": ["阿德里安·布劳迪", "托马斯·克莱舒曼"],
+      "plot_summary": "波兰犹太钢琴家瓦迪斯瓦夫·斯皮尔曼在华沙被占领后的挣扎求生，从富裕音乐家到废墟中的幽灵，音乐是他活下去的信仰。",
+      "narration_hotspots": ["电台最后的演奏", "废墟中弹肖邦", "德军军官的善念"],
+      "poster_url": "/posters/the_pianist.jpg",
+      "douban_id": "1296736",
+      "key_scenes": [
+        {
+          "name": "废墟弹奏",
+          "timestamp": "02:05:00",
+          "duration_sec": 120.0,
+          "tags": ["音乐", "生存", "人性"],
+          "description": "饿得奄奄一息的斯皮尔曼在废墟中为德国军官弹奏肖邦叙事曲，琴声超越了战争与种族",
+          "characters": ["斯皮尔曼", "霍森菲尔德"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "华沙劫后重生",
+          "timestamp": "02:25:00",
+          "duration_sec": 90.0,
+          "tags": ["结局", "自由", "反思"],
+          "description": "战争结束后斯皮尔曼再次回到广播电台，坐在钢琴前继续弹奏那首未完成的肖邦",
+          "characters": ["斯皮尔曼"],
+          "dialogue_highlights": []
+        }
+      ]
+    },
+    {
+      "movie_id": "saving_private_ryan",
+      "title": "拯救大兵瑞恩",
+      "year": 1998,
+      "genre": ["剧情", "战争"],
+      "rating": 9.1,
+      "duration_min": 169,
+      "director": "史蒂文·斯皮尔伯格",
+      "cast": ["汤姆·汉克斯", "马特·达蒙", "汤姆·塞兹摩尔"],
+      "plot_summary": "诺曼底登陆后，米勒上尉率领八人小队深入敌后，寻找在登陆战中失去了三个兄弟的伞兵瑞恩，将他安全带回家。",
+      "narration_hotspots": ["诺曼底登陆", "缠上我耳朵", "老年墓碑前"],
+      "poster_url": "/posters/saving_private_ryan.jpg",
+      "douban_id": "1292849",
+      "key_scenes": [
+        {
+          "name": "诺曼底登陆",
+          "timestamp": "00:03:00",
+          "duration_sec": 300.0,
+          "tags": ["战争", "写实", "震撼"],
+          "description": "盟军士兵冲上奥马哈海滩，子弹穿过海水，断肢横飞，电影史上最真实的登陆战场景",
+          "characters": ["米勒上尉", "盟军士兵"],
+          "dialogue_highlights": []
+        },
+        {
+          "name": "最后的嘱托",
+          "timestamp": "02:30:00",
+          "duration_sec": 120.0,
+          "tags": ["牺牲", "感动", "结局"],
+          "description": "米勒中尉临终前对瑞恩说“不要辜负”，老年的瑞恩跪在墓地前问妻子：我是一个好人吗？",
+          "characters": ["米勒上尉", "瑞恩"],
+          "dialogue_highlights": ["瑞恩，不要辜负。不要辜负。"]
         }
       ]
     }
