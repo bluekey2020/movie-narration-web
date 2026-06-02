@@ -32,6 +32,7 @@ import {
   Hash,
   RefreshCw,
   History,
+  GitCompare,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import type { ScriptSegment, Platform } from '@/lib/api'
@@ -39,30 +40,27 @@ import { SegmentEditor } from '@/components/script/segment-editor'
 import { EMOTION_COLORS } from '@/components/script/emotion-selector'
 import { TimelineEditor } from '@/components/timeline/timeline-editor'
 import { PlatformExportPanel } from '@/components/export/platform-export-panel'
+import { ProgressStepper } from '@/components/generation/progress-stepper'
 import { type AiAction } from '@/components/script/ai-toolbar'
 import { estimateDuration } from '@/components/script/pause-marker'
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from '@/components/ui/dialog'
+import { QualityRadarChart } from '@/components/script/quality-radar-chart'
+import type { VariantKey } from '@/components/script/quality-radar-chart'
+import { HookScoreGauge } from '@/components/script/hook-score-gauge'
+import {
+  VersionComparePanel,
+  deriveVersionData,
+} from '@/components/script/version-compare-panel'
+import type { ScriptVersion } from '@/components/script/version-compare-panel'
 
-// ===== Constants =====
+// ===== 7-segment structure definition =====
 
-const STAGE_ORDER = [
-  'script_generation',
-  'scene_matching',
-  'voice_generation',
-  'bgm_planning',
-  'video_composition',
-  'done',
-] as const
-
-const STAGE_LABELS: Record<string, string> = {
-  script_generation: 'Generating Script',
-  scene_matching: 'Matching Scenes',
-  voice_generation: 'Generating Voice',
-  bgm_planning: 'Planning BGM',
-  video_composition: 'Composing Video',
-  done: 'Complete',
-}
-
-// 7-segment structure definition
 const SEGMENT_SLOTS = [
   { id: 'hook', label: 'Hook', desc: 'Opening grab' },
   { id: 'intro', label: 'Intro', desc: 'Set the scene' },
@@ -126,6 +124,8 @@ export default function ProjectPage() {
   const [selectedStyle, setSelectedStyle] = useState('')
   const [selectedPlatform, setSelectedPlatform] = useState<Platform>('douyin')
   const [aiLoadingSegments, setAiLoadingSegments] = useState<Set<number>>(new Set())
+  const [compareOpen, setCompareOpen] = useState(false)
+  const [selectedVariant, setSelectedVariant] = useState<VariantKey | null>(null)
 
   useEffect(() => {
     if (id) fetchProject(id)
@@ -158,6 +158,13 @@ export default function ProjectPage() {
       totalDuration += estimateDuration(text)
     }
     return { totalWords, totalDuration }
+  }, [currentProject?.script_segments])
+
+  // Derive 3 simulated script versions for comparison
+  const versionData = useMemo(() => {
+    const segments = currentProject?.script_segments || []
+    if (segments.length === 0) return []
+    return deriveVersionData(segments)
   }, [currentProject?.script_segments])
 
   // Scroll to segment
@@ -229,6 +236,16 @@ export default function ProjectPage() {
     alert('Regenerate All: This would regenerate all 7 segments with the selected style and platform.')
   }, [])
 
+  // Handle version selection from compare dialog
+  const handleCompareSelect = useCallback(
+    (version: ScriptVersion) => {
+      setSelectedVariant(version.key)
+      // In production, this would apply the chosen variant's script to the project
+      // For now we just track the selection visually
+    },
+    [],
+  )
+
   // Loading state
   if (isLoading) {
     return (
@@ -265,68 +282,19 @@ export default function ProjectPage() {
   return (
     <AppLayout title={currentProject.movie_title}>
       <div className="max-w-6xl mx-auto space-y-6">
-        {/* ===== Progress indicator ===== */}
+        {/* ===== Generation progress stepper ===== */}
         {activeTask && activeTask.project_id === id && (
           <Card className="border-zinc-800 bg-zinc-900">
-            <CardContent className="p-4">
-              <div className="flex items-center gap-4">
-                <Loader2 className="h-5 w-5 animate-spin text-blue-400" />
-                <div className="flex-1">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-medium">
-                      {STAGE_LABELS[activeTask.stage] || activeTask.stage}
-                    </span>
-                    <span className="text-xs text-zinc-500">
-                      {activeTask.progress}%
-                    </span>
-                  </div>
-                  <div className="h-1.5 rounded-full bg-zinc-800 overflow-hidden">
-                    <div
-                      className="h-full rounded-full bg-blue-500 transition-all duration-500"
-                      style={{ width: `${activeTask.progress}%` }}
-                    />
-                  </div>
-                  <p className="text-xs text-zinc-500 mt-1.5">
-                    {activeTask.message}
-                  </p>
-                </div>
-              </div>
+            <CardContent className="p-5">
+              <ProgressStepper
+                onRetry={(stage) => {
+                  // TODO: Wire up actual retry logic via generation API
+                  console.warn(`Retry requested for stage: ${stage}`)
+                }}
+              />
             </CardContent>
           </Card>
         )}
-
-        {/* ===== Stage progress dots ===== */}
-        <div className="flex items-center gap-2">
-          {STAGE_ORDER.map((stage, i) => {
-            const isPast =
-              activeTask &&
-              STAGE_ORDER.indexOf(activeTask.stage) > i
-            const isCurrent = activeTask?.stage === stage
-            return (
-              <div key={stage} className="flex items-center gap-2">
-                <div
-                  className={`h-2 w-2 rounded-full ${
-                    isPast
-                      ? 'bg-green-500'
-                      : isCurrent
-                        ? 'bg-blue-500 animate-pulse'
-                        : 'bg-zinc-700'
-                  }`}
-                />
-                {i < STAGE_ORDER.length - 1 && (
-                  <div
-                    className={`h-px w-6 ${
-                      isPast ? 'bg-green-500/50' : 'bg-zinc-700'
-                    }`}
-                  />
-                )}
-              </div>
-            )
-          })}
-          <span className="text-xs text-zinc-500 ml-2">
-            {STAGE_LABELS[activeTask?.stage || 'script_generation']}
-          </span>
-        </div>
 
         {/* ===== Workbench tabs ===== */}
         <Tabs defaultValue="script" className="w-full">
@@ -523,6 +491,17 @@ export default function ProjectPage() {
                         </DropdownMenuContent>
                       </DropdownMenu>
 
+                      {/* Compare versions */}
+                      <Button
+                        size="xs"
+                        variant="outline"
+                        className="h-7 text-xs border-zinc-700 text-zinc-300 hover:bg-zinc-800"
+                        onClick={() => setCompareOpen(true)}
+                      >
+                        <GitCompare className="h-3 w-3" />
+                        <span className="ml-1">Compare</span>
+                      </Button>
+
                       {/* Regenerate All */}
                       <Button
                         size="xs"
@@ -606,6 +585,56 @@ export default function ProjectPage() {
           </TabsContent>
         </Tabs>
       </div>
+
+      {/* ===== Version Compare Dialog ===== */}
+      <Dialog open={compareOpen} onOpenChange={setCompareOpen}>
+        <DialogContent
+          className="max-w-[1100px] bg-zinc-950 border-zinc-800 text-zinc-200"
+          showCloseButton
+        >
+          <DialogHeader>
+            <DialogTitle className="text-zinc-100">
+              Script Version Comparison
+            </DialogTitle>
+            <DialogDescription className="text-zinc-500">
+              Compare 3 AI-generated script variants and choose the best one for
+              your narration.
+            </DialogDescription>
+          </DialogHeader>
+
+          {versionData.length > 0 && (() => {
+            const bestVersion =
+              versionData.reduce((best, v) =>
+                v.qualityScore > best.qualityScore ? v : best,
+              )
+            const displayVersion =
+              versionData.find((v) => v.key === selectedVariant) || bestVersion
+
+            return (
+              <div className="space-y-6 mt-2">
+                {/* Top row: Radar chart + Hook gauge */}
+                <div className="flex items-start gap-8 justify-center">
+                  <QualityRadarChart variants={versionData} />
+                  {displayVersion && (
+                    <HookScoreGauge
+                      score={displayVersion.hookScore}
+                      hookType={displayVersion.hookType}
+                      suggestions={displayVersion.hookSuggestions}
+                    />
+                  )}
+                </div>
+
+                {/* Three-column comparison panel */}
+                <VersionComparePanel
+                  versions={versionData}
+                  selectedKey={selectedVariant}
+                  onSelect={handleCompareSelect}
+                />
+              </div>
+            )
+          })()}
+        </DialogContent>
+      </Dialog>
     </AppLayout>
   )
 }
