@@ -13,12 +13,24 @@ from app.config import settings
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """应用生命周期"""
-    # 启动时：加载数据
     import structlog
     logger = structlog.get_logger(__name__)
     logger.info('app_starting', name=settings.app_name)
+
+    # 初始化数据库表
+    try:
+        from app.db.base import engine, Base
+        from app.db import models  # noqa: F401 — register all models
+        async with engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+        logger.info('database_tables_created')
+    except Exception as e:
+        logger.warning('database_init_skipped', reason=str(e))
+
     yield
+
     # 关闭时
+    await engine.dispose()
     logger.info('app_shutting_down')
 
 

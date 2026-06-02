@@ -1,0 +1,168 @@
+# Movie Narration Web — Docker Compose 开发环境
+# 启动: docker compose up -d
+# 查看日志: docker compose logs -f <service>
+# 停止: docker compose down
+
+services:
+  # ============================================================================
+  # PostgreSQL 16 + pgvector
+  # ============================================================================
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: mnw-postgres
+    environment:
+      POSTGRES_DB: movie_narration
+      POSTGRES_USER: mnuser
+      POSTGRES_PASSWORD: mnpass
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U mnuser -d movie_narration']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ============================================================================
+  # Redis 7
+  # ============================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: mnw-redis
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ============================================================================
+  # FastAPI 后端 (热重载)
+  # ============================================================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mnw-backend
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://mnuser:mnpass@postgres:5432/movie_narration
+      - REDIS_URL=redis://redis:6379/0
+      - SECRET_KEY=${SECRET_KEY:-dev-secret-change-me}
+      - DEBUG=${DEBUG:-true}
+      - LLM_API_KEY=${DEEPSEEK_API_KEY:-}
+      - LLM_BASE_URL=${LLM_BASE_URL:-https://api.deepseek.com/v1}
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+      - S3_ENDPOINT=${S3_ENDPOINT:-localhost:9000}
+      - S3_BUCKET=${S3_BUCKET:-movie-narration}
+      - CDN_BASE_URL=${CDN_BASE_URL:-}
+      - NARRATOR_API_KEY=${NARRATOR_API_KEY:-}
+      - TWELVELABS_API_KEY=${TWELVELABS_API_KEY:-}
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./backend:/app
+      - backend_output:/app/output
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: >
+      uvicorn app.main:app
+        --host 0.0.0.0
+        --port 8000
+        --reload
+        --reload-dir /app
+
+  # ============================================================================
+  # Next.js 前端 (热重载)
+  # ============================================================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mnw-frontend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+      - NEXT_PUBLIC_WS_URL=ws://localhost:8000
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - backend
+    command: npm run dev
+
+  # ============================================================================
+  # Celery Worker (异步任务)
+  # ============================================================================
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mnw-celery-worker
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://mnuser:mnpass@postgres:5432/movie_narration
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+      - SECRET_KEY=${SECRET_KEY:-dev-secret-change-me}
+      - DEBUG=${DEBUG:-true}
+      - LLM_API_KEY=${DEEPSEEK_API_KEY:-}
+      - LLM_BASE_URL=${LLM_BASE_URL:-https://api.deepseek.com/v1}
+      - S3_ENDPOINT=${S3_ENDPOINT:-localhost:9000}
+      - S3_BUCKET=${S3_BUCKET:-movie-narration}
+      - NARRATOR_API_KEY=${NARRATOR_API_KEY:-}
+      - TWELVELABS_API_KEY=${TWELVELABS_API_KEY:-}
+    volumes:
+      - ./backend:/app
+      - backend_output:/app/output
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: celery -A app.engines.celery_app worker --loglevel=info --concurrency=4
+
+  # ============================================================================
+  # Celery Beat (定时任务调度 — 可选, 默认注释)
+  # 需要时取消注释:
+  # ============================================================================
+  # celery_beat:
+  #   build:
+  #     context: ./backend
+  #     dockerfile: Dockerfile
+  #   container_name: mnw-celery-beat
+  #   environment:
+  #     - DATABASE_URL=postgresql+asyncpg://mnuser:mnpass@postgres:5432/movie_narration
+  #     - REDIS_URL=redis://redis:6379/0
+  #     - CELERY_BROKER_URL=redis://redis:6379/1
+  #     - CELERY_RESULT_BACKEND=redis://redis:6379/2
+  #     - SECRET_KEY=${SECRET_KEY:-dev-secret-change-me}
+  #     - LLM_API_KEY=${DEEPSEEK_API_KEY:-}
+  #   volumes:
+  #     - ./backend:/app
+  #   depends_on:
+  #     postgres:
+  #       condition: service_healthy
+  #     redis:
+  #       condition: service_healthy
+  #   command: celery -A app.engines.celery_app beat --loglevel=info
+
+# ============================================================================
+# Volumes
+# ============================================================================
+volumes:
+  postgres_data:
+    name: mnw-postgres-data
+  redis_data:
+    name: mnw-redis-data
+  backend_output:
+    name: mnw-backend-output
